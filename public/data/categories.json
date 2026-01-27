@@ -1,0 +1,82 @@
+[
+  {
+    "slug": "puebla",
+    "name": "Puebla",
+    "postCount": 72
+  },
+  {
+    "slug": "veracruz",
+    "name": "Veracruz",
+    "postCount": 70
+  },
+  {
+    "slug": "queretaro",
+    "name": "Querétaro",
+    "postCount": 68
+  },
+  {
+    "slug": "pachuca",
+    "name": "Pachuca",
+    "postCount": 66
+  },
+  {
+    "slug": "informativo",
+    "name": "Informativo",
+    "postCount": 53
+  },
+  {
+    "slug": "guadalajara",
+    "name": "Guadalajara",
+    "postCount": 45
+  },
+  {
+    "slug": "los-cabos",
+    "name": "Los Cabos",
+    "postCount": 44
+  },
+  {
+    "slug": "puerto-vallarta",
+    "name": "Puerto Vallarta",
+    "postCount": 43
+  },
+  {
+    "slug": "mercado",
+    "name": "Mercado",
+    "postCount": 4
+  },
+  {
+    "slug": "congreso-nacional-ampi-acapulco",
+    "name": "Congreso Nacional AMPI Acapulco",
+    "postCount": 2
+  },
+  {
+    "slug": "congresos-ampi-cabo-nayarit",
+    "name": "Congresos AMPI Cabo Nayarit",
+    "postCount": 2
+  },
+  {
+    "slug": "ampi-estado-de-mexico-2024",
+    "name": "AMPI Estado de México 2024",
+    "postCount": 1
+  },
+  {
+    "slug": "ampi-pachuca-2024",
+    "name": "AMPI Pachuca 2024",
+    "postCount": 1
+  },
+  {
+    "slug": "estrategias",
+    "name": "Estrategias",
+    "postCount": 1
+  },
+  {
+    "slug": "foro-inmobiliario-de-ampi-puebla-2024",
+    "name": "Foro Inmobiliario de AMPI Puebla 2024",
+    "postCount": 1
+  },
+  {
+    "slug": "convenio-ampi-riviera-nayarit",
+    "name": "Convenio AMPI Riviera Nayarit",
+    "postCount": 1
+  }
+]

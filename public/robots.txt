@@ -1,0 +1,11 @@
+# Robots.txt - Teseo Data Lab
+# https://teseodata.com
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://teseodata.com/sitemap.xml
+
+# Disallow admin or private paths (none currently)
+# Disallow: /admin/

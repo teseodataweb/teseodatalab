@@ -1,0 +1,92 @@
+[
+  {
+    "slug": "industrial",
+    "name": "Industrial",
+    "parent": "sectores",
+    "description": "Análisis del sector industrial: manufactura, logística, parques industriales y nearshoring.",
+    "count": 42,
+    "color": "tech",
+    "icon": "Factory"
+  },
+  {
+    "slug": "inmobiliario",
+    "name": "Inmobiliario",
+    "parent": "sectores",
+    "description": "Inteligencia de mercado inmobiliario por ciudades de México.",
+    "count": 0,
+    "color": "teseo",
+    "icon": "Building2"
+  },
+  {
+    "slug": "queretaro",
+    "name": "Querétaro",
+    "parent": "inmobiliario",
+    "description": "Análisis del mercado inmobiliario e industrial en Querétaro.",
+    "count": 1,
+    "color": "warning",
+    "icon": "MapPin"
+  },
+  {
+    "slug": "guadalajara",
+    "name": "Guadalajara",
+    "parent": "inmobiliario",
+    "description": "Inteligencia de mercado para Guadalajara y Zona Metropolitana.",
+    "count": 3,
+    "color": "success",
+    "icon": "MapPin"
+  },
+  {
+    "slug": "monterrey",
+    "name": "Monterrey",
+    "parent": "inmobiliario",
+    "description": "Datos y análisis del mercado en Monterrey y Nuevo León.",
+    "count": 0,
+    "color": "tech",
+    "icon": "MapPin"
+  },
+  {
+    "slug": "cdmx",
+    "name": "Ciudad de México",
+    "parent": "inmobiliario",
+    "description": "Inteligencia inmobiliaria para CDMX y área metropolitana.",
+    "count": 1,
+    "color": "teseo",
+    "icon": "MapPin"
+  },
+  {
+    "slug": "data-analytics",
+    "name": "Data Analytics",
+    "parent": "general",
+    "description": "Metodologías, herramientas y casos de éxito en análisis de datos.",
+    "count": 82,
+    "color": "teseo",
+    "icon": "BarChart3"
+  },
+  {
+    "slug": "tendencias",
+    "name": "Tendencias",
+    "parent": "general",
+    "description": "Noticias y tendencias del mercado inmobiliario e industrial.",
+    "count": 1,
+    "color": "warning",
+    "icon": "TrendingUp"
+  },
+  {
+    "slug": "puebla",
+    "name": "Puebla",
+    "parent": "inmobiliario",
+    "count": 2,
+    "description": "Artículos sobre Puebla",
+    "color": "teseo",
+    "icon": "FileText"
+  },
+  {
+    "slug": "pachuca",
+    "name": "Pachuca",
+    "parent": "inmobiliario",
+    "count": 42,
+    "description": "Artículos sobre Pachuca",
+    "color": "teseo",
+    "icon": "FileText"
+  }
+]

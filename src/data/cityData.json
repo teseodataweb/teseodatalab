@@ -1,0 +1,176 @@
+{
+  "queretaro": {
+    "nombre": "Querétaro",
+    "estado": "Querétaro",
+    "region": "Bajío",
+    "poblacion": 2368467,
+    "mercado": {
+      "precioPromedioVivienda": 2850000,
+      "costoM2Promedio": 8500,
+      "plusvaliaAnual": 6.3,
+      "proyectosActivos": 142,
+      "absorcionResidencial": 87,
+      "tiempoVentaPromedio": 4.2
+    },
+    "industrial": {
+      "parquesIndustriales": 28,
+      "m2Disponibles": 450000,
+      "ocupacion": 94.5,
+      "rentaPromedioM2": 5.8,
+      "sectoresTop": ["Automotriz", "Aeroespacial", "Alimentos"]
+    },
+    "zonasTop": [
+      { "nombre": "El Marqués", "costoM2": 9200, "plusvaliaHistorica": 22, "tipo": "industrial" },
+      { "nombre": "Juriquilla", "costoM2": 12500, "plusvaliaHistorica": 18, "tipo": "residencial" },
+      { "nombre": "Corregidora", "costoM2": 7800, "plusvaliaHistorica": 15, "tipo": "mixto" }
+    ],
+    "ventajasCompetitivas": [
+      "Nearshoring: +40% inversión extranjera (2023-2024)",
+      "Hub logístico: Aeropuerto Internacional, conexión CDMX-Bajío",
+      "Talento: 15 universidades, 50,000 egresados/año en ingeniería",
+      "Calidad de vida: Top 3 ciudades para vivir en México"
+    ],
+    "fuenteDatos": "INEGI 2024, SHF, AMPIP, Base Propia Teseo",
+    "color": "warning",
+    "icon": "Building2"
+  },
+  "guadalajara": {
+    "nombre": "Guadalajara",
+    "estado": "Jalisco",
+    "region": "Occidente",
+    "poblacion": 5268642,
+    "mercado": {
+      "precioPromedioVivienda": 3200000,
+      "costoM2Promedio": 9200,
+      "plusvaliaAnual": 5.8,
+      "proyectosActivos": 118,
+      "absorcionResidencial": 82,
+      "tiempoVentaPromedio": 5.1
+    },
+    "industrial": {
+      "parquesIndustriales": 35,
+      "m2Disponibles": 520000,
+      "ocupacion": 92.8,
+      "rentaPromedioM2": 5.2,
+      "sectoresTop": ["Tecnología", "Electrónica", "Farmacéutica"]
+    },
+    "zonasTop": [
+      { "nombre": "Zapopan Norte", "costoM2": 11000, "plusvaliaHistorica": 20, "tipo": "mixto" },
+      { "nombre": "El Salto", "costoM2": 4500, "plusvaliaHistorica": 25, "tipo": "industrial" },
+      { "nombre": "Tlajomulco", "costoM2": 6800, "plusvaliaHistorica": 18, "tipo": "residencial" }
+    ],
+    "ventajasCompetitivas": [
+      "Silicon Valley mexicano: Hub tecnológico líder",
+      "Talento digital: 80,000 profesionales IT",
+      "Conectividad: Aeropuerto internacional, puerto Manzanillo a 3hrs",
+      "Ecosistema startup: +500 empresas tech"
+    ],
+    "fuenteDatos": "INEGI 2024, SHF, CANIETI, Base Propia Teseo",
+    "color": "success",
+    "icon": "Building2"
+  },
+  "monterrey": {
+    "nombre": "Monterrey",
+    "estado": "Nuevo León",
+    "region": "Noreste",
+    "poblacion": 5341171,
+    "mercado": {
+      "precioPromedioVivienda": 4100000,
+      "costoM2Promedio": 12500,
+      "plusvaliaAnual": 7.2,
+      "proyectosActivos": 156,
+      "absorcionResidencial": 78,
+      "tiempoVentaPromedio": 6.3
+    },
+    "industrial": {
+      "parquesIndustriales": 45,
+      "m2Disponibles": 680000,
+      "ocupacion": 96.2,
+      "rentaPromedioM2": 6.8,
+      "sectoresTop": ["Automotriz", "Electrodomésticos", "Siderurgia"]
+    },
+    "zonasTop": [
+      { "nombre": "Santa Catarina", "costoM2": 8500, "plusvaliaHistorica": 28, "tipo": "industrial" },
+      { "nombre": "Apodaca", "costoM2": 5200, "plusvaliaHistorica": 32, "tipo": "industrial" },
+      { "nombre": "San Pedro", "costoM2": 25000, "plusvaliaHistorica": 15, "tipo": "residencial" }
+    ],
+    "ventajasCompetitivas": [
+      "Gigafactory Tesla: Inversión $5B USD",
+      "Frontera con Texas: Comercio T-MEC acelerado",
+      "Industria madura: 60+ años de manufactura",
+      "Infraestructura: Puerto seco, ferrocarril, aeropuerto"
+    ],
+    "fuenteDatos": "INEGI 2024, SHF, INDEX, Base Propia Teseo",
+    "color": "tech",
+    "icon": "Building2"
+  },
+  "cdmx": {
+    "nombre": "Ciudad de México",
+    "estado": "CDMX",
+    "region": "Centro",
+    "poblacion": 21804515,
+    "mercado": {
+      "precioPromedioVivienda": 4800000,
+      "costoM2Promedio": 35000,
+      "plusvaliaAnual": 4.5,
+      "proyectosActivos": 320,
+      "absorcionResidencial": 72,
+      "tiempoVentaPromedio": 8.2
+    },
+    "industrial": {
+      "parquesIndustriales": 18,
+      "m2Disponibles": 280000,
+      "ocupacion": 89.5,
+      "rentaPromedioM2": 8.5,
+      "sectoresTop": ["Logística", "E-commerce", "Alimentos"]
+    },
+    "zonasTop": [
+      { "nombre": "Cuajimalpa", "costoM2": 45000, "plusvaliaHistorica": 12, "tipo": "residencial" },
+      { "nombre": "Tultitlán", "costoM2": 4800, "plusvaliaHistorica": 18, "tipo": "industrial" },
+      { "nombre": "Roma-Condesa", "costoM2": 55000, "plusvaliaHistorica": 8, "tipo": "comercial" }
+    ],
+    "ventajasCompetitivas": [
+      "Capital económica: 17% del PIB nacional",
+      "Mercado de consumo: 22M habitantes zona metro",
+      "Hub logístico nacional: Distribución a todo México",
+      "Talento corporativo: Sede de Fortune 500"
+    ],
+    "fuenteDatos": "INEGI 2024, SHF, CBRE, Base Propia Teseo",
+    "color": "teseo",
+    "icon": "Building2"
+  },
+  "industrial": {
+    "nombre": "Sector Industrial",
+    "estado": "Nacional",
+    "region": "México",
+    "descripcion": "Análisis del sector industrial mexicano: manufactura, logística y nearshoring.",
+    "mercado": {
+      "parquesIndustrialesNacional": 420,
+      "m2ConstruidosTotal": 85000000,
+      "ocupacionPromedio": 93.2,
+      "inversionExtranjera2024": 35000000000,
+      "empleosManufactura": 4200000
+    },
+    "sectoresTop": [
+      { "nombre": "Automotriz", "participacion": 28, "crecimiento": 12 },
+      { "nombre": "Electrónica", "participacion": 18, "crecimiento": 15 },
+      { "nombre": "Aeroespacial", "participacion": 8, "crecimiento": 22 },
+      { "nombre": "Dispositivos Médicos", "participacion": 6, "crecimiento": 18 },
+      { "nombre": "Logística/E-commerce", "participacion": 15, "crecimiento": 25 }
+    ],
+    "regionesTop": [
+      { "nombre": "Bajío", "estados": ["Querétaro", "Guanajuato", "Aguascalientes", "SLP"], "ocupacion": 95 },
+      { "nombre": "Noreste", "estados": ["Nuevo León", "Tamaulipas", "Coahuila"], "ocupacion": 94 },
+      { "nombre": "Norte", "estados": ["Chihuahua", "Baja California", "Sonora"], "ocupacion": 92 }
+    ],
+    "tendencias": [
+      "Nearshoring: México capta 8% de inversión relocalizada de Asia",
+      "Sustentabilidad: 35% de nuevos parques con certificación LEED",
+      "Automatización: Inversión en robótica +40% anual",
+      "Energía renovable: 60% de parques con capacidad solar"
+    ],
+    "fuenteDatos": "AMPIP 2024, INEGI, SE, Base Propia Teseo",
+    "color": "tech",
+    "icon": "Factory"
+  }
+}

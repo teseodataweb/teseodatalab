@@ -1,0 +1,653 @@
+{
+  "queretaro": {
+    "slug": "queretaro",
+    "nombre": "Querétaro",
+    "estado": "Querétaro",
+    "descripcion": "Hub industrial y nearshoring con crecimiento del 22% anual. Centro de negocios, tecnología y educación con conectividad excepcional.",
+
+    "poblacion": 2368467,
+    "pibEstatal": 780000000000,
+
+    "mercado": {
+      "precioPromedioVivienda": 2850000,
+      "costoM2Promedio": 8500,
+      "plusvaliaAnual": 6.3,
+      "crecimientoAnual": 22,
+      "proyectosActivos": 142,
+      "absorcionResidencial": 87,
+      "tiempoPromedioVenta": 4.2
+    },
+
+    "zonasTop": [
+      {
+        "nombre": "El Marqués",
+        "tipo": "Desarrollo moderno",
+        "costoM2": 9200,
+        "plusvaliaHistorica": 22,
+        "destacado": "Nearshoring + Aeropuerto"
+      },
+      {
+        "nombre": "Juriquilla",
+        "tipo": "Premium",
+        "costoM2": 12500,
+        "plusvaliaHistorica": 18,
+        "destacado": "Universidades + Hospitales + Antea"
+      },
+      {
+        "nombre": "Corregidora",
+        "tipo": "En crecimiento",
+        "costoM2": 7800,
+        "plusvaliaHistorica": 15,
+        "destacado": "Accesibilidad + Desarrollo económico"
+      }
+    ],
+
+    "ventajasCompetitivas": [
+      "Nearshoring: +40% inversión extranjera 2023-2024",
+      "Hub logístico: Aeropuerto Internacional QRO",
+      "Parques industriales de clase mundial",
+      "Universidades top (UNAM, Tec Monterrey, UAQ)",
+      "Calidad de vida: seguridad + cultura"
+    ],
+
+    "desarrollosDestacados": ["Zibatá", "El Refugio", "Antea", "Juriquilla", "El Marqués"],
+
+    "fuenteDatos": "INEGI 2024, SHF, Base Propia Datalpine, Gobierno de Querétaro",
+
+    "color": "warning",
+    "icon": "Building2"
+  },
+
+  "guadalajara": {
+    "slug": "guadalajara",
+    "nombre": "Guadalajara",
+    "estado": "Jalisco",
+    "descripcion": "Capital tecnológica del occidente con ecosistema de startups y universidades de clase mundial. Hub cultural y gastronómico.",
+
+    "poblacion": 5268642,
+    "pibEstatal": 1200000000000,
+
+    "mercado": {
+      "precioPromedioVivienda": 3200000,
+      "costoM2Promedio": 9200,
+      "plusvaliaAnual": 5.8,
+      "crecimientoAnual": 18,
+      "proyectosActivos": 118,
+      "absorcionResidencial": 82,
+      "tiempoPromedioVenta": 5.1
+    },
+
+    "zonasTop": [
+      {
+        "nombre": "Puerta de Hierro",
+        "tipo": "Premium",
+        "costoM2": 15000,
+        "plusvaliaHistorica": 12,
+        "destacado": "Zona residencial exclusiva"
+      },
+      {
+        "nombre": "Andares",
+        "tipo": "Comercial + Residencial",
+        "costoM2": 13500,
+        "plusvaliaHistorica": 10,
+        "destacado": "Centro comercial + Oficinas"
+      },
+      {
+        "nombre": "Tlajomulco",
+        "tipo": "En expansión",
+        "costoM2": 7500,
+        "plusvaliaHistorica": 16,
+        "destacado": "Crecimiento acelerado + Accesibilidad"
+      }
+    ],
+
+    "ventajasCompetitivas": [
+      "Silicon Valley mexicano: +500 startups tech",
+      "Universidades top: UdeG, ITESO, Tec Monterrey",
+      "Hub cultural: Mariachi, Tequila, Gastronomía",
+      "Conectividad aérea: Aeropuerto internacional",
+      "Eventos internacionales: FIL, deportivos"
+    ],
+
+    "desarrollosDestacados": ["Puerta de Hierro", "Andares", "Punto Sur", "Tlajomulco", "El Palomar"],
+
+    "fuenteDatos": "INEGI 2024, SHF, Base Propia Datalpine, Gobierno de Jalisco",
+
+    "color": "success",
+    "icon": "Sparkles"
+  },
+
+  "puebla": {
+    "slug": "puebla",
+    "nombre": "Puebla",
+    "estado": "Puebla",
+    "descripcion": "7º estado con mayor oferta inmobiliaria. Hub automotriz con crecimiento sostenido y patrimonio cultural UNESCO.",
+
+    "poblacion": 6604451,
+    "pibEstatal": 920000000000,
+
+    "mercado": {
+      "precioPromedioVivienda": 2100000,
+      "costoM2Promedio": 7200,
+      "plusvaliaAnual": 4.8,
+      "crecimientoAnual": 14,
+      "proyectosActivos": 97,
+      "absorcionResidencial": 79,
+      "tiempoPromedioVenta": 5.8
+    },
+
+    "zonasTop": [
+      {
+        "nombre": "Angelópolis",
+        "tipo": "Moderno",
+        "costoM2": 9500,
+        "plusvaliaHistorica": 10,
+        "destacado": "Centro comercial + Oficinas"
+      },
+      {
+        "nombre": "Lomas de Angelópolis",
+        "tipo": "Premium",
+        "costoM2": 11000,
+        "plusvaliaHistorica": 8,
+        "destacado": "Residencial exclusivo"
+      },
+      {
+        "nombre": "San Andrés Cholula",
+        "tipo": "Universitario",
+        "costoM2": 6800,
+        "plusvaliaHistorica": 12,
+        "destacado": "Universidades + Cultura"
+      }
+    ],
+
+    "ventajasCompetitivas": [
+      "Hub automotriz: VW, Audi, BMW",
+      "Patrimonio UNESCO: Centro histórico",
+      "Cercanía CDMX: 2 horas",
+      "Universidades: UDLAP, BUAP, Tec Monterrey",
+      "Gastronomía: Mole, chiles en nogada"
+    ],
+
+    "desarrollosDestacados": ["Angelópolis", "Lomas de Angelópolis", "Zona Dorada", "San Andrés Cholula"],
+
+    "fuenteDatos": "INEGI 2024, SHF, Base Propia Datalpine, Gobierno de Puebla",
+
+    "color": "tech",
+    "icon": "Factory"
+  },
+
+  "veracruz": {
+    "slug": "veracruz",
+    "nombre": "Veracruz",
+    "estado": "Veracruz",
+    "descripcion": "Puerto estratégico con reactivación económica y oportunidades en turismo + logística.",
+
+    "poblacion": 8062579,
+    "pibEstatal": 680000000000,
+
+    "mercado": {
+      "precioPromedioVivienda": 1800000,
+      "costoM2Promedio": 6500,
+      "plusvaliaAnual": 4.2,
+      "crecimientoAnual": 12,
+      "proyectosActivos": 84,
+      "absorcionResidencial": 74,
+      "tiempoPromedioVenta": 6.5
+    },
+
+    "zonasTop": [
+      {
+        "nombre": "Boca del Río",
+        "tipo": "Costero",
+        "costoM2": 8200,
+        "plusvaliaHistorica": 8,
+        "destacado": "Playa + Turismo"
+      },
+      {
+        "nombre": "Fraccionamiento Reforma",
+        "tipo": "Residencial",
+        "costoM2": 7500,
+        "plusvaliaHistorica": 6,
+        "destacado": "Zona tranquila + Servicios"
+      }
+    ],
+
+    "ventajasCompetitivas": [
+      "Puerto más importante de México",
+      "Turismo costero en crecimiento",
+      "Conectividad logística internacional",
+      "Gastronomía costera única",
+      "Cultura jarocha"
+    ],
+
+    "desarrollosDestacados": ["Boca del Río", "Costa de Oro", "Mocambo", "Playa Linda"],
+
+    "fuenteDatos": "INEGI 2024, SHF, Base Propia Datalpine, AMPI Veracruz",
+
+    "color": "tech",
+    "icon": "Anchor"
+  },
+
+  "pachuca": {
+    "slug": "pachuca",
+    "nombre": "Pachuca",
+    "estado": "Hidalgo",
+    "descripcion": "Polo inmobiliario por cercanía con CDMX. Crecimiento de demanda foránea del 18% anual.",
+
+    "poblacion": 277375,
+    "pibEstatal": 320000000000,
+
+    "mercado": {
+      "precioPromedioVivienda": 1500000,
+      "costoM2Promedio": 5800,
+      "plusvaliaAnual": 5.5,
+      "crecimientoAnual": 18,
+      "proyectosActivos": 62,
+      "absorcionResidencial": 81,
+      "tiempoPromedioVenta": 5.2
+    },
+
+    "zonasTop": [
+      {
+        "nombre": "Zona Plateada",
+        "tipo": "Comercial",
+        "costoM2": 7200,
+        "plusvaliaHistorica": 10,
+        "destacado": "Oficinas + Comercio"
+      },
+      {
+        "nombre": "Santa Matilde",
+        "tipo": "Residencial",
+        "costoM2": 6500,
+        "plusvaliaHistorica": 8,
+        "destacado": "Familias + Servicios"
+      }
+    ],
+
+    "ventajasCompetitivas": [
+      "Cercanía CDMX: 90 km (1.5 horas)",
+      "Compradores foráneos: +18% anual",
+      "Crecimiento urbano acelerado",
+      "Costo de vida menor que CDMX",
+      "Industria minera + automotriz"
+    ],
+
+    "desarrollosDestacados": ["Zona Plateada", "Santa Matilde", "Ciudad Sahagún", "Tizayuca"],
+
+    "fuenteDatos": "INEGI 2024, SHF, Base Propia Datalpine, Gobierno de Hidalgo",
+
+    "color": "warning",
+    "icon": "Home"
+  },
+
+  "los-cabos": {
+    "slug": "los-cabos",
+    "nombre": "Los Cabos",
+    "estado": "Baja California Sur",
+    "descripcion": "Destino turístico premium con inversión extranjera. ROI +15% vs mercado nacional.",
+
+    "poblacion": 351111,
+    "pibEstatal": 145000000000,
+
+    "mercado": {
+      "precioPromedioVivienda": 8500000,
+      "costoM2Promedio": 35000,
+      "plusvaliaAnual": 8.5,
+      "crecimientoAnual": 10,
+      "proyectosActivos": 48,
+      "absorcionResidencial": 68,
+      "tiempoPromedioVenta": 8.5
+    },
+
+    "zonasTop": [
+      {
+        "nombre": "Corredor Turístico",
+        "tipo": "Lujo",
+        "costoM2": 45000,
+        "plusvaliaHistorica": 15,
+        "destacado": "Vista al mar + Resorts"
+      },
+      {
+        "nombre": "San José del Cabo",
+        "tipo": "Colonial + Turístico",
+        "costoM2": 28000,
+        "plusvaliaHistorica": 12,
+        "destacado": "Centro histórico + Galerías"
+      }
+    ],
+
+    "ventajasCompetitivas": [
+      "Inversión extranjera: 60% compradores USA/Canadá",
+      "Turismo premium: +4M visitantes/año",
+      "Rentas vacacionales: ROI 8-12% anual",
+      "Golf + Marina + Resorts de lujo",
+      "Plusvalía premium: +15% vs nacional"
+    ],
+
+    "desarrollosDestacados": ["Quivira", "Palmilla", "Puerto Los Cabos", "Cabo San Lucas Bay"],
+
+    "fuenteDatos": "INEGI 2024, SHF, Base Propia Datalpine, AMPI Los Cabos",
+
+    "color": "tech",
+    "icon": "Palmtree"
+  },
+
+  "puerto-vallarta": {
+    "slug": "puerto-vallarta",
+    "nombre": "Puerto Vallarta",
+    "estado": "Jalisco",
+    "descripcion": "Turismo de lujo con inversión extranjera. Análisis de CAC -18% en desarrollos premium.",
+
+    "poblacion": 291839,
+    "pibEstatal": 1200000000000,
+
+    "mercado": {
+      "precioPromedioVivienda": 6200000,
+      "costoM2Promedio": 28000,
+      "plusvaliaAnual": 7.2,
+      "crecimientoAnual": 9,
+      "proyectosActivos": 52,
+      "absorcionResidencial": 72,
+      "tiempoPromedioVenta": 7.8
+    },
+
+    "zonasTop": [
+      {
+        "nombre": "Zona Romántica",
+        "tipo": "Turístico",
+        "costoM2": 32000,
+        "plusvaliaHistorica": 12,
+        "destacado": "Playa + Restaurantes + Arte"
+      },
+      {
+        "nombre": "Marina Vallarta",
+        "tipo": "Residencial + Marina",
+        "costoM2": 35000,
+        "plusvaliaHistorica": 10,
+        "destacado": "Campo de golf + Yates"
+      }
+    ],
+
+    "ventajasCompetitivas": [
+      "Inversión extranjera: 55% compradores internacionales",
+      "Turismo: +5M visitantes/año",
+      "Rentas vacacionales: ROI 7-10% anual",
+      "Gastronomía + Arte + Cultura",
+      "Optimización CAC: -18% en Le Curve"
+    ],
+
+    "desarrollosDestacados": ["Le Curve", "Marina Vallarta", "Zona Romántica", "Riviera Nayarit"],
+
+    "fuenteDatos": "INEGI 2024, SHF, Base Propia Datalpine, Caso de Éxito Le Curve",
+
+    "color": "success",
+    "icon": "Waves"
+  },
+
+  "cdmx": {
+    "slug": "cdmx",
+    "nombre": "Ciudad de México",
+    "estado": "CDMX",
+    "descripcion": "Hub nacional de negocios y cultura. Resurgimiento de zonas con plusvalía acelerada.",
+
+    "poblacion": 9209944,
+    "pibEstatal": 3200000000000,
+
+    "mercado": {
+      "precioPromedioVivienda": 4500000,
+      "costoM2Promedio": 35000,
+      "plusvaliaAnual": 4.5,
+      "crecimientoAnual": 8,
+      "proyectosActivos": 156,
+      "absorcionResidencial": 76,
+      "tiempoPromedioVenta": 6.8
+    },
+
+    "zonasTop": [
+      {
+        "nombre": "Polanco",
+        "tipo": "Premium",
+        "costoM2": 65000,
+        "plusvaliaHistorica": 8,
+        "destacado": "Lujo + Embajadas + Negocios"
+      },
+      {
+        "nombre": "Santa Fe",
+        "tipo": "Corporativo",
+        "costoM2": 45000,
+        "plusvaliaHistorica": 6,
+        "destacado": "Oficinas + Mall + Universidades"
+      },
+      {
+        "nombre": "Roma-Condesa",
+        "tipo": "Trendy",
+        "costoM2": 42000,
+        "plusvaliaHistorica": 10,
+        "destacado": "Cultura + Gastronomía + Arte"
+      }
+    ],
+
+    "ventajasCompetitivas": [
+      "Centro de negocios nacional",
+      "Conectividad aérea internacional",
+      "Cultura + Arte + Gastronomía",
+      "Universidades top (UNAM, IPN, Tec)",
+      "Resurgimiento de zonas históricas"
+    ],
+
+    "desarrollosDestacados": ["Polanco", "Santa Fe", "Roma-Condesa", "Interlomas", "Pedregal"],
+
+    "fuenteDatos": "INEGI 2024, SHF, Base Propia Datalpine, Gobierno CDMX",
+
+    "color": "teseo",
+    "icon": "Building"
+  },
+
+  "monterrey": {
+    "slug": "monterrey",
+    "nombre": "Monterrey",
+    "estado": "Nuevo León",
+    "descripcion": "Capital industrial del norte con ecosistema de negocios y nearshoring.",
+
+    "poblacion": 5341171,
+    "pibEstatal": 1800000000000,
+
+    "mercado": {
+      "precioPromedioVivienda": 3800000,
+      "costoM2Promedio": 12000,
+      "plusvaliaAnual": 6.8,
+      "crecimientoAnual": 16,
+      "proyectosActivos": 124,
+      "absorcionResidencial": 84,
+      "tiempoPromedioVenta": 4.8
+    },
+
+    "zonasTop": [
+      {
+        "nombre": "San Pedro Garza García",
+        "tipo": "Premium",
+        "costoM2": 25000,
+        "plusvaliaHistorica": 12,
+        "destacado": "Municipio más rico de México"
+      },
+      {
+        "nombre": "Santa Catarina",
+        "tipo": "Industrial",
+        "costoM2": 8500,
+        "plusvaliaHistorica": 14,
+        "destacado": "Parques industriales + Nearshoring"
+      }
+    ],
+
+    "ventajasCompetitivas": [
+      "Capital industrial: +1,200 empresas",
+      "Nearshoring: frontera USA",
+      "Ecosistema de negocios maduro",
+      "San Pedro: municipio más rico",
+      "Universidades: UANL, Tec Monterrey"
+    ],
+
+    "desarrollosDestacados": ["San Pedro Garza García", "Santa Catarina", "Carretera Nacional", "Valle Oriente"],
+
+    "fuenteDatos": "INEGI 2024, SHF, Base Propia Datalpine, Gobierno de Nuevo León",
+
+    "color": "warning",
+    "icon": "Factory"
+  },
+
+  "merida": {
+    "slug": "merida",
+    "nombre": "Mérida",
+    "estado": "Yucatán",
+    "descripcion": "Ciudad con mejor calidad de vida según ONU. Plusvalía enorme con costo 50% menor que CDMX.",
+
+    "poblacion": 995129,
+    "pibEstatal": 280000000000,
+
+    "mercado": {
+      "precioPromedioVivienda": 2400000,
+      "costoM2Promedio": 8000,
+      "plusvaliaAnual": 7.5,
+      "crecimientoAnual": 14,
+      "proyectosActivos": 68,
+      "absorcionResidencial": 83,
+      "tiempoPromedioVenta": 5.0
+    },
+
+    "zonasTop": [
+      {
+        "nombre": "Norte de Mérida",
+        "tipo": "Moderno",
+        "costoM2": 10500,
+        "plusvaliaHistorica": 15,
+        "destacado": "Desarrollo acelerado + Plazas"
+      },
+      {
+        "nombre": "Centro Histórico",
+        "tipo": "Colonial",
+        "costoM2": 12000,
+        "plusvaliaHistorica": 12,
+        "destacado": "Patrimonio + Cultura"
+      }
+    ],
+
+    "ventajasCompetitivas": [
+      "Mejor calidad de vida: ONU",
+      "Seguridad: índices más altos del país",
+      "Costo 50% menor que CDMX",
+      "Centro de negocios del sureste",
+      "Cultura maya + Gastronomía"
+    ],
+
+    "desarrollosDestacados": ["Norte de Mérida", "Centro Histórico", "Altabrisa", "Temozón Norte"],
+
+    "fuenteDatos": "INEGI 2024, SHF, Base Propia Datalpine, AMPI Mérida",
+
+    "color": "success",
+    "icon": "Sun"
+  },
+
+  "cancun": {
+    "slug": "cancun",
+    "nombre": "Cancún",
+    "estado": "Quintana Roo",
+    "descripcion": "Turismo premium internacional. Rentas vacacionales con ROI 10-15% anual.",
+
+    "poblacion": 888797,
+    "pibEstatal": 380000000000,
+
+    "mercado": {
+      "precioPromedioVivienda": 5200000,
+      "costoM2Promedio": 30000,
+      "plusvaliaAnual": 8.8,
+      "crecimientoAnual": 11,
+      "proyectosActivos": 74,
+      "absorcionResidencial": 71,
+      "tiempoPromedioVenta": 7.2
+    },
+
+    "zonasTop": [
+      {
+        "nombre": "Zona Hotelera",
+        "tipo": "Turístico",
+        "costoM2": 42000,
+        "plusvaliaHistorica": 14,
+        "destacado": "Playa + Resorts + Rentas"
+      },
+      {
+        "nombre": "Puerto Cancún",
+        "tipo": "Residencial + Marina",
+        "costoM2": 38000,
+        "plusvaliaHistorica": 12,
+        "destacado": "Marina + Golf + Mall"
+      }
+    ],
+
+    "ventajasCompetitivas": [
+      "Turismo: +30M visitantes/año",
+      "Inversión extranjera: 65% compradores",
+      "Rentas vacacionales: ROI 10-15%",
+      "Conectividad aérea: hub internacional",
+      "Playa + Cultura Maya + Riviera Maya"
+    ],
+
+    "desarrollosDestacados": ["Zona Hotelera", "Puerto Cancún", "Playa Mujeres", "Bahía Petempich"],
+
+    "fuenteDatos": "INEGI 2024, SHF, Base Propia Datalpine, AMPI Cancún",
+
+    "color": "tech",
+    "icon": "Palmtree"
+  },
+
+  "playa-del-carmen": {
+    "slug": "playa-del-carmen",
+    "nombre": "Playa del Carmen",
+    "estado": "Quintana Roo",
+    "descripcion": "Riviera Maya con crecimiento acelerado. Hub de nómadas digitales y rentas vacacionales.",
+
+    "poblacion": 254708,
+    "pibEstatal": 380000000000,
+
+    "mercado": {
+      "precioPromedioVivienda": 4800000,
+      "costoM2Promedio": 28000,
+      "plusvaliaAnual": 9.2,
+      "crecimientoAnual": 13,
+      "proyectosActivos": 58,
+      "absorcionResidencial": 69,
+      "tiempoPromedioVenta": 7.5
+    },
+
+    "zonasTop": [
+      {
+        "nombre": "Quinta Avenida",
+        "tipo": "Centro Turístico",
+        "costoM2": 35000,
+        "plusvaliaHistorica": 16,
+        "destacado": "Playa + Restaurantes + Vida nocturna"
+      },
+      {
+        "nombre": "Playacar",
+        "tipo": "Residencial + Golf",
+        "costoM2": 32000,
+        "plusvaliaHistorica": 14,
+        "destacado": "Campo de golf + Tranquilidad"
+      }
+    ],
+
+    "ventajasCompetitivas": [
+      "Nómadas digitales: comunidad internacional",
+      "Turismo: +12M visitantes/año",
+      "Rentas vacacionales: ROI 12-18%",
+      "Cercanía Tulum + Cancún",
+      "Cultura + Playa + Cenotes"
+    ],
+
+    "desarrollosDestacados": ["Quinta Avenida", "Playacar", "Coco Beach", "Mamitas Beach"],
+
+    "fuenteDatos": "INEGI 2024, SHF, Base Propia Datalpine, AMPI Riviera Maya",
+
+    "color": "success",
+    "icon": "Palmtree"
+  }
+}
