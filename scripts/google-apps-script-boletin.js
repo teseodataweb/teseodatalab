@@ -24,7 +24,7 @@
 
 const CONFIG = {
   // URL del sitio web de Teseo (para el link de descarga)
-  WEBSITE_URL: 'https://teseodatalab.com',  // Cambiar por tu dominio real
+  WEBSITE_URL: 'https://teseodata.com',
 
   // Ruta del PDF en el sitio
   PDF_PATH: '/descargas/boletin-perspectivas-hidalgo-2026.pdf',
