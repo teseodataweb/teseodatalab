@@ -29,6 +29,9 @@ const TerminosCondiciones = lazy(() => import('./components/pages/TerminosCondic
 const AvisoPrivacidad = lazy(() => import('./components/pages/AvisoPrivacidad'))
 const PoliticasUso = lazy(() => import('./components/pages/PoliticasUso'))
 
+// Landing Pages de Recursos
+const BoletinEconomico = lazy(() => import('./pages/BoletinEconomico'))
+
 // Loading component para Suspense
 const PageLoader = () => (
   <div className="min-h-screen bg-gradient-to-br from-industrial-900 via-industrial-800 to-industrial-900 flex items-center justify-center">
@@ -86,6 +89,9 @@ function App() {
           <Route path="/terminos" element={<PageLayout><TerminosCondiciones /></PageLayout>} />
           <Route path="/aviso-privacidad" element={<PageLayout><AvisoPrivacidad /></PageLayout>} />
           <Route path="/politicas-uso" element={<PageLayout><PoliticasUso /></PageLayout>} />
+
+          {/* LANDING PAGES DE RECURSOS (sin layout completo) */}
+          <Route path="/boletin-economico" element={<BoletinEconomico />} />
         </Routes>
       </Suspense>
     </>
