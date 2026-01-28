@@ -502,10 +502,10 @@ export default function TeseoLanding() {
 
   // Hero Section Data
   const heroStats = [
-    { value: '18+', label: 'Años de Experiencia', icon: Trophy },
-    { value: '3M+', label: 'Puntos de Datos', icon: Database },
-    { value: '50+', label: 'Bases de Datos', icon: Boxes },
-    { value: '130+', label: 'Proyectos Completados', icon: Target }
+    { value: '+18', label: 'Años de Experiencia', icon: Trophy },
+    { value: '+3M', label: 'Puntos de Datos', icon: Database },
+    { value: '+50', label: 'Bases de Datos', icon: Boxes },
+    { value: '+130', label: 'Proyectos Completados', icon: Target }
   ]
 
   // Services Data - Teseo Core Services
