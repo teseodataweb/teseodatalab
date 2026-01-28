@@ -325,23 +325,23 @@ function generarHTMLCorreo(nombre, downloadUrl) {
               </p>
 
               <p style="color: rgba(255,255,255,0.4); font-size: 11px; margin: 0;">
-                +52 771 364 9201 | direccioncomercial@teseodata.com
+                +52 771 364 9201 | contacto@teseodata.com
               </p>
 
               <table role="presentation" cellspacing="0" cellpadding="0" border="0" style="margin: 20px auto 0 auto;">
                 <tr>
                   <td style="padding: 0 8px;">
-                    <a href="https://linkedin.com/company/teseo-data-lab" style="color: rgba(255,255,255,0.6); text-decoration: none; font-size: 12px;">
+                    <a href="https://www.linkedin.com/company/teseo-data-center/" style="color: rgba(255,255,255,0.6); text-decoration: none; font-size: 12px;">
                       LinkedIn
                     </a>
                   </td>
                   <td style="padding: 0 8px;">
-                    <a href="https://instagram.com/teseo_data" style="color: rgba(255,255,255,0.6); text-decoration: none; font-size: 12px;">
+                    <a href="https://www.instagram.com/teseo_data_lab/" style="color: rgba(255,255,255,0.6); text-decoration: none; font-size: 12px;">
                       Instagram
                     </a>
                   </td>
                   <td style="padding: 0 8px;">
-                    <a href="https://facebook.com/teseodatalab" style="color: rgba(255,255,255,0.6); text-decoration: none; font-size: 12px;">
+                    <a href="https://www.facebook.com/teseodatalab" style="color: rgba(255,255,255,0.6); text-decoration: none; font-size: 12px;">
                       Facebook
                     </a>
                   </td>
