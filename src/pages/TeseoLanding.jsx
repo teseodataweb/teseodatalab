@@ -1527,7 +1527,7 @@ export default function TeseoLanding() {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
-                <span>771 364 9201</span>
+                <span>Atención por WhatsApp</span>
               </motion.a>
             </motion.div>
           </div>
