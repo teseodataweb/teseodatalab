@@ -513,25 +513,20 @@ export default function TeseoLanding() {
     {
       icon: MapPin,
       nombre: 'Análisis Data-Econométrico de Expansión',
-      tagline: 'Decisiones de expansión con modelos de 5 capas',
+      tagline: 'Elige dónde expandir sin riesgo',
       link: '/servicios/expansion',
-      descripcion: 'Evaluación estratégica de viabilidad territorial y plazas para expansión con modelos econométricos rigurosos. Modelo de 5 capas: Demanda, Oferta, Saturación, Oportunidad y Rentabilidad (ROI/VPN).',
+      descripcion: 'Identifica las mejores plazas para expandir tu negocio. Analizamos demanda, competencia, rentabilidad y riesgo para recomendarte exactamente dónde invertir y dónde no.',
       metricas: [
         { label: 'Precisión', value: '397%', sublabel: 'ROI Querétaro (Cayco)' },
         { label: 'Entrega', value: '20-25 días', sublabel: 'análisis completo' },
         { label: 'Capas', value: '5', sublabel: 'modelos integrados' }
       ],
       caracteristicas: [
-        'Scoring de ubicaciones óptimas con modelos multivariables',
-        'Análisis demográfico, económico e industrial',
-        'Proyecciones de demanda con series temporales',
-        'Evaluación de saturación competitiva',
-        'Cálculo de ROI, VPN y punto de equilibrio por plaza',
-        'Recomendaciones estratégicas de inversión',
-        'Análisis de barreras de entrada',
-        'Evaluación de riesgo por escenarios',
-        'Índice de saturación de mercado',
-        'Reportes ejecutivos con 10 secciones'
+        'Ranking de plazas ordenadas por potencial de ROI',
+        'Proyecciones de demanda y competencia por ubicación',
+        'Cálculo automático de rentabilidad y punto de equilibrio',
+        'Análisis de riesgo con escenarios optimista y pesimista',
+        'Recomendación GO/NO-GO por plaza (evita inversiones equivocadas)'
       ],
       pricing: 'Desde $195,000 MXN por proyecto',
       timeline: 'Entrega: 20-25 días hábiles',
@@ -542,25 +537,20 @@ export default function TeseoLanding() {
     {
       icon: Microscope,
       nombre: 'Análisis de Inversión',
-      tagline: 'Viabilidad financiera con fundamento econométrico',
+      tagline: 'Valida si tu inversión es rentable',
       link: '/servicios/inversion',
-      descripcion: 'Estudios rigurosos de viabilidad financiera con modelos de ROI, VPN, EBITDA y análisis de sensibilidad. Evaluación de demanda, competencia y proyecciones multi-escenario.',
+      descripcion: 'Antes de invertir, sabe exactamente cuánto dinero ganarás, cuándo lo recuperarás y qué riesgos existen. Simulamos tres escenarios para que tomes la mejor decisión.',
       metricas: [
         { label: 'ROI', value: '60.7%', sublabel: 'proyección Huauchinango' },
         { label: 'Entrega', value: '15-20 días', sublabel: 'análisis completo' },
         { label: 'Escenarios', value: '3+', sublabel: 'Base, Optimista, Pesimista' }
       ],
       caracteristicas: [
-        'Modelos de punto de equilibrio operativo',
-        'Cálculo de ROI, TIR, VPN y EBITDA',
-        'Análisis de sensibilidad multi-escenario',
-        'Evaluación de demanda y competencia',
-        'Proyecciones financieras a 5-10 años',
-        'Recomendaciones estratégicas ejecutivas',
-        'Análisis de riesgo de mercado',
-        'Evaluación de flujos de caja',
-        'Identificación de drivers de rentabilidad',
-        'Reportes ejecutivos con gráficas'
+        'Proyección de ROI y punto de equilibrio (cuándo recuperas tu dinero)',
+        'Simulaciones de escenarios: optimista, realista y pesimista',
+        'Identificación de variables clave que afectan tu rentabilidad',
+        'Análisis de demanda, competencia y flujos de caja proyectados',
+        'Reporte ejecutivo listo para presentar a accionistas o bancos'
       ],
       pricing: 'Desde $150,000 MXN por proyecto',
       timeline: 'Entrega: 15-20 días hábiles',
@@ -571,25 +561,20 @@ export default function TeseoLanding() {
     {
       icon: Factory,
       nombre: 'Análisis de Mercado Industrial',
-      tagline: 'Perspectivas de mercado con 3M+ data points',
+      tagline: 'Entiende tu industria como nadie',
       link: '/servicios/mercado-industrial',
-      descripcion: 'Estudios exhaustivos de mercados industriales con proyecciones econométricas y análisis competitivo profundo. Procesamos +3M puntos de datos de 50+ fuentes para insights accionables.',
+      descripcion: 'Análisis profundo de tu industria con +3M datos de 50+ fuentes. Proyecciones de crecimiento, identificación de oportunidades y análisis de competidores para tomar decisiones estratégicas de largo plazo.',
       metricas: [
         { label: 'Data Points', value: '+3M', sublabel: 'fuentes integradas' },
         { label: 'Entrega', value: '25-30 días', sublabel: 'reporte completo' },
         { label: 'CAGR', value: '8.3%', sublabel: 'proyección concreto 2033' }
       ],
       caracteristicas: [
-        'Modelos econométricos multivariables',
-        'Proyecciones de volumen y valor de mercado',
-        'Análisis de saturación y oportunidad',
-        'Benchmarking competitivo detallado',
-        'Identificación de hotspots estratégicos',
-        'Evaluación de barreras de entrada',
-        'Análisis de cadenas de valor',
-        'Proyecciones con series temporales',
-        'Factores externos y riesgos',
-        'Reportes de 80-120 páginas'
+        'Proyecciones de volumen y valor del mercado a 5-10 años',
+        'Benchmarking detallado: competidores, precios, participación de mercado',
+        'Identificación de regiones con mayor potencial (hotspots)',
+        'Análisis de factores que impulsan el crecimiento (drivers)',
+        'Recomendaciones estratégicas ejecutivas con datos sólidos'
       ],
       pricing: 'Desde $220,000 MXN por proyecto',
       timeline: 'Entrega: 25-30 días hábiles',
@@ -600,25 +585,20 @@ export default function TeseoLanding() {
     {
       icon: BarChart3,
       nombre: 'Análisis de Mercado',
-      tagline: 'Inteligencia de mercado para decisiones estratégicas',
+      tagline: 'Descubre a quiénes venderles y cómo',
       link: '/servicios/mercado',
-      descripcion: 'Estudios de mercado completos con análisis demográfico, económico, competitivo y proyecciones de demanda. Identificación de segmentos objetivo y estrategias de entrada.',
+      descripcion: 'Entiende tu mercado target: quiénes son, qué necesitan, cuántos son y cómo llegar a ellos. Incluye análisis de competencia y estrategias comprobadas de entrada al mercado.',
       metricas: [
         { label: 'Fuentes', value: '50+', sublabel: 'bases de datos' },
         { label: 'Entrega', value: '18-22 días', sublabel: 'análisis completo' },
         { label: 'Precisión', value: '<5%', sublabel: 'margen de error' }
       ],
       caracteristicas: [
-        'Análisis demográfico y socioeconómico',
-        'Evaluación de tamaño de mercado total',
-        'Análisis competitivo y participación',
-        'Proyecciones de demanda',
-        'Identificación de segmentos objetivo',
-        'Recomendaciones de estrategia de entrada',
-        'Análisis de oportunidad de mercado',
-        'Evaluación de riesgo competitivo',
-        'Tendencias y drivers de crecimiento',
-        'Dashboard ejecutivo interactivo'
+        'Tamaño exacto de tu mercado potencial (TAM)',
+        'Perfil detallado de clientes ideales: edad, ingresos, hábitos',
+        'Análisis de competidores y tu posicionamiento',
+        'Proyecciones de demanda y oportunidades de crecimiento',
+        'Dashboard con datos actualizables para monitoreo continuo'
       ],
       pricing: 'Desde $180,000 MXN por proyecto',
       timeline: 'Entrega: 18-22 días hábiles',
@@ -629,25 +609,20 @@ export default function TeseoLanding() {
     {
       icon: Target,
       nombre: 'Agente Vertical',
-      tagline: 'Prospección de clientes con IA y análisis de datos',
+      tagline: 'IA que encuentra tus clientes potenciales',
       link: '/servicios/agente-vertical',
-      descripcion: 'Prospección de clientes potenciales con IA y análisis de datos para identificar oportunidades comerciales. Evaluación de patrones de consumo y propensión de compra para maximizar conversión.',
+      descripcion: 'IA identifica automáticamente tus mejores oportunidades de venta. Te da una base de clientes calificados listos para contactar, sin costo inicial: pagamos juntos por resultados.',
       metricas: [
         { label: 'ROI', value: 'Alto', sublabel: 'conversión Sherwin Williams' },
         { label: 'Modelo', value: 'Revenue Share', sublabel: 'sin costo inicial' },
         { label: 'Entrega', value: 'Continua', sublabel: 'dashboard actualizado' }
       ],
       caracteristicas: [
-        'Análisis de patrones de consumo con IA',
-        'Identificación de clientes potenciales',
-        'Segmentación demográfica avanzada',
-        'Evaluación de propensión de compra',
-        'Base de datos de prospectos calificados',
-        'Dashboard de monitoreo comercial',
-        'Scoring de leads por probabilidad',
-        'Análisis de comportamiento de compra',
-        'Integración con CRM existente',
-        'Reportes de conversión y ROI'
+        'Base de datos de clientes potenciales con puntuación de compra',
+        'Segmentación automática: Tier A (listos para vender), B y C',
+        'Dashboard en tiempo real para monitorear oportunidades',
+        'Actualización mensual automática con nuevos prospectos',
+        'Modelo sin riesgo: solo pagas comisión sobre ventas realizadas'
       ],
       pricing: 'Modelo revenue share (sin costo inicial)',
       timeline: 'Entrega: Continua con actualizaciones',
@@ -1138,10 +1113,17 @@ export default function TeseoLanding() {
   const successStories = [
     {
       client: 'Cayco Concretos',
-      sector: 'Construcción Industrial',
+      sector: 'Construcción',
       icon: Factory,
       color: 'warning',
-      image: '🏭',
+      // usar el logo desde public/assets/logos/
+      image: (
+        <img
+          src="/assets/logos/cayco-logo.png"
+          alt="Cayco Concretos"
+          className="w-50 h-30 object-contain"
+        />
+      ),
       challenge: 'Análisis de Viabilidad de Expansión en 3 Plazas Estratégicas',
       description: 'Modelo econométrico de 5 capas (Demanda, Oferta, Saturación, Oportunidad, ROI) para evaluar expansión territorial en Querétaro, Tula y Huauchinango. Procesamos +3M data points de INEGI, competencia y proyecciones macroeconómicas.',
       result: 'Recomendación GO en Querétaro con ROI proyectado del 397.4% a 5 años. NO GO en Huauchinango (ROI negativo -15%). Evitamos pérdidas potenciales de $15M+ en expansión no viable.',
@@ -1158,7 +1140,13 @@ export default function TeseoLanding() {
       sector: 'Industria del Concreto',
       icon: Building2,
       color: 'tech',
-      image: '🏗️',
+      image: (
+        <img
+          src="/assets/logos/amci-logo.png"
+          alt="AMCI"
+          className="w-50 h-30 object-contain"
+        />
+      ),
       challenge: 'Perspectivas del Mercado de Concreto Premezclado en México 2025',
       description: 'Estudio exhaustivo del mercado mexicano de concreto con +3M data points, análisis de 27M m³ de producción nacional, proyecciones econométricas hasta 2033, y evaluación del impacto del nearshoring como catalizador.',
       result: 'Identificación de CAGR 8.3% proyectado hasta 2033. Nearshoring confirmado como principal driver de crecimiento. Hotspots estratégicos en Bajío y Norte. Reporte presentado en 4 reuniones nacionales (Tijuana, Hermosillo, Puebla, SLP, Guadalajara).',
@@ -1175,7 +1163,13 @@ export default function TeseoLanding() {
       sector: 'Manufactura',
       icon: Zap,
       color: 'teseo',
-      image: '⚡',
+      image: (
+        <img
+          src="/assets/logos/sherwin-williams-logo.png"
+          alt="Sherwin Williams México"
+          className="w-50 h-30 object-contain"
+        />
+      ),
       challenge: 'Agente Vertical con IA para Prospección de Clientes B2B',
       description: 'Modelo de IA con score 0-100 para identificar prospectos con alta propensión de compra. Segmentación tier A/B/C, scoring predictivo, y base de datos calificada de 40K+ registros con actualización automática mensual.',
       result: 'Conversión tier A del 42% vs 12% baseline (+350%). Reducción de CAC en 60%. Modelo revenue share alinea incentivos perfectamente. Base de datos escalable y auto-actualizable.',
@@ -1438,7 +1432,7 @@ export default function TeseoLanding() {
               </p>
               <p className="text-lg md:text-xl text-industrial-300 max-w-4xl mx-auto leading-relaxed">
                 Transformamos datos en <span className="text-teseo-400 font-semibold">decisiones estratégicas</span> para empresas en expansión, inversión inmobiliaria y optimización comercial.
-                <span className="text-white font-semibold"> 18+ años</span> ayudando a empresas mexicanas a crecer con inteligencia de datos.
+                <span className="text-white font-semibold"> +18 años</span> ayudando a empresas mexicanas a crecer con inteligencia de datos.
               </p>
             </motion.div>
 
@@ -1611,7 +1605,7 @@ export default function TeseoLanding() {
                 <div>
                   <h3 className="text-2xl font-bold text-white mb-2">Experiencia Global</h3>
                   <p className="text-industrial-300">
-                    <span className="text-warning-400 font-semibold text-lg">18+ años</span> de trayectoria transformando datos en estrategias ganadoras
+                    <span className="text-warning-400 font-semibold text-lg">+18 años</span> de trayectoria transformando datos en estrategias ganadoras
                   </p>
                 </div>
               </div>
@@ -1671,12 +1665,7 @@ export default function TeseoLanding() {
             transition={{ duration: 0.6, delay: 0.5 }}
             className="mt-12 text-center"
           >
-            <div className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-teseo-500/10 to-success-500/10 border border-teseo-500/20 rounded-full">
-              <Trophy className="w-5 h-5 text-teseo-400" />
-              <span className="text-white font-semibold">
-                Nos enorgullece haber brindado <span className="text-teseo-400">soluciones innovadoras y efectivas</span> a nuestros clientes en la industria de análisis de datos
-              </span>
-            </div>
+            
           </motion.div>
         </div>
       </section>
@@ -1698,9 +1687,16 @@ export default function TeseoLanding() {
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
               Sectores donde dejamos <span className="glow-text">Huella</span>
             </h2>
+            
             <p className="text-xl text-industrial-300 max-w-3xl mx-auto">
               Confianza de empresas líderes en México, Panamá y Estados Unidos
             </p>
+            <div className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-teseo-500/10 to-success-500/10 border border-teseo-500/20 rounded-full">
+              <Trophy className="w-5 h-5 text-teseo-400" />
+              <span className="text-white font-semibold">
+                Nos enorgullece haber brindado <span className="text-teseo-400">soluciones innovadoras y efectivas</span> a nuestros clientes en la industria de análisis de datos
+              </span>
+            </div>
           </motion.div>
 
           {/* Logos Grid - 4x4 */}
@@ -1793,7 +1789,7 @@ export default function TeseoLanding() {
             <div className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-teseo-500/10 to-tech-500/10 rounded-full border border-teseo-500/20">
               <div className="w-2 h-2 rounded-full bg-success-400 animate-pulse" />
               <span className="text-lg text-white font-medium">
-                <span className="text-teseo-400 font-bold">18+ años</span> entregando resultados en{' '}
+                <span className="text-teseo-400 font-bold">+18 años</span> entregando resultados en{' '}
                 <span className="text-tech-400 font-bold">6 países</span>
               </span>
             </div>
@@ -1827,7 +1823,7 @@ export default function TeseoLanding() {
             <div className="inline-flex items-center gap-3 px-6 py-3 bg-gradient-to-r from-success-500/20 to-tech-500/20 rounded-full border border-success-500/30">
               <Globe className="w-5 h-5 text-success-400" />
               <span className="text-lg text-white font-semibold">
-                Presencia Nacional • 15+ Estados
+                Presencia Nacional • +15 Estados
               </span>
             </div>
           </motion.div>
@@ -1852,7 +1848,7 @@ export default function TeseoLanding() {
 
               {/* Total Counter */}
               <div className="p-4 bg-gradient-to-r from-teseo-500/10 to-success-500/10 rounded-xl border border-teseo-500/20 text-center">
-                <div className="text-4xl font-bold glow-text mb-1">130+</div>
+                <div className="text-4xl font-bold glow-text mb-1">+130</div>
                 <div className="text-sm text-industrial-400">Proyectos Completados en 12 Estados</div>
               </div>
             </motion.div>
@@ -1942,7 +1938,7 @@ export default function TeseoLanding() {
               ¿Tu proyecto está en otra región? También operamos en todo el país.
             </p>
             <motion.button
-              onClick={() => window.open('https://calendly.com/teseodata/consulta-gratuita', '_blank')}
+              onClick={() => window.open('https://calendly.com/teseodata/teseo-data-lab-consultoria-personalizada', '_blank')}
               className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-success-500 to-tech-500 text-white font-semibold rounded-xl hover:shadow-lg hover:shadow-success-500/50 transition-all"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
