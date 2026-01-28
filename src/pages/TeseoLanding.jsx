@@ -1707,28 +1707,28 @@ export default function TeseoLanding() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8">
             {[
               // Manufactura / Industrial
-              { name: 'Sherwin Williams', sector: 'Manufactura', color: 'warning', logo: '/logos/sherwin-williams.png' },
-              { name: 'AMCI', sector: 'Consultoría Industrial', color: 'warning', logo: '/logos/amci.png' },
-              { name: 'AP Safety', sector: 'Seguridad Industrial', color: 'warning', logo: '/logos/ap-safety.png' },
+              { name: 'Sherwin Williams', sector: 'Manufactura', color: 'warning', logo: 'public/assets/logos/sherwin-williams-logo.png' },
+              { name: 'AMCI', sector: 'Consultoría Industrial', color: 'warning', logo: 'public/assets/logos/amci-logo.png' },
+              { name: 'AP Safety', sector: 'Seguridad Industrial', color: 'warning', logo: 'public/assets/logos/ap-safety-logo.png' },
               // Real Estate
-              { name: 'DatAlpine', sector: 'Real Estate', color: 'teseo', logo: '/logos/datalpine.png' },
-              { name: 'Le Curve', sector: 'Bienes Raíces', color: 'teseo', logo: '/logos/le-curve.png' },
-              { name: 'AMPI', sector: 'Asociación Inmobiliaria', color: 'teseo', logo: '/logos/ampi.png' },
+              { name: 'DatAlpine', sector: 'Real Estate', color: 'teseo', logo: 'public/assets/logos/datalpine-logo.png' },
+              { name: 'Le Curve', sector: 'Bienes Raíces', color: 'teseo', logo: 'public/assets/logos/le-curve-logo.png' },
+              { name: 'AMPI', sector: 'Asociación Inmobiliaria', color: 'teseo', logo: 'public/assets/logos/ampi-logo.png' },
               // Energía / Tecnología
-              { name: 'Gas de Provincia', sector: 'Energía', color: 'warning', logo: '/logos/gas-de-provincia.png' },
-              { name: 'imonitor', sector: 'Tecnología', color: 'tech', logo: '/logos/imonitor.png' },
+              { name: 'Gas de Provincia', sector: 'Energía', color: 'warning', logo: 'public/assets/logos/gas-de-provincia-logo.png' },
+              { name: 'monitorLATINO', sector: 'Tecnología', color: 'tech', logo: 'public/assets/logos/monitor-latino.png' },
               // Legal & Consulting
-              { name: 'Franklin Arosemena Torrijos', sector: 'Legal & Consulting', color: 'tech', logo: '/logos/franklin-arosemena.png' },
+              { name: 'Franklin Arosemena Torrijos', sector: 'Legal y consultoria', color: 'tech', logo: 'public/assets/logos/franklin-arosemena-torrijos-logo.png' },
               // Construcción
-              { name: 'Pumping Team', sector: 'Construcción', color: 'success', logo: '/logos/pumping-team.png' },
-              { name: 'TEYSA', sector: 'Construcción', color: 'success', logo: '/logos/teysa.png' },
-              { name: 'Stratto', sector: 'Construcción', color: 'success', logo: '/logos/stratto.png' },
+              { name: 'Pumping Team', sector: 'Construcción', color: 'success', logo: 'public/assets/logos/pumping-team-logo.png' },
+              { name: 'TEYSA', sector: 'Maquinados', color: 'success', logo: 'public/assets/logos/teysa-logo.png' },
+              { name: 'Stratto', sector: 'Construcción', color: 'success', logo: 'public/assets/logos/stratto-logo.png' },
               // Real Estate (continued)
-              { name: 'HOMIA', sector: 'Real Estate', color: 'teseo', logo: '/logos/homia.png' },
-              { name: 'Cayco', sector: 'Real Estate', color: 'teseo', logo: '/logos/cayco.png' },
-              { name: 'Valdepeñas', sector: 'Real Estate', color: 'teseo', logo: '/logos/valdepenas.png' },
+              { name: 'HOMIA', sector: 'Bíenes Raíces', color: 'teseo', logo: 'public/assets/logos/homia-logo.png' },
+              { name: 'Cayco', sector: 'Construcción', color: 'teseo', logo: 'public/assets/logos/cayco-logo.png' },
+              { name: 'Valdepeñas', sector: 'Bienes Raíces', color: 'teseo', logo: 'public/assets/logos/valdepenas-logo.png' },
               // F&B
-              { name: 'Villanova', sector: 'F&B', color: 'tech', logo: '/logos/villanova.png' },
+              { name: 'Villanova', sector: 'F&B', color: 'tech', logo: 'public/assets/logos/villanova-logo.png' },
             ].map((client, index) => (
               <motion.div
                 key={client.name}
