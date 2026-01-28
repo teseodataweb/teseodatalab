@@ -153,13 +153,8 @@ function generarHTMLCorreo(nombre, downloadUrl) {
               <!-- Logo Teseo -->
               <table role="presentation" cellspacing="0" cellpadding="0" border="0" style="margin: 0 auto;">
                 <tr>
-                  <td style="padding-right: 12px;">
-                    <img src="${CONFIG.WEBSITE_URL}/logo-teseo.png" alt="Teseo" width="50" height="50" style="display: block;">
-                  </td>
                   <td>
-                    <span style="font-size: 28px; font-weight: 700; color: ${c.white};">
-                      <span style="color: ${c.primary};">Teseo</span> Data Lab
-                    </span>
+                    <img src="${CONFIG.WEBSITE_URL}/logo-teseo.png" alt="Teseo Data Lab" width="220" style="display: block;">
                   </td>
                 </tr>
               </table>
