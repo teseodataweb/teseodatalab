@@ -1,0 +1,922 @@
+{
+  "catalog_info": {
+    "name": "Unsplash Images Catalog - Data Intelligence & Real Estate Blog",
+    "description": "Coleccion de imagenes de Unsplash para blog de inteligencia de datos y analisis inmobiliario/industrial en Mexico",
+    "created_date": "2026-01-26",
+    "total_images": 120,
+    "license": "Unsplash License - Free for commercial use, no attribution required"
+  },
+  "categories": {
+    "data_analytics_business_intelligence": {
+      "category_name": "Data Analytics / Business Intelligence",
+      "description": "Dashboards, graficos, analisis de datos, visualizaciones, personas trabajando con datos",
+      "image_count": 22,
+      "images": [
+        {
+          "photo_id": "qwtCeJ5cLYs",
+          "url": "https://unsplash.com/photos/qwtCeJ5cLYs",
+          "description": "Data reporting dashboard on a laptop screen",
+          "photographer": "Stephen Dawson",
+          "tags": ["dashboard", "data", "analytics", "laptop", "reporting"]
+        },
+        {
+          "photo_id": "JKUTrJ4vK00",
+          "url": "https://unsplash.com/photos/graphs-of-performance-analytics-on-a-laptop-screen-JKUTrJ4vK00",
+          "description": "Graphs of performance analytics on a laptop screen - Speedcurve Performance Analytics",
+          "photographer": "Luke Chesser",
+          "tags": ["analytics", "graphs", "performance", "dashboard", "metrics"]
+        },
+        {
+          "photo_id": "hpjSkU2UYSU",
+          "url": "https://unsplash.com/photos/hpjSkU2UYSU",
+          "description": "Statistics on a laptop - data visualization",
+          "photographer": "Carlos Muza",
+          "tags": ["statistics", "laptop", "data", "visualization", "business"]
+        },
+        {
+          "photo_id": "bbWnj4u-AJc",
+          "url": "https://unsplash.com/photos/business-data-analytics-dashboard-and-kpi-performance-bbWnj4u-AJc",
+          "description": "Business Data Analytics Dashboard and KPI Performance",
+          "photographer": "OANA BUZATU",
+          "tags": ["dashboard", "KPI", "business intelligence", "analytics", "performance"]
+        },
+        {
+          "photo_id": "OGOWDVLbMSc",
+          "url": "https://unsplash.com/photos/person-using-macbook-pro-OGOWDVLbMSc",
+          "description": "Person using MacBook Pro - marketing analytics",
+          "photographer": "Campaign Creators",
+          "tags": ["laptop", "marketing", "analytics", "business", "work"]
+        },
+        {
+          "photo_id": "lYFERR5dTG4",
+          "url": "https://unsplash.com/photos/a-close-up-of-a-laptop-computer-with-code-on-the-screen-lYFERR5dTG4",
+          "description": "Close up of laptop computer with code on screen",
+          "photographer": "Behnam Norouzi",
+          "tags": ["coding", "programming", "developer", "tech", "laptop"]
+        },
+        {
+          "photo_id": "ZadtE16oVic",
+          "url": "https://unsplash.com/photos/it-engineer-working-on-new-user-interface-with-online-system-to-create-algorithm-in-agency-office-app-developer-programming-html-code-algorithm-on-computer-typing-sever-data-ZadtE16oVic",
+          "description": "IT engineer working on user interface - app developer programming",
+          "photographer": "Getty Images",
+          "tags": ["developer", "programming", "IT", "coding", "engineer"]
+        },
+        {
+          "photo_id": "FjtWczJWRlc",
+          "url": "https://unsplash.com/photos/a-coders-workspace-filled-with-code-and-keyboards-FjtWczJWRlc",
+          "description": "Coder's workspace with multi-monitor setup and colorful illuminated keyboard",
+          "photographer": "Unknown",
+          "tags": ["coding", "workspace", "developer", "monitors", "programming"]
+        },
+        {
+          "photo_id": "WD7S-Lz12Es",
+          "url": "https://unsplash.com/photos/computer-screens-displaying-code-with-neon-lighting-WD7S-Lz12Es",
+          "description": "Computer screens displaying code with neon lighting",
+          "photographer": "Jakub Zerdzicki",
+          "tags": ["code", "screens", "developer", "neon", "programming"]
+        },
+        {
+          "photo_id": "M5tzZtFCOfs",
+          "url": "https://unsplash.com/photos/cable-network-M5tzZtFCOfs",
+          "description": "Cable network - data center networking",
+          "photographer": "Taylor Vick",
+          "tags": ["network", "data center", "cables", "technology", "infrastructure"]
+        },
+        {
+          "photo_id": "v-jFS1AsHXo",
+          "url": "https://unsplash.com/photos/code-displayed-on-computer-screens-v-jFS1AsHXo",
+          "description": "Code displayed on computer screens with blue and red ambient lighting",
+          "photographer": "Unknown",
+          "tags": ["code", "programming", "screens", "developer", "tech"]
+        },
+        {
+          "photo_id": "tmnsx-oFz98",
+          "url": "https://unsplash.com/photos/data-center-servers-lined-up-in-a-row-tmnsx-oFz98",
+          "description": "Data center servers lined up in a row",
+          "photographer": "Planet Volumes",
+          "tags": ["data center", "servers", "technology", "infrastructure", "3D render"]
+        },
+        {
+          "photo_id": "vJP-wZ6hGBg",
+          "url": "https://unsplash.com/photos/boy-in-front-of-computer-monitor-vJP-wZ6hGBg",
+          "description": "Man who writes code in front of computer monitor",
+          "photographer": "Arif Riyanto",
+          "tags": ["coding", "developer", "programming", "computer", "work"]
+        },
+        {
+          "photo_id": "MoDmaSpD2G4",
+          "url": "https://unsplash.com/photos/a-row-of-windows-in-a-dark-room-MoDmaSpD2G4",
+          "description": "Server room - row of servers in dark room",
+          "photographer": "Mohamed Nohassi",
+          "tags": ["server", "data center", "technology", "infrastructure"]
+        },
+        {
+          "photo_id": "Y9URG3CnVpo",
+          "url": "https://unsplash.com/photos/a-computer-screen-displays-code-on-a-desktop-Y9URG3CnVpo",
+          "description": "Computer screen displays code on desktop",
+          "photographer": "Rob Wingate",
+          "tags": ["coding", "programming", "HTML", "desktop", "developer"]
+        },
+        {
+          "photo_id": "zfpxHvHGmXM",
+          "url": "https://unsplash.com/photos/businesswoman-in-business-meeting-using-laptop-computer-proficiently-at-office-for-marketing-data-analysis-corporate-business-team-collaboration-concept-zfpxHvHGmXM",
+          "description": "Businesswoman in meeting using laptop for marketing data analysis",
+          "photographer": "Getty Images",
+          "tags": ["business", "meeting", "data analysis", "marketing", "corporate"]
+        },
+        {
+          "photo_id": "FD9ncnQo9Ew",
+          "url": "https://unsplash.com/photos/business-people-group-meeting-shot-from-top-view-in-office-profession-businesswomen-businessmen-and-office-workers-working-in-team-conference-with-project-planning-document-on-meeting-table-FD9ncnQo9Ew",
+          "description": "Business people group meeting - top view in office",
+          "photographer": "Getty Images",
+          "tags": ["meeting", "business", "team", "office", "planning"]
+        },
+        {
+          "photo_id": "KbEc5BWXX58",
+          "url": "https://unsplash.com/photos/four-business-professionals-conversing-in-a-modern-office-lobby-KbEc5BWXX58",
+          "description": "Four business professionals conversing in modern office lobby",
+          "photographer": "Vitaly Gariev",
+          "tags": ["business", "professionals", "office", "meeting", "corporate"]
+        },
+        {
+          "photo_id": "wR56AUlEsE4",
+          "url": "https://unsplash.com/photos/man-and-woman-sitting-at-the-table-wR56AUlEsE4",
+          "description": "Man and woman sitting at the table - business meeting",
+          "photographer": "Andreea Avramescu",
+          "tags": ["meeting", "team", "business", "corporate", "collaboration"]
+        },
+        {
+          "photo_id": "DScZQZCnZWE",
+          "url": "https://unsplash.com/photos/portrait-of-successful-business-team-working-together-in-office-DScZQZCnZWE",
+          "description": "Successful business team working together in office",
+          "photographer": "Getty Images",
+          "tags": ["team", "business", "office", "success", "collaboration"]
+        },
+        {
+          "photo_id": "fQf9XTYNmQU",
+          "url": "https://unsplash.com/photos/business-people-in-a-meeting-around-a-table-fQf9XTYNmQU",
+          "description": "Business people in a meeting around a table",
+          "photographer": "Vitaly Gariev",
+          "tags": ["meeting", "business", "team", "office", "collaboration"]
+        },
+        {
+          "photo_id": "bXNwVzAdJNQ",
+          "url": "https://unsplash.com/photos/professional-business-person-meeting-in-the-modern-office-team-group-of-businessman-teamwork-discussion-together-in-business-plan-and-cooperation-brainstorming-team-bXNwVzAdJNQ",
+          "description": "Professional business meeting in modern office - teamwork discussion",
+          "photographer": "Getty Images",
+          "tags": ["meeting", "teamwork", "brainstorming", "business", "office"]
+        }
+      ]
+    },
+    "industrial_manufacturing": {
+      "category_name": "Industrial / Manufactura",
+      "description": "Fabricas, plantas industriales, logistica, almacenes, bodegas, maquinaria industrial",
+      "image_count": 24,
+      "images": [
+        {
+          "photo_id": "5hPe-Tr2wog",
+          "url": "https://unsplash.com/photos/a-factory-with-a-lot-of-machines-in-it-5hPe-Tr2wog",
+          "description": "Industrial production line - refrigerator manufacturing plant",
+          "photographer": "Homa Appliances",
+          "tags": ["factory", "manufacturing", "production line", "industrial", "machines"]
+        },
+        {
+          "photo_id": "8-syLDbcQac",
+          "url": "https://unsplash.com/photos/industrial-machinery-is-displayed-in-a-large-factory-8-syLDbcQac",
+          "description": "Industrial machinery displayed in large factory",
+          "photographer": "Zyanya Citlalli",
+          "tags": ["factory", "machinery", "industrial", "manufacturing", "3D render"]
+        },
+        {
+          "photo_id": "EeqxbxILScA",
+          "url": "https://unsplash.com/photos/a-large-factory-building-next-to-a-body-of-water-EeqxbxILScA",
+          "description": "Industrial cement plant on the banks of a river",
+          "photographer": "Chris Linnett",
+          "tags": ["factory", "industrial", "cement", "river", "manufacturing"]
+        },
+        {
+          "photo_id": "wnOJ83k8r4w",
+          "url": "https://unsplash.com/photos/wnOJ83k8r4w",
+          "description": "Photo of factory at night - Navajo Refinery",
+          "photographer": "Robin Sommer",
+          "tags": ["factory", "night", "refinery", "industrial", "manufacturing"]
+        },
+        {
+          "photo_id": "3yh0HA9Snro",
+          "url": "https://unsplash.com/photos/industrial-background-equipment-industrial-tools-and-machinery-for-the-production-in-factory-shops-dairy-factory-steel-water-pipeline-chrome-pipes-inside-modern-wine-factory-modern-factory-interior-3yh0HA9Snro",
+          "description": "Factory interior - steel water pipeline, chrome pipes, modern factory",
+          "photographer": "Getty Images",
+          "tags": ["factory", "pipes", "industrial", "equipment", "manufacturing"]
+        },
+        {
+          "photo_id": "MptTZthW4Sw",
+          "url": "https://unsplash.com/photos/aerial-view-of-cement-plant-with-high-factory-structure-and-tower-crane-at-industrial-production-area-MptTZthW4Sw",
+          "description": "Aerial view of cement plant with tower crane",
+          "photographer": "Getty Images",
+          "tags": ["cement", "factory", "aerial", "industrial", "crane"]
+        },
+        {
+          "photo_id": "alVFq_05CbA",
+          "url": "https://unsplash.com/photos/a-large-room-with-blue-machinery-alVFq_05CbA",
+          "description": "Large room with blue machinery - factory workshop",
+          "photographer": "moonstar xiaobuman",
+          "tags": ["factory", "machinery", "workshop", "manufacturing", "blue"]
+        },
+        {
+          "photo_id": "pWUyHVJgLhg",
+          "url": "https://unsplash.com/photos/a-large-machine-in-a-large-building-pWUyHVJgLhg",
+          "description": "Automated side panel forming line - refrigerator manufacturing",
+          "photographer": "Homa Appliances",
+          "tags": ["automation", "manufacturing", "factory", "production", "machinery"]
+        },
+        {
+          "photo_id": "XBWF6_TEsFM",
+          "url": "https://unsplash.com/photos/a-group-of-people-working-in-a-factory-XBWF6_TEsFM",
+          "description": "Group of women working in a factory",
+          "photographer": "TruckRun",
+          "tags": ["workers", "factory", "manufacturing", "women", "production"]
+        },
+        {
+          "photo_id": "MdI7uzMw5JI",
+          "url": "https://unsplash.com/photos/forklifts-are-loading-boxes-in-a-warehouse-MdI7uzMw5JI",
+          "description": "Forklifts loading boxes in a warehouse",
+          "photographer": "Sumaid pal Singh Bakshi",
+          "tags": ["warehouse", "forklift", "logistics", "boxes", "3D render"]
+        },
+        {
+          "photo_id": "moEZU_cqsNw",
+          "url": "https://unsplash.com/photos/3d-illustration-packages-delivery-parcels-transportation-system-concept-heap-of-cardboard-boxes-in-middle-of-the-warehouse-warehouse-with-cardboard-boxes-inside-on-pallets-racks-huge-warehouse-moEZU_cqsNw",
+          "description": "3D illustration packages delivery - warehouse with cardboard boxes",
+          "photographer": "Getty Images",
+          "tags": ["warehouse", "packages", "logistics", "delivery", "supply chain"]
+        },
+        {
+          "photo_id": "82ZiY5pzl1c",
+          "url": "https://unsplash.com/photos/a-yellow-forklift-in-a-large-warehouse-82ZiY5pzl1c",
+          "description": "Warehouse worker organizing inventory - logistics management",
+          "photographer": "Kseniia Ilinykh",
+          "tags": ["warehouse", "inventory", "logistics", "forklift", "management"]
+        },
+        {
+          "photo_id": "F2C_mSrb6iM",
+          "url": "https://unsplash.com/photos/a-forklift-driving-through-a-warehouse-filled-with-pallets-F2C_mSrb6iM",
+          "description": "Forklift driving through warehouse filled with pallets",
+          "photographer": "Bernd Dittrich",
+          "tags": ["forklift", "warehouse", "pallets", "logistics", "building"]
+        },
+        {
+          "photo_id": "GJkWQXU15W8",
+          "url": "https://unsplash.com/photos/forklifts-handle-boxes-in-a-warehouse-GJkWQXU15W8",
+          "description": "Forklifts handle boxes in a warehouse",
+          "photographer": "Sumaid pal Singh Bakshi",
+          "tags": ["forklift", "warehouse", "boxes", "logistics", "3D render"]
+        },
+        {
+          "photo_id": "_EFvjSgbw1c",
+          "url": "https://unsplash.com/photos/aerial-view-of-industrial-factory-_EFvjSgbw1c",
+          "description": "Aerial view of industrial factory",
+          "photographer": "CHUTTERSNAP",
+          "tags": ["factory", "aerial", "industrial", "machinery", "pipes"]
+        },
+        {
+          "photo_id": "9e90WtB42RQ",
+          "url": "https://unsplash.com/photos/an-aerial-view-of-a-factory-with-a-lot-of-machinery-9e90WtB42RQ",
+          "description": "Aerial view of factory with machinery in Barcelona",
+          "photographer": "Tomasz Zielonka",
+          "tags": ["factory", "aerial", "industrial", "port", "machinery"]
+        },
+        {
+          "photo_id": "RfpFj8CI-M8",
+          "url": "https://unsplash.com/photos/an-aerial-view-of-an-industrial-area-with-mountains-in-the-background-RfpFj8CI-M8",
+          "description": "Aerial view of industrial area with mountains in background",
+          "photographer": "Ashton Southall",
+          "tags": ["industrial", "aerial", "mountains", "city", "panoramic"]
+        },
+        {
+          "photo_id": "eUJ94RVUSew",
+          "url": "https://unsplash.com/photos/an-aerial-view-of-a-large-industrial-building-eUJ94RVUSew",
+          "description": "Aerial view of large industrial building",
+          "photographer": "Geoffrey Moffett",
+          "tags": ["industrial", "building", "aerial", "warehouse", "architecture"]
+        },
+        {
+          "photo_id": "AuTUA9OZBgs",
+          "url": "https://unsplash.com/photos/an-aerial-view-of-a-large-industrial-area-AuTUA9OZBgs",
+          "description": "Aerial view of large industrial area",
+          "photographer": "Leo_Visions",
+          "tags": ["industrial", "aerial", "city", "architecture", "urban"]
+        },
+        {
+          "photo_id": "vW7C0FdNfSY",
+          "url": "https://unsplash.com/photos/aerial-view-of-warehouse-with-trucks-industrial-background-logistics-from-above-vW7C0FdNfSY",
+          "description": "Aerial view of warehouse with trucks - logistics from above",
+          "photographer": "Getty Images",
+          "tags": ["warehouse", "trucks", "logistics", "aerial", "industrial"]
+        },
+        {
+          "photo_id": "vtjIZ_CcQzQ",
+          "url": "https://unsplash.com/photos/aerial-view-of-industrial-buildings-and-residential-complex-vtjIZ_CcQzQ",
+          "description": "Aerial view of industrial buildings and residential complex - Hampton Station",
+          "photographer": "Alex Reynolds",
+          "tags": ["industrial", "residential", "aerial", "real estate", "development"]
+        },
+        {
+          "photo_id": "ip0yX8W1veE",
+          "url": "https://unsplash.com/photos/busy-shipping-port-with-cranes-and-cargo-containers-ip0yX8W1veE",
+          "description": "Busy shipping port with cranes and cargo containers",
+          "photographer": "Haris Illahi",
+          "tags": ["port", "shipping", "containers", "logistics", "cargo"]
+        },
+        {
+          "photo_id": "JJCrTi0lvTs",
+          "url": "https://unsplash.com/photos/aerial-view-of-a-busy-shipping-port-with-many-containers-JJCrTi0lvTs",
+          "description": "Aerial view of busy shipping port with many containers",
+          "photographer": "Haris Illahi",
+          "tags": ["port", "shipping", "containers", "aerial", "logistics"]
+        },
+        {
+          "photo_id": "z6-nbPBBeUY",
+          "url": "https://unsplash.com/photos/a-pink-truck-with-the-word-ocean-network-express-painted-on-it-z6-nbPBBeUY",
+          "description": "Pink Ocean Network Express truck container",
+          "photographer": "Bernd Dittrich",
+          "tags": ["truck", "container", "shipping", "logistics", "transport"]
+        }
+      ]
+    },
+    "real_estate_inmobiliario": {
+      "category_name": "Real Estate / Inmobiliario",
+      "description": "Edificios modernos, torres de oficinas, desarrollos residenciales, construccion, arquitectura moderna",
+      "image_count": 22,
+      "images": [
+        {
+          "photo_id": "z72tjb_3tss",
+          "url": "https://unsplash.com/photos/modern-high-rise-building-with-balconies-and-greenery-z72tjb_3tss",
+          "description": "Modern high-rise building with balconies and greenery",
+          "photographer": "Aalo Lens",
+          "tags": ["architecture", "real estate", "luxury", "green architecture", "modern"]
+        },
+        {
+          "photo_id": "R_qmjlyOceg",
+          "url": "https://unsplash.com/photos/modern-office-building-interior-3d-rendering-concept-R_qmjlyOceg",
+          "description": "Modern office building interior - 3D rendering concept",
+          "photographer": "Getty Images",
+          "tags": ["office", "interior", "modern", "architecture", "3D render"]
+        },
+        {
+          "photo_id": "E_yW_QowsSk",
+          "url": "https://unsplash.com/photos/white-tower-next-to-modern-buildings-under-blue-sky-E_yW_QowsSk",
+          "description": "White tower next to modern buildings under blue sky",
+          "photographer": "Steffen Schubert",
+          "tags": ["tower", "modern", "architecture", "buildings", "sky"]
+        },
+        {
+          "photo_id": "5Nyjw-CNypU",
+          "url": "https://unsplash.com/photos/5Nyjw-CNypU",
+          "description": "Building, glass, window and skyscraper in New York",
+          "photographer": "Maxim Melnikov",
+          "tags": ["skyscraper", "glass", "building", "architecture", "New York"]
+        },
+        {
+          "photo_id": "sVxO8xArW1c",
+          "url": "https://unsplash.com/photos/a-tall-glass-building-in-a-city-sVxO8xArW1c",
+          "description": "Tall glass building in a city - Top of The Rock view",
+          "photographer": "David Vives",
+          "tags": ["skyscraper", "glass", "city", "New York", "architecture"]
+        },
+        {
+          "photo_id": "Lz2_rMbch0o",
+          "url": "https://unsplash.com/photos/modern-skyscraper-with-curved-glass-facade-at-night-Lz2_rMbch0o",
+          "description": "Modern skyscraper with curved glass facade at night",
+          "photographer": "U Lo",
+          "tags": ["skyscraper", "night", "glass", "modern", "architecture"]
+        },
+        {
+          "photo_id": "_fzSGU8AJqM",
+          "url": "https://unsplash.com/photos/looking-up-at-skyscrapers-from-the-ground-_fzSGU8AJqM",
+          "description": "Looking up at skyscrapers from the ground in Toronto",
+          "photographer": "Clark Van Der Beken",
+          "tags": ["skyscrapers", "architecture", "urban", "Toronto", "buildings"]
+        },
+        {
+          "photo_id": "6eKhHytMc6M",
+          "url": "https://unsplash.com/photos/pointed-high-rise-glass-building-6eKhHytMc6M",
+          "description": "Pointed high-rise glass building in London",
+          "photographer": "Simone Mascellari",
+          "tags": ["skyscraper", "glass", "London", "architecture", "building"]
+        },
+        {
+          "photo_id": "G5VXBoEB1AY",
+          "url": "https://unsplash.com/photos/modern-skyscraper-with-glass-windows-against-sky-G5VXBoEB1AY",
+          "description": "Modern skyscraper with glass windows against sky - One Park West Liverpool",
+          "photographer": "Mike Hindle",
+          "tags": ["skyscraper", "modern", "glass", "architecture", "office"]
+        },
+        {
+          "photo_id": "Lp3L3ZP_y3g",
+          "url": "https://unsplash.com/photos/modern-skyscraper-with-glass-facade-against-sky-Lp3L3ZP_y3g",
+          "description": "Modern skyscraper with glass facade against sky in New York",
+          "photographer": "Rafael Garcin",
+          "tags": ["skyscraper", "glass", "cityscape", "office building", "New York"]
+        },
+        {
+          "photo_id": "WLo5xdAvuHo",
+          "url": "https://unsplash.com/photos/WLo5xdAvuHo",
+          "description": "People crossing in front of high-rise buildings - Toronto financial district",
+          "photographer": "alex",
+          "tags": ["Toronto", "financial district", "skyscraper", "urban", "buildings"]
+        },
+        {
+          "photo_id": "qNChJd-MhRs",
+          "url": "https://unsplash.com/photos/a-construction-worker-working-on-a-building-under-construction-qNChJd-MhRs",
+          "description": "Construction worker working on building under construction",
+          "photographer": "Unknown",
+          "tags": ["construction", "worker", "building", "development", "hard hat"]
+        },
+        {
+          "photo_id": "NMrUtSA7094",
+          "url": "https://unsplash.com/photos/aerial-view-of-high-rise-buildings-NMrUtSA7094",
+          "description": "Aerial view of high-rise buildings - construction site",
+          "photographer": "CHUTTERSNAP",
+          "tags": ["construction", "aerial", "buildings", "crane", "development"]
+        },
+        {
+          "photo_id": "qvBYnMuNJ9A",
+          "url": "https://unsplash.com/photos/people-working-on-building-during-daytime-qvBYnMuNJ9A",
+          "description": "People working on building during daytime in Costa Rica",
+          "photographer": "Josue Isai Ramos Figueroa",
+          "tags": ["construction", "workers", "building", "daytime", "development"]
+        },
+        {
+          "photo_id": "-7ip4yX5P6Q",
+          "url": "https://unsplash.com/photos/aerial-photography-of-building-construction--7ip4yX5P6Q",
+          "description": "Aerial photography of building construction in London",
+          "photographer": "Jamie Street",
+          "tags": ["construction", "aerial", "building", "urban", "development"]
+        },
+        {
+          "photo_id": "shCuG0EOZnE",
+          "url": "https://unsplash.com/photos/aerial-view-of-construction-site-between-buildings-shCuG0EOZnE",
+          "description": "Aerial view of construction site between buildings in Ghent",
+          "photographer": "Eduard Delputte",
+          "tags": ["construction", "aerial", "development", "renovation", "urban"]
+        },
+        {
+          "photo_id": "cdjmbPwwkyM",
+          "url": "https://unsplash.com/photos/luxury-home-features-a-beautiful-pool-cdjmbPwwkyM",
+          "description": "Luxury home with beautiful pool",
+          "photographer": "Luis Redondo",
+          "tags": ["luxury", "home", "pool", "real estate", "residential"]
+        },
+        {
+          "photo_id": "WaC-JFfF21M",
+          "url": "https://unsplash.com/photos/a-modern-house-with-a-pool-and-lounge-chairs-WaC-JFfF21M",
+          "description": "Modern house with pool and lounge chairs",
+          "photographer": "Salman Saqib",
+          "tags": ["modern", "house", "pool", "luxury", "3D render"]
+        },
+        {
+          "photo_id": "Y3RO2y6HQ08",
+          "url": "https://unsplash.com/photos/modern-home-with-a-pool-Y3RO2y6HQ08",
+          "description": "Modern home with pool - luxury real estate 3D render",
+          "photographer": "Hartono Creative Studio",
+          "tags": ["luxury", "real estate", "modern", "pool", "3D render"]
+        },
+        {
+          "photo_id": "VKHLM_zROG4",
+          "url": "https://unsplash.com/photos/a-living-room-filled-with-furniture-and-a-fire-place-VKHLM_zROG4",
+          "description": "Luxury living room with furniture and fireplace",
+          "photographer": "Lotus Design N Print",
+          "tags": ["luxury", "interior", "living room", "modern", "fireplace"]
+        },
+        {
+          "photo_id": "OROCo-Rg8J4",
+          "url": "https://unsplash.com/photos/a-tall-building-in-the-middle-of-a-city-OROCo-Rg8J4",
+          "description": "Tall apartment building in the middle of a city",
+          "photographer": "sq lim",
+          "tags": ["apartment", "building", "city", "residential", "urban"]
+        },
+        {
+          "photo_id": "mD2atAC5GxE",
+          "url": "https://unsplash.com/photos/a-spacious-empty-room-with-a-large-window-mD2atAC5GxE",
+          "description": "Spacious empty room with large window - unfurnished apartment interior",
+          "photographer": "Unknown",
+          "tags": ["apartment", "interior", "real estate", "empty", "window"]
+        }
+      ]
+    },
+    "ciudades_mexicanas": {
+      "category_name": "Ciudades Mexicanas",
+      "description": "Ciudad de Mexico, Queretaro, Guadalajara, Monterrey, Puebla, Pachuca - monumentos, arquitectura, vistas urbanas",
+      "image_count": 30,
+      "images": [
+        {
+          "photo_id": "nKOvyhHXT34",
+          "url": "https://unsplash.com/photos/a-city-skyline-with-tall-buildings-and-a-cloudy-sky-nKOvyhHXT34",
+          "description": "Mexico City skyline - Colonia Condesa looking towards Paseo de la Reforma towers",
+          "photographer": "Carl Campbell",
+          "location": "Ciudad de Mexico",
+          "tags": ["CDMX", "skyline", "Reforma", "cityscape", "urban"]
+        },
+        {
+          "photo_id": "CFB20Nc9t3A",
+          "url": "https://unsplash.com/photos/the-angel-of-independence-stands-in-mexico-city-CFB20Nc9t3A",
+          "description": "Angel of Independence stands in Mexico City",
+          "photographer": "Gus Espinosa",
+          "location": "Ciudad de Mexico",
+          "tags": ["Angel de la Independencia", "monument", "Reforma", "CDMX", "landmark"]
+        },
+        {
+          "photo_id": "OuLdpY3y0d4",
+          "url": "https://unsplash.com/photos/a-statue-with-a-golden-angel-on-top-of-it-OuLdpY3y0d4",
+          "description": "Statue with golden angel on top - Angel of Independence",
+          "photographer": "Allan Francis",
+          "location": "Ciudad de Mexico",
+          "tags": ["Angel de la Independencia", "golden", "monument", "CDMX", "landmark"]
+        },
+        {
+          "photo_id": "YFC2F_DY09M",
+          "url": "https://unsplash.com/photos/a-close-up-of-a-colorful-dragon-statue-YFC2F_DY09M",
+          "description": "Colorful dragon statue - Alebrije near Angel de la Independencia",
+          "photographer": "Miguel Angel Avila",
+          "location": "Ciudad de Mexico",
+          "tags": ["alebrije", "festival", "CDMX", "culture", "colorful"]
+        },
+        {
+          "photo_id": "M4QqZBt1t00",
+          "url": "https://unsplash.com/photos/a-view-of-a-city-from-an-airplane-window-M4QqZBt1t00",
+          "description": "Aerial view of Mexico City from airplane window",
+          "photographer": "stephan hinni",
+          "location": "Ciudad de Mexico",
+          "tags": ["CDMX", "aerial", "airplane", "cityscape", "urban"]
+        },
+        {
+          "photo_id": "ny8NHXepNV8",
+          "url": "https://unsplash.com/photos/palacio-de-bellas-artes-ny8NHXepNV8",
+          "description": "Palacio de Bellas Artes",
+          "photographer": "David Villasana",
+          "location": "Ciudad de Mexico",
+          "tags": ["Bellas Artes", "palace", "architecture", "CDMX", "landmark"]
+        },
+        {
+          "photo_id": "cBUNvxfMShI",
+          "url": "https://unsplash.com/photos/people-walking-near-palacio-de-bellas-artes-in-mexico-city-under-white-and-blue-sky-during-daytime-cBUNvxfMShI",
+          "description": "People walking near Palacio de Bellas Artes under blue sky",
+          "photographer": "Samuel Reyes",
+          "location": "Ciudad de Mexico",
+          "tags": ["Bellas Artes", "people", "daytime", "CDMX", "architecture"]
+        },
+        {
+          "photo_id": "qLRO42v3F5M",
+          "url": "https://unsplash.com/photos/qLRO42v3F5M",
+          "description": "Red bus crosses in front of Palacio de Bellas Artes",
+          "photographer": "Mike Bacos",
+          "location": "Ciudad de Mexico",
+          "tags": ["Bellas Artes", "bus", "street", "CDMX", "tourism"]
+        },
+        {
+          "photo_id": "FZU-vIW-lk8",
+          "url": "https://unsplash.com/photos/people-gathered-around-gray-concrete-building-FZU-vIW-lk8",
+          "description": "People gathered around Bellas Artes at sunset",
+          "photographer": "david carballar",
+          "location": "Ciudad de Mexico",
+          "tags": ["Bellas Artes", "sunset", "plaza", "CDMX", "people"]
+        },
+        {
+          "photo_id": "oGRrpBX2ER4",
+          "url": "https://unsplash.com/photos/aerial-photo-of-dome-building-under-blue-sky-at-daytime-oGRrpBX2ER4",
+          "description": "Aerial photo of dome building under blue sky",
+          "photographer": "Carlos Aguilar",
+          "location": "Ciudad de Mexico",
+          "tags": ["dome", "aerial", "architecture", "CDMX", "building"]
+        },
+        {
+          "photo_id": "WkYtVZCMzgA",
+          "url": "https://unsplash.com/photos/birds-eye-photography-of-city-WkYtVZCMzgA",
+          "description": "Bird's eye photography of Mexico City",
+          "photographer": "Unknown",
+          "location": "Ciudad de Mexico",
+          "tags": ["aerial", "cityscape", "CDMX", "urban", "panoramic"]
+        },
+        {
+          "photo_id": "a1Mrycbix-w",
+          "url": "https://unsplash.com/photos/aerial-view-of-city-during-daytime-a1Mrycbix-w",
+          "description": "Aerial view of city during daytime",
+          "photographer": "Unknown",
+          "location": "Ciudad de Mexico",
+          "tags": ["aerial", "daytime", "CDMX", "urban", "cityscape"]
+        },
+        {
+          "photo_id": "wzWQ_D-5cTs",
+          "url": "https://unsplash.com/photos/a-large-cathedral-with-a-clock-on-the-front-of-it-wzWQ_D-5cTs",
+          "description": "Gothic Cathedral with pineapple fountain - Guadalajara Cathedral",
+          "photographer": "Wonderlane",
+          "location": "Guadalajara",
+          "tags": ["cathedral", "Guadalajara", "architecture", "church", "colonial"]
+        },
+        {
+          "photo_id": "cGOkS_UvttU",
+          "url": "https://unsplash.com/photos/people-near-water-fountain-cGOkS_UvttU",
+          "description": "Plaza de la Liberacion, Guadalajara - people near water fountain",
+          "photographer": "Roman Lopez",
+          "location": "Guadalajara",
+          "tags": ["Guadalajara", "plaza", "fountain", "people", "urban"]
+        },
+        {
+          "photo_id": "QKrLdkoYDrc",
+          "url": "https://unsplash.com/photos/low-angle-photo-of-temple-QKrLdkoYDrc",
+          "description": "Church at colonial town of Valladolid, Mexico",
+          "photographer": "Filip Gielda",
+          "location": "Mexico Colonial",
+          "tags": ["church", "colonial", "Mexico", "architecture", "flags"]
+        },
+        {
+          "photo_id": "1_e1V6Kqqks",
+          "url": "https://unsplash.com/photos/people-walking-on-sidewalk-near-buildings-during-daytime-1_e1V6Kqqks",
+          "description": "People walking on sidewalk near buildings - colonial Mexico",
+          "photographer": "Unknown",
+          "location": "Queretaro",
+          "tags": ["Queretaro", "colonial", "street", "people", "architecture"]
+        },
+        {
+          "photo_id": "H60r6cRvWAM",
+          "url": "https://unsplash.com/photos/skyline-of-manhattan-new-york-downtown-financial-district-on-a-clear-sky-day-view-from-dumbo-with-brooklyn-bridge-and-river-H60r6cRvWAM",
+          "description": "Skyline of Manhattan - Downtown Financial District (reference for modern city imagery)",
+          "photographer": "Getty Images",
+          "location": "Reference - Modern City",
+          "tags": ["skyline", "financial district", "modern", "cityscape", "reference"]
+        },
+        {
+          "photo_id": "IfmO3IJ1j_8",
+          "url": "https://unsplash.com/photos/macro-of-skyscrapers-windows-that-are-framed-by-light-in-honeycomb-pattern-IfmO3IJ1j_8",
+          "description": "Macro of skyscraper windows in honeycomb pattern",
+          "photographer": "CHUTTERSNAP",
+          "location": "Modern Architecture",
+          "tags": ["skyscraper", "windows", "pattern", "architecture", "modern"]
+        },
+        {
+          "photo_id": "mviR-sX9rXg",
+          "url": "https://unsplash.com/photos/a-view-of-a-city-from-a-high-rise-building-mviR-sX9rXg",
+          "description": "View of city from high rise building - Hiranandani development with neoclassical architecture",
+          "photographer": "Unknown",
+          "location": "Modern Development Reference",
+          "tags": ["cityscape", "skyscraper", "development", "urban planning", "architecture"]
+        },
+        {
+          "photo_id": "mcf6tqgRe2Y",
+          "url": "https://unsplash.com/photos/a-black-and-white-photo-of-a-building-mcf6tqgRe2Y",
+          "description": "Black and white photo of Mexico City building",
+          "photographer": "odin reyna",
+          "location": "Ciudad de Mexico",
+          "tags": ["CDMX", "black and white", "architecture", "building", "urban"]
+        },
+        {
+          "photo_id": "l4Ztuy0-eU8",
+          "url": "https://unsplash.com/photos/aerial-view-of-city-buildings-during-daytime-l4Ztuy0-eU8",
+          "description": "Aerial view of city buildings during daytime in Mexico",
+          "photographer": "Unknown",
+          "location": "Ciudad de Mexico",
+          "tags": ["aerial", "buildings", "CDMX", "urban", "cityscape"]
+        },
+        {
+          "photo_id": "sc4gftGYycc",
+          "url": "https://unsplash.com/photos/a-scenic-view-of-a-beautiful-city-sc4gftGYycc",
+          "description": "Scenic view of a beautiful city",
+          "photographer": "Unknown",
+          "location": "Mexican City",
+          "tags": ["scenic", "city", "beautiful", "urban", "panoramic"]
+        },
+        {
+          "photo_id": "tgY-oJee-BA",
+          "url": "https://unsplash.com/photos/a-black-and-white-photo-of-a-city-at-night-tgY-oJee-BA",
+          "description": "Black and white photo of a city at night",
+          "photographer": "Unknown",
+          "location": "Mexican City",
+          "tags": ["night", "city", "black and white", "urban", "lights"]
+        },
+        {
+          "photo_id": "yfTSNbggFyE",
+          "url": "https://unsplash.com/photos/a-crane-is-lifting-a-container-onto-a-truck-yfTSNbggFyE",
+          "description": "Crane lifting container - China Shipping (industrial/logistics reference)",
+          "photographer": "Bernd Dittrich",
+          "location": "Industrial Reference",
+          "tags": ["crane", "container", "shipping", "logistics", "industrial"]
+        },
+        {
+          "photo_id": "J2pFaFSplUE",
+          "url": "https://unsplash.com/photos/a-cargo-ship-being-loaded-by-a-massive-crane-J2pFaFSplUE",
+          "description": "Cargo ship being loaded by massive crane - Megamax container freighters",
+          "photographer": "Walter Frehner",
+          "location": "Port Reference",
+          "tags": ["cargo", "ship", "crane", "port", "logistics"]
+        },
+        {
+          "photo_id": "NXF9MI3zby0",
+          "url": "https://unsplash.com/photos/shipping-containers-stacked-on-a-cargo-ship-NXF9MI3zby0",
+          "description": "Shipping containers stacked on cargo ship - 24,000 containers",
+          "photographer": "Walter Frehner",
+          "location": "Port Reference",
+          "tags": ["containers", "cargo", "ship", "shipping", "logistics"]
+        },
+        {
+          "photo_id": "duKI9Bhd2zc",
+          "url": "https://unsplash.com/photos/cargo-cranes-loading-shipping-containers-onto-a-large-vessel-duKI9Bhd2zc",
+          "description": "Cargo cranes loading shipping containers onto large vessel",
+          "photographer": "Wolfgang Weiser",
+          "location": "Port Reference",
+          "tags": ["crane", "containers", "cargo", "port", "logistics"]
+        },
+        {
+          "photo_id": "SoJc04BHUdU",
+          "url": "https://unsplash.com/photos/a-forklift-is-moving-a-large-stack-of-shipping-containers-SoJc04BHUdU",
+          "description": "Forklift moving large stack of shipping containers",
+          "photographer": "PortCalls Asia",
+          "location": "Port Reference",
+          "tags": ["forklift", "containers", "cargo", "export", "logistics"]
+        },
+        {
+          "photo_id": "HU6uYbDnDSM",
+          "url": "https://unsplash.com/photos/a-row-of-apartment-buildings-next-to-a-body-of-water-HU6uYbDnDSM",
+          "description": "Row of apartment buildings next to water - townhouses",
+          "photographer": "Gary Cole",
+          "location": "Urban Development Reference",
+          "tags": ["townhouse", "waterfront", "residential", "development", "urban"]
+        },
+        {
+          "photo_id": "6yIM4DTOTQs",
+          "url": "https://unsplash.com/photos/an-empty-room-with-a-balcony-and-a-view-of-the-city-6yIM4DTOTQs",
+          "description": "Empty room with balcony and city view",
+          "photographer": "Behnam Norouzi",
+          "location": "Urban Interior Reference",
+          "tags": ["apartment", "balcony", "city view", "interior", "real estate"]
+        }
+      ]
+    },
+    "tendencias_tecnologia": {
+      "category_name": "Tendencias / Tecnologia",
+      "description": "Inteligencia Artificial, Machine Learning, Innovacion tecnologica, Futuro digital",
+      "image_count": 22,
+      "images": [
+        {
+          "photo_id": "yl5w9DbPzu0",
+          "url": "https://unsplash.com/photos/robot-in-a-modern-futuristic-room-ai-and-technology-concept-this-is-a-3d-render-illustration-yl5w9DbPzu0",
+          "description": "Robot in modern futuristic room - AI and technology concept",
+          "photographer": "Getty Images",
+          "tags": ["AI", "robot", "futuristic", "technology", "3D render"]
+        },
+        {
+          "photo_id": "o7kBYp6Y2Qw",
+          "url": "https://unsplash.com/photos/miniature-futuristic-city-with-a-drone-and-robot-o7kBYp6Y2Qw",
+          "description": "Miniature futuristic city with drone and robot",
+          "photographer": "Galina Nelyubova",
+          "tags": ["future", "robot", "drone", "city", "innovation"]
+        },
+        {
+          "photo_id": "lUSFeh77gcs",
+          "url": "https://unsplash.com/photos/futuristic-robot-in-front-of-screens-with-data-information-artificial-intelligence-and-computing-concept-this-is-a-3d-render-illustration-lUSFeh77gcs",
+          "description": "Futuristic robot in front of screens with data - AI and computing concept",
+          "photographer": "Getty Images",
+          "tags": ["AI", "robot", "data", "computing", "automation"]
+        },
+        {
+          "photo_id": "5sxzRGBOCsI",
+          "url": "https://unsplash.com/photos/5sxzRGBOCsI",
+          "description": "Concrete robot on futuristic structure with neon lights",
+          "photographer": "Getty Images",
+          "tags": ["robot", "futuristic", "neon", "AI", "innovation"]
+        },
+        {
+          "photo_id": "hhepU0ZY7bo",
+          "url": "https://unsplash.com/photos/a-metallic-robot-sits-on-a-white-chair-hhepU0ZY7bo",
+          "description": "Metallic robot sits on white chair",
+          "photographer": "Declan Sun",
+          "tags": ["robot", "AI", "technology", "future", "metallic"]
+        },
+        {
+          "photo_id": "71MIjXXPyaM",
+          "url": "https://unsplash.com/photos/a-white-robot-with-glowing-blue-eyes-pointing-at-something-71MIjXXPyaM",
+          "description": "White robot with glowing blue eyes pointing",
+          "photographer": "Sumaid pal Singh Bakshi",
+          "tags": ["robot", "AI", "cyberpunk", "future", "technology"]
+        },
+        {
+          "photo_id": "mxTpt5gEK10",
+          "url": "https://unsplash.com/photos/futuristic-robot-with-glowing-circuits-in-a-science-laboratory-cyberspace-and-technology-concept-this-is-a-3d-illustration-mxTpt5gEK10",
+          "description": "Futuristic robot with glowing circuits in science laboratory",
+          "photographer": "Getty Images",
+          "tags": ["robot", "AI", "laboratory", "circuits", "cyberspace"]
+        },
+        {
+          "photo_id": "khHs6rdee7I",
+          "url": "https://unsplash.com/photos/white-and-black-coffee-maker-khHs6rdee7I",
+          "description": "AILA humanoid robot at Futurium Berlin",
+          "photographer": "Unknown",
+          "tags": ["robot", "AI", "humanoid", "DFKI", "Futurium"]
+        },
+        {
+          "photo_id": "eZWGK5sIiBM",
+          "url": "https://unsplash.com/photos/person-in-orange-and-white-robot-costume-eZWGK5sIiBM",
+          "description": "Honda ASIMO humanoid robot at Miraikan museum Tokyo",
+          "photographer": "Unknown",
+          "tags": ["ASIMO", "Honda", "robot", "humanoid", "Japan"]
+        },
+        {
+          "photo_id": "FaP7jIwgoE0",
+          "url": "https://unsplash.com/photos/a-futuristic-lab-with-technology-and-robotics-FaP7jIwgoE0",
+          "description": "Futuristic lab with technology and robotics",
+          "photographer": "Sumaid pal Singh Bakshi",
+          "tags": ["lab", "robotics", "technology", "futuristic", "3D render"]
+        },
+        {
+          "photo_id": "eJ6PZLvQ3DA",
+          "url": "https://unsplash.com/photos/a-black-and-white-photo-of-a-brain-eJ6PZLvQ3DA",
+          "description": "Black and white photo of brain - neural network concept",
+          "photographer": "Mariia Shalabaieva",
+          "tags": ["brain", "neural network", "deep learning", "cognitive", "AI"]
+        },
+        {
+          "photo_id": "aESkj28Ub0Y",
+          "url": "https://unsplash.com/photos/a-computer-generated-image-of-a-human-brain-aESkj28Ub0Y",
+          "description": "Computer generated image of human brain",
+          "photographer": "George C",
+          "tags": ["brain", "AI", "neuralink", "brainwaves", "technology"]
+        },
+        {
+          "photo_id": "uiPIVQVt38Y",
+          "url": "https://unsplash.com/photos/a-computer-generated-image-of-a-purple-brain-uiPIVQVt38Y",
+          "description": "Computer generated image of purple brain - deep learning",
+          "photographer": "Mariia Shalabaieva",
+          "tags": ["brain", "deep learning", "AI", "cognitive", "technology"]
+        },
+        {
+          "photo_id": "1I_FQ-KoKC8",
+          "url": "https://unsplash.com/photos/digital-rendering-of-a-neural-network-or-ai-brain-concept-using-glowing-blue-lines-and-a-sunrise-like-light-burst-for-a-futuristic-and-high-tech-visual-1I_FQ-KoKC8",
+          "description": "Digital rendering of neural network AI brain concept with glowing blue lines",
+          "photographer": "Getty Images",
+          "tags": ["neural network", "AI", "brain", "futuristic", "digital"]
+        },
+        {
+          "photo_id": "7zBfueafrVI",
+          "url": "https://unsplash.com/photos/artificial-intelligence-and-human-brain-concept-7zBfueafrVI",
+          "description": "Artificial intelligence and human brain concept - minimalist",
+          "photographer": "Alex Shuper",
+          "tags": ["AI", "brain", "minimalist", "concept", "creativity"]
+        },
+        {
+          "photo_id": "_0iV9LmPDn0",
+          "url": "https://unsplash.com/photos/a-computer-circuit-board-with-a-brain-on-it-_0iV9LmPDn0",
+          "description": "Computer circuit board with brain - technology future",
+          "photographer": "Steve Johnson",
+          "tags": ["circuit", "brain", "technology", "future", "AI"]
+        },
+        {
+          "photo_id": "ivXtIm4ZegE",
+          "url": "https://unsplash.com/photos/futuristic-city-skyline-with-digital-network-overlay-ivXtIm4ZegE",
+          "description": "Futuristic city skyline with digital network overlay - Smart City",
+          "photographer": "Unknown",
+          "tags": ["smart city", "IoT", "digital", "network", "futuristic"]
+        },
+        {
+          "photo_id": "c_9hxoCuWx0",
+          "url": "https://unsplash.com/photos/modern-city-skyline-with-glowing-digital-network-overlay-c_9hxoCuWx0",
+          "description": "Modern city skyline with glowing digital network overlay",
+          "photographer": "Unknown",
+          "tags": ["smart city", "IoT", "digital transformation", "network", "innovation"]
+        },
+        {
+          "photo_id": "sHoitMpbE5I",
+          "url": "https://unsplash.com/photos/a-digital-rendering-of-a-futuristic-city-sHoitMpbE5I",
+          "description": "Digital rendering of futuristic city - Google DeepMind AI visualization",
+          "photographer": "Linus Zoll / Google DeepMind",
+          "tags": ["AI", "futuristic", "city", "DeepMind", "visualization"]
+        },
+        {
+          "photo_id": "luS1ddlfz_4",
+          "url": "https://unsplash.com/photos/astronaut-walks-in-a-futuristic-city-during-night-smart-city-and-innovation-concept-this-is-a-3d-render-illustration-luS1ddlfz_4",
+          "description": "Astronaut walks in futuristic city at night - smart city innovation concept",
+          "photographer": "Unknown",
+          "tags": ["smart city", "astronaut", "futuristic", "innovation", "3D render"]
+        },
+        {
+          "photo_id": "6CFMOMVAdoo",
+          "url": "https://unsplash.com/photos/a-square-of-aluminum-is-resting-on-glass-6CFMOMVAdoo",
+          "description": "Futuristic AI microchip - technology innovation digital transformation",
+          "photographer": "Omar Lopez-Rincon",
+          "tags": ["microchip", "AI", "innovation", "digital transformation", "technology"]
+        },
+        {
+          "photo_id": "dA0-qxdbyyY",
+          "url": "https://unsplash.com/photos/a-futuristic-city-at-night-with-neon-lights-dA0-qxdbyyY",
+          "description": "Futuristic city at night with neon lights - cyberpunk aesthetic",
+          "photographer": "Unknown",
+          "tags": ["cyberpunk", "neon", "futuristic", "city", "night"]
+        }
+      ]
+    }
+  },
+  "usage_notes": {
+    "how_to_use": "Para usar estas imagenes en tu proyecto, utiliza el photo_id para construir URLs de Unsplash. Ejemplo: https://unsplash.com/photos/{photo_id}",
+    "api_usage": "Para integracion con API, usa: https://source.unsplash.com/{photo_id}/{width}x{height}",
+    "attribution": "Aunque Unsplash no requiere atribucion, es recomendable dar credito al fotografo cuando sea posible",
+    "license_info": "Todas las imagenes estan bajo la licencia Unsplash - gratuitas para uso comercial y personal"
+  }
+}
