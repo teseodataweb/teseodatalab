@@ -50,7 +50,7 @@ import {
 import { Helmet } from 'react-helmet-async'
 
 // URL del Google Apps Script (configurar después de crear el script)
-const GOOGLE_SCRIPT_URL = 'TU_GOOGLE_APPS_SCRIPT_URL_AQUI'
+const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbyO4xJRHD2rIU6NJQmVPs6t5iUVcis7LL-3AlN2PlkIxAd6-17WAuzxOStnv3C_28k_/exec'
 
 // Animaciones reutilizables
 const fadeInUp = {
