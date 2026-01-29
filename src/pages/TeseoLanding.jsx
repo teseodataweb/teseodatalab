@@ -370,10 +370,10 @@ export default function TeseoLanding() {
 
   // Hero Section Data
   const heroStats = [
-    { value: '18+', label: 'Años de Experiencia', icon: Trophy },
-    { value: '3M+', label: 'Puntos de Datos', icon: Database },
-    { value: '50+', label: 'Bases de Datos', icon: Boxes },
-    { value: '130+', label: 'Proyectos Completados', icon: Target }
+    { value: '+18', label: 'Años de Experiencia', icon: Trophy },
+    { value: '+3M', label: 'Puntos de Datos', icon: Database },
+    { value: '+50', label: 'Bases de Datos', icon: Boxes },
+    { value: '+130', label: 'Proyectos Completados', icon: Target }
   ]
 
   // Services Data - Teseo Core Services
@@ -1396,12 +1396,14 @@ export default function TeseoLanding() {
                 <ArrowRight size={20} />
               </motion.a>
               <motion.a
-                href="tel:7713649201"
+                href="https://wa.me/527713649201"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="btn-secondary px-8 py-4 text-lg inline-flex items-center gap-2"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
-                <span>771 364 9201</span>
+                <span>Atención por WhatsApp</span>
               </motion.a>
             </motion.div>
           </div>
