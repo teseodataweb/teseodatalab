@@ -26,6 +26,10 @@ import {
   Legend,
   ResponsiveContainer
 } from 'recharts'
+import { BsFillBuildingsFill } from "react-icons/bs";
+import { LuFactory } from "react-icons/lu";
+import { FaHammer } from "react-icons/fa";
+import { FaShoppingCart } from "react-icons/fa";
 
 // Componente de Red de Nodos para el Hero - Optimizado para móvil
 const DataNetworkBackground = () => {
@@ -2115,10 +2119,10 @@ export default function TeseoLanding() {
               <div className="pl-16">
                 <ul className="space-y-3 mt-4">
                   {[
-                    { sector: 'Bienes Raíces', icon: '🏗️', example: 'Desarrollo inmobiliario' },
-                    { sector: 'Manufactura', icon: '🏭', example: 'Nearshoring & expansión' },
-                    { sector: 'Construcción', icon: '🧱', example: 'Mercado de concreto' },
-                    { sector: 'Retail', icon: '🛍️', example: 'Prospección comercial' }
+                    { sector: 'Bienes Raíces', icon: <BsFillBuildingsFill />, example: 'Desarrollo inmobiliario' },
+                    { sector: 'Manufactura', icon: <LuFactory />, example: 'Nearshoring & expansión' },
+                    { sector: 'Construcción', icon: <FaHammer />, example: 'Mercado de concreto' },
+                    { sector: 'Retail', icon: <FaShoppingCart />, example: 'Prospección comercial' }
                   ].map((item, i) => (
                     <li key={i} className="flex items-center gap-2 text-industrial-200">
                       <span className="text-2xl">{item.icon}</span>
