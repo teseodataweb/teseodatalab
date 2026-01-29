@@ -963,77 +963,539 @@ export default function TeseoLanding() {
     // Sección 1: Precios y Modelo de Negocio
     {
       question: '¿Cuánto cuesta un análisis de Teseo Data Lab?',
-      answer: 'Modelo de pricing flat por proyecto: (1) Análisis de Inversión Inmobiliaria: $150K MXN, (2) Análisis Data-Econométrico de Expansión: $280K MXN, (3) Estudio de Mercado: $200K MXN, (4) Análisis de Mercado Industrial: $350K MXN, (5) Lead Journey Mapping: $120K MXN, (6) Agente Vertical IA: $0 inicial con revenue share 12-18% sobre ventas generadas. Sin mensualidades. Todos incluyen: reporte completo, código fuente, dashboard interactivo, y sesión Q&A.'
+      answer: (
+        <div className="space-y-4">
+          <p className="text-industrial-300">
+            Modelo de pricing flat por proyecto según tipo de servicio:
+          </p>
+          <ul className="space-y-2 list-disc list-inside text-industrial-300">
+            <li><span className="font-semibold text-white">Análisis de Inversión Inmobiliaria:</span> $150K MXN</li>
+            <li><span className="font-semibold text-white">Análisis Data-Econométrico de Expansión:</span> $280K MXN</li>
+            <li><span className="font-semibold text-white">Estudio de Mercado:</span> $200K MXN</li>
+            <li><span className="font-semibold text-white">Análisis de Mercado Industrial:</span> $350K MXN</li>
+            <li><span className="font-semibold text-white">Lead Journey Mapping:</span> $120K MXN</li>
+            <li><span className="font-semibold text-white">Agente Vertical IA:</span> $0 inicial con revenue share 12-18% sobre ventas generadas</li>
+          </ul>
+          <div className="p-4 bg-teseo-500/10 border border-teseo-500/30 rounded-lg mt-4">
+            <p className="text-sm text-industrial-300">
+              <span className="font-semibold text-white">Sin mensualidades.</span> Todos incluyen: reporte completo, código fuente, dashboard interactivo, y sesión Q&A.
+            </p>
+          </div>
+        </div>
+      )
     },
     {
       question: '¿Cómo funciona el pago? ¿Hay mensualidades o es pago único?',
-      answer: 'Modelo flat de pago único por proyecto. Sin mensualidades ni retainers. Para Agente Vertical ofrecemos modelo revenue share (porcentaje de ventas generadas) sin costo inicial. Esquema de pago: 50% al inicio del proyecto / 50% en entrega final. Aceptamos transferencia bancaria y facturamos con RFC. Incluimos 30-60 días de soporte post-entrega según servicio.'
+      answer: (
+        <div className="space-y-4">
+          <div className="grid md:grid-cols-2 gap-4">
+            <div className="p-4 bg-industrial-800/50 rounded-lg">
+              <h4 className="font-semibold text-white mb-3">Proyectos One-Time</h4>
+              <ul className="space-y-2 list-disc list-inside text-sm text-industrial-300">
+                <li>Pago único (sin mensualidades)</li>
+                <li>50% al inicio del proyecto</li>
+                <li>50% en entrega final</li>
+                <li>30-60 días soporte incluido</li>
+              </ul>
+            </div>
+            <div className="p-4 bg-tech-500/10 rounded-lg">
+              <h4 className="font-semibold text-white mb-3">Agente Vertical IA</h4>
+              <ul className="space-y-2 list-disc list-inside text-sm text-industrial-300">
+                <li>Sin costo inicial</li>
+                <li>Revenue share: % de ventas generadas</li>
+                <li>Soporte continuo incluido</li>
+                <li>Actualizaciones mensuales automáticas</li>
+              </ul>
+            </div>
+          </div>
+          <div className="p-4 bg-success-500/10 border border-success-500/30 rounded-lg">
+            <p className="text-sm text-industrial-300">
+              <span className="font-semibold text-white">Medios de pago:</span> Transferencia bancaria, facturamos con RFC. Aceptamos empresas e individuos.
+            </p>
+          </div>
+        </div>
+      )
     },
     {
       question: '¿En qué se diferencia Teseo de consultoras tradicionales?',
-      answer: 'Diferencias clave: (1) Entregamos código fuente y modelos ejecutables (no solo PowerPoint), (2) Dashboards interactivos en tiempo real que TÚ puedes actualizar, (3) Validación estadística rigurosa (R² > 0.85 garantizado), (4) Pricing transparente sin retainers mensuales, (5) Equipo técnico (Data Scientists con maestría, no solo consultores MBA), (6) Revenue share disponible sin costo inicial, (7) 18+ años de experiencia con resultados comprobables.'
+      answer: (
+        <div className="space-y-4">
+          <p className="text-industrial-300 font-semibold">Diferenciadores clave:</p>
+          <div className="space-y-3">
+            <div className="flex gap-3">
+              <span className="text-teseo-400 font-bold flex-shrink-0">✓</span>
+              <div>
+                <p className="font-semibold text-white">Entregables Técnicos</p>
+                <p className="text-sm text-industrial-300">Código fuente y modelos ejecutables (no solo PowerPoint)</p>
+              </div>
+            </div>
+            <div className="flex gap-3">
+              <span className="text-teseo-400 font-bold flex-shrink-0">✓</span>
+              <div>
+                <p className="font-semibold text-white">Dashboards Interactivos</p>
+                <p className="text-sm text-industrial-300">Que TÚ puedes actualizar en tiempo real</p>
+              </div>
+            </div>
+            <div className="flex gap-3">
+              <span className="text-teseo-400 font-bold flex-shrink-0">✓</span>
+              <div>
+                <p className="font-semibold text-white">Validación Estadística</p>
+                <p className="text-sm text-industrial-300">Rigurosa (R² &gt; 0.85 garantizado)</p>
+              </div>
+            </div>
+            <div className="flex gap-3">
+              <span className="text-teseo-400 font-bold flex-shrink-0">✓</span>
+              <div>
+                <p className="font-semibold text-white">Pricing Transparente</p>
+                <p className="text-sm text-industrial-300">Sin retainers mensuales ni hidden costs</p>
+              </div>
+            </div>
+            <div className="flex gap-3">
+              <span className="text-teseo-400 font-bold flex-shrink-0">✓</span>
+              <div>
+                <p className="font-semibold text-white">Equipo Técnico</p>
+                <p className="text-sm text-industrial-300">Data Scientists con maestría, no solo consultores MBA</p>
+              </div>
+            </div>
+            <div className="flex gap-3">
+              <span className="text-teseo-400 font-bold flex-shrink-0">✓</span>
+              <div>
+                <p className="font-semibold text-white">Revenue Share Disponible</p>
+                <p className="text-sm text-industrial-300">Sin costo inicial para servicios de prospección</p>
+              </div>
+            </div>
+            <div className="flex gap-3">
+              <span className="text-teseo-400 font-bold flex-shrink-0">✓</span>
+              <div>
+                <p className="font-semibold text-white">Experiencia Comprobable</p>
+                <p className="text-sm text-industrial-300">18+ años con resultados verificables</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      )
     },
 
     // Sección 2: Resultados y Experiencia
     {
       question: '¿Qué resultados puedo esperar? ¿Tienen casos de éxito?',
-      answer: 'Resultados comprobados con clientes: reducción 40% en CAC, incremento 35% en conversión, ROI 12x en campañas de prospección, identificación de 25+ leads B2B calificados mensuales. Casos destacados: desarrolladora inmobiliaria aumentó velocidad de venta 28% con nuestro análisis de mercado, empresa industrial optimizó decisión de expansión ahorrando $8M MXN en inversión mal dirigida. Garantizamos métricas (R² > 0.85) o ajustamos sin costo.'
+      answer: (
+        <div className="space-y-4">
+          <p className="font-semibold text-white">Resultados comprobados con clientes:</p>
+          <ul className="space-y-2 list-disc list-inside text-industrial-300">
+            <li>Reducción 40% en CAC (Customer Acquisition Cost)</li>
+            <li>Incremento 35% en conversión de leads</li>
+            <li>ROI 12x en campañas de prospección con IA</li>
+            <li>Identificación de 25+ leads B2B calificados mensuales</li>
+          </ul>
+          <div className="p-4 bg-warning-500/10 rounded-lg border border-warning-500/20 mt-4">
+            <p className="font-semibold text-white mb-2">Casos destacados:</p>
+            <ul className="space-y-2 list-disc list-inside text-sm text-industrial-300">
+              <li>Desarrolladora inmobiliaria: aumentó velocidad de venta 28% con análisis de mercado</li>
+              <li>Empresa industrial: evitó expansión mal dirigida ahorrando $8M MXN</li>
+            </ul>
+          </div>
+          <p className="text-sm text-success-400 font-semibold">
+            ✓ Garantizamos métricas (R² &gt; 0.85) o ajustamos sin costo
+          </p>
+        </div>
+      )
     },
     {
       question: '¿Quién hace los análisis? ¿Qué experiencia tiene el equipo?',
-      answer: 'Equipo multidisciplinario: (1) Data Scientists con maestría en econometría y machine learning, (2) Analistas de mercado con 10+ años de experiencia en inteligencia comercial, (3) Ingenieros de software especializados en BI y dashboards. Operamos desde 2006 (18+ años). Equipo ha trabajado en: Deloitte, Accenture, Banco de México, Roche, y University of Massachusetts. Publicaciones en revistas académicas de econometría aplicada y análisis predictivo.'
+      answer: (
+        <div className="space-y-4">
+          <p className="font-semibold text-white">Equipo multidisciplinario:</p>
+          <ul className="space-y-3 list-disc list-inside text-industrial-300">
+            <li>
+              <span className="font-semibold text-white">Data Scientists</span> con maestría en econometría y machine learning
+            </li>
+            <li>
+              <span className="font-semibold text-white">Analistas de Mercado</span> con 10+ años de experiencia en inteligencia comercial
+            </li>
+            <li>
+              <span className="font-semibold text-white">Ingenieros de Software</span> especializados en BI y dashboards
+            </li>
+          </ul>
+          <div className="grid md:grid-cols-2 gap-4 mt-4">
+            <div className="p-4 bg-industrial-800/50 rounded-lg">
+              <p className="text-sm font-semibold text-white mb-2">Experiencia:</p>
+              <ul className="space-y-1 list-disc list-inside text-sm text-industrial-300">
+                <li>18+ años (desde 2006)</li>
+                <li>Deloitte, Accenture</li>
+                <li>Banco de México</li>
+                <li>Roche</li>
+                <li>UMass</li>
+              </ul>
+            </div>
+            <div className="p-4 bg-tech-500/10 rounded-lg">
+              <p className="text-sm font-semibold text-white mb-2">Publicaciones:</p>
+              <ul className="space-y-1 list-disc list-inside text-sm text-industrial-300">
+                <li>Revistas académicas</li>
+                <li>Econometría aplicada</li>
+                <li>Análisis predictivo</li>
+                <li>Series de tiempo</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      )
     },
 
     // Sección 3: Proceso y Timeline
     {
       question: '¿Cuál es el proceso completo desde que los contacto?',
-      answer: 'Proceso en 7 pasos: (1) Consulta gratuita 30min para entender tu necesidad, (2) Propuesta técnica y cotización en 48h, (3) Kick-off con firma de NDA y pago inicial 50%, (4) Desarrollo y validación de modelos (15-30 días según servicio), (5) Presentación de resultados preliminares y sesión Q&A, (6) Entrega final: reporte PDF 100+ págs, código fuente, dashboard interactivo, (7) Soporte incluido 30-60 días post-entrega.'
+      answer: (
+        <div className="space-y-4">
+          <p className="font-semibold text-white">7 pasos del proceso:</p>
+          <div className="space-y-3">
+            {[
+              { num: '1', title: 'Consulta Gratuita', desc: '30 min para entender tu necesidad' },
+              { num: '2', title: 'Propuesta Técnica', desc: 'Cotización en 48h' },
+              { num: '3', title: 'Kick-off', desc: 'Firma de NDA y pago inicial 50%' },
+              { num: '4', title: 'Desarrollo', desc: '15-30 días según servicio' },
+              { num: '5', title: 'Presentación', desc: 'Resultados preliminares + Q&A' },
+              { num: '6', title: 'Entrega Final', desc: 'Reporte, código, dashboard' },
+              { num: '7', title: 'Soporte', desc: '30-60 días post-entrega' }
+            ].map((paso, i) => (
+              <div key={i} className="flex gap-4 p-3 bg-industrial-800/50 rounded-lg">
+                <div className="w-8 h-8 rounded-full bg-teseo-500/20 flex items-center justify-center flex-shrink-0">
+                  <span className="text-teseo-400 font-bold text-sm">{paso.num}</span>
+                </div>
+                <div>
+                  <p className="font-semibold text-white text-sm">{paso.title}</p>
+                  <p className="text-xs text-industrial-400">{paso.desc}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      )
     },
     {
       question: '¿Cuánto tiempo toma completar un análisis?',
-      answer: 'Timelines por servicio: Análisis de Inversión Inmobiliaria: 15-20 días hábiles. Estudio de Mercado: 18-22 días. Análisis Data-Econométrico de Expansión: 20-25 días. Análisis de Mercado Industrial: 25-30 días. Lead Journey Mapping: 12-15 días. Agente Vertical IA: setup inicial 10 días + entregas mensuales continuas. Todos los timelines incluyen validación rigurosa (R² > 0.85) y sesión de presentación de resultados.'
+      answer: (
+        <div className="space-y-4">
+          <p className="font-semibold text-white">Timelines por servicio:</p>
+          <div className="space-y-2">
+            {[
+              { service: 'Análisis de Inversión Inmobiliaria', days: '15-20' },
+              { service: 'Estudio de Mercado', days: '18-22' },
+              { service: 'Análisis Data-Econométrico de Expansión', days: '20-25' },
+              { service: 'Análisis de Mercado Industrial', days: '25-30' },
+              { service: 'Lead Journey Mapping', days: '12-15' },
+              { service: 'Agente Vertical IA', days: 'Setup 10 días + entregas mensuales' }
+            ].map((item, i) => (
+              <div key={i} className="flex justify-between items-center p-3 bg-industrial-800/30 rounded-lg">
+                <span className="text-sm text-industrial-300">{item.service}</span>
+                <span className="text-sm font-semibold text-teseo-400">{item.days} días hábiles</span>
+              </div>
+            ))}
+          </div>
+          <p className="text-xs text-success-400 mt-4">
+            ✓ Todos incluyen validación rigurosa (R² &gt; 0.85) y sesión de presentación
+          </p>
+        </div>
+      )
     },
 
     // Sección 4: Alcance y Cobertura
     {
       question: '¿Solo trabajan en México o también a nivel internacional?',
-      answer: 'Operamos principalmente en México con presencia activa en 12 estados (CDMX, Querétaro, Nuevo León, Jalisco, Puebla, etc.), pero también atendemos proyectos en Latinoamérica (Colombia, Chile, Perú) y Estados Unidos. Nuestros análisis de mercado industrial y estudios de expansión son aplicables a cualquier región con datos históricos disponibles. Contamos con fuentes de datos internacionales (INEGI, Banco Mundial, censos económicos locales).'
+      answer: (
+        <div className="space-y-4">
+          <p className="text-industrial-300">
+            Operamos principalmente en <span className="font-semibold text-white">México con presencia en 12 estados</span>, pero también atendemos proyectos en:
+          </p>
+          <ul className="space-y-1 list-disc list-inside text-industrial-300">
+            <li>Colombia</li>
+            <li>Chile</li>
+            <li>Perú</li>
+            <li>Estados Unidos</li>
+          </ul>
+          <div className="p-4 bg-tech-500/10 rounded-lg border border-tech-500/20 mt-4">
+            <p className="text-sm text-industrial-300">
+              <span className="font-semibold text-white">Análisis aplicables:</span> Nuestros estudios de expansión y análisis de mercado funcionan en cualquier región con datos históricos disponibles.
+            </p>
+            <p className="text-sm text-industrial-300 mt-2">
+              <span className="font-semibold text-white">Fuentes internacionales:</span> INEGI, Banco Mundial, censos económicos locales
+            </p>
+          </div>
+        </div>
+      )
     },
     {
       question: '¿Para qué tamaño de empresa trabajan? ¿Qué industrias?',
-      answer: 'Perfil ideal de cliente: (1) Desarrolladores inmobiliarios con pipeline $50M+ MXN, (2) Empresas industriales en expansión (manufactura, logística, distribución), (3) Retail y comercio con estrategia multi-ubicación, (4) Empresas B2B con pipeline comercial estructurado. Industrias: Real Estate, Manufactura, Retail, Logística, Construcción, Servicios B2B. Presupuesto mínimo recomendado: $5M MXN anuales en ingresos para ROI óptimo del análisis.'
+      answer: (
+        <div className="space-y-4">
+          <p className="font-semibold text-white">Perfil ideal de cliente:</p>
+          <ul className="space-y-2 list-disc list-inside text-industrial-300">
+            <li>Desarrolladores inmobiliarios con pipeline $50M+ MXN</li>
+            <li>Empresas industriales en expansión (manufactura, logística, distribución)</li>
+            <li>Retail y comercio con estrategia multi-ubicación</li>
+            <li>Empresas B2B con pipeline comercial estructurado</li>
+          </ul>
+          <div className="p-4 bg-warning-500/10 rounded-lg border border-warning-500/20 mt-4">
+            <p className="text-sm font-semibold text-white mb-2">Industrias:</p>
+            <ul className="space-y-1 list-disc list-inside text-sm text-industrial-300">
+              <li>Real Estate y Bienes Raíces</li>
+              <li>Manufactura e Industria</li>
+              <li>Retail y Comercio</li>
+              <li>Logística y Distribución</li>
+              <li>Construcción</li>
+              <li>Servicios B2B</li>
+            </ul>
+          </div>
+          <p className="text-sm text-industrial-300 mt-4">
+            <span className="font-semibold text-white">Presupuesto mínimo recomendado:</span> $5M MXN anuales en ingresos para ROI óptimo del análisis
+          </p>
+        </div>
+      )
     },
 
     // Sección 5: Aspectos Técnicos
     {
       question: '¿Qué datos necesitan de mi empresa para empezar?',
-      answer: 'Para kick-off necesitamos: (1) Contexto de negocio (industria, mercado objetivo, competidores clave), (2) Objetivos cuantitativos claros (ej: proyección de demanda, ROI de expansión, optimización CAC), (3) Fuentes de datos internas disponibles (CRM, base de transacciones, históricos de ventas), (4) Timeline y urgencia del proyecto. Firmamos NDA antes de compartir información sensible. Si no tienes datos históricos, podemos trabajar con datos públicos y benchmarks de industria.'
+      answer: (
+        <div className="space-y-4">
+          <p className="font-semibold text-white">Para kick-off necesitamos:</p>
+          <ul className="space-y-2 list-disc list-inside text-industrial-300">
+            <li><span className="font-semibold text-white">Contexto de negocio:</span> Industria, mercado objetivo, competidores clave</li>
+            <li><span className="font-semibold text-white">Objetivos cuantitativos:</span> Proyección de demanda, ROI de expansión, optimización CAC</li>
+            <li><span className="font-semibold text-white">Datos internos disponibles:</span> CRM, transacciones, históricos de ventas</li>
+            <li><span className="font-semibold text-white">Timeline y urgencia</span> del proyecto</li>
+          </ul>
+          <div className="p-4 bg-teseo-500/10 rounded-lg border border-teseo-500/20 mt-4 space-y-3">
+            <p className="text-sm text-industrial-300">
+              <span className="text-teseo-400 font-semibold">🔒 Confidencialidad:</span> Firmamos NDA antes de compartir información sensible
+            </p>
+            <p className="text-sm text-industrial-300">
+              <span className="text-success-400 font-semibold">✓ Sin datos históricos:</span> Podemos trabajar con datos públicos y benchmarks de industria
+            </p>
+          </div>
+        </div>
+      )
     },
     {
       question: '¿Qué tecnologías y modelos utilizan?',
-      answer: 'Stack tecnológico: Python (pandas, scikit-learn, statsmodels), R, SQL, TensorFlow, PyTorch. Modelos econométricos: Cointegración de Johansen, VAR/VECM, ARIMA, regresión hedónica, análisis de series de tiempo. Machine Learning: Random Forest, XGBoost, LightGBM, redes neuronales LSTM. Validación: k-fold cross-validation, backtesting histórico, bootstrap (1000 muestras), simulaciones Monte Carlo (10K iteraciones). Dashboards: PowerBI, Tableau, Excel con macros automatizadas.'
+      answer: (
+        <div className="space-y-4">
+          <div className="grid md:grid-cols-2 gap-4">
+            <div>
+              <p className="font-semibold text-white mb-3">Lenguajes y Frameworks</p>
+              <ul className="space-y-1 list-disc list-inside text-sm text-industrial-300">
+                <li>Python (pandas, scikit-learn, statsmodels)</li>
+                <li>R</li>
+                <li>SQL</li>
+                <li>TensorFlow</li>
+                <li>PyTorch</li>
+              </ul>
+            </div>
+            <div>
+              <p className="font-semibold text-white mb-3">Visualización</p>
+              <ul className="space-y-1 list-disc list-inside text-sm text-industrial-300">
+                <li>PowerBI</li>
+                <li>Tableau</li>
+                <li>Excel (macros automatizadas)</li>
+              </ul>
+            </div>
+          </div>
+          <div className="grid md:grid-cols-2 gap-4 mt-4">
+            <div className="p-4 bg-industrial-800/50 rounded-lg">
+              <p className="font-semibold text-white mb-2 text-sm">Modelos Econométricos</p>
+              <ul className="space-y-1 list-disc list-inside text-xs text-industrial-300">
+                <li>Cointegración de Johansen</li>
+                <li>VAR/VECM</li>
+                <li>ARIMA</li>
+                <li>Regresión hedónica</li>
+                <li>Series de tiempo</li>
+              </ul>
+            </div>
+            <div className="p-4 bg-tech-500/10 rounded-lg">
+              <p className="font-semibold text-white mb-2 text-sm">Machine Learning</p>
+              <ul className="space-y-1 list-disc list-inside text-xs text-industrial-300">
+                <li>Random Forest</li>
+                <li>XGBoost</li>
+                <li>LightGBM</li>
+                <li>Redes neuronales LSTM</li>
+                <li>Ensemble learning</li>
+              </ul>
+            </div>
+          </div>
+          <div className="p-4 bg-success-500/10 rounded-lg border border-success-500/20 mt-4">
+            <p className="font-semibold text-white mb-2 text-sm">Validación Rigurosa</p>
+            <ul className="space-y-1 list-disc list-inside text-xs text-industrial-300">
+              <li>K-fold cross-validation</li>
+              <li>Backtesting histórico</li>
+              <li>Bootstrap (1000 muestras)</li>
+              <li>Simulaciones Monte Carlo (10K iteraciones)</li>
+            </ul>
+          </div>
+        </div>
+      )
     },
     {
       question: '¿Incluyen el código fuente y modelos?',
-      answer: 'Sí, todos nuestros proyectos incluyen entrega completa: (1) Código fuente Python/R documentado con comentarios, (2) Notebooks Jupyter reproducibles paso a paso, (3) Modelos entrenados exportables (.pkl, .h5), (4) Scripts de ETL y feature engineering, (5) Dashboards interactivos (PowerBI/Excel) que TÚ puedes actualizar, (6) Documentación técnica completa de metodología. Puedes correr y actualizar los modelos internamente después de la entrega sin depender de nosotros.'
+      answer: (
+        <div className="space-y-4">
+          <p className="text-success-400 font-semibold mb-4">✓ Sí, todos nuestros proyectos incluyen entrega completa:</p>
+          <ul className="space-y-3">
+            {[
+              { item: 'Código fuente Python/R', desc: 'Documentado con comentarios' },
+              { item: 'Notebooks Jupyter', desc: 'Reproducibles paso a paso' },
+              { item: 'Modelos entrenados', desc: 'Exportables (.pkl, .h5)' },
+              { item: 'Scripts de ETL', desc: 'Y feature engineering' },
+              { item: 'Dashboards interactivos', desc: 'PowerBI/Excel que TÚ puedes actualizar' },
+              { item: 'Documentación técnica', desc: 'Completa de metodología' }
+            ].map((item, i) => (
+              <div key={i} className="flex gap-3 p-3 bg-industrial-800/30 rounded-lg">
+                <span className="text-teseo-400 font-bold flex-shrink-0">✓</span>
+                <div>
+                  <p className="font-semibold text-white text-sm">{item.item}</p>
+                  <p className="text-xs text-industrial-400">{item.desc}</p>
+                </div>
+              </div>
+            ))}
+          </ul>
+          <p className="text-sm text-industrial-300 mt-4 italic">
+            Puedes correr y actualizar los modelos internamente después de la entrega sin depender de nosotros.
+          </p>
+        </div>
+      )
     },
     {
       question: '¿Los modelos se actualizan con nuevos datos automáticamente?',
-      answer: 'Depende del servicio contratado: (1) Análisis one-time: te entregamos el modelo completo que TÚ puedes actualizar con nuevos datos usando los scripts incluidos, (2) Agente Vertical IA: actualizaciones automáticas mensuales incluidas en modelo revenue share, (3) Contrato de mantenimiento opcional: actualizaciones trimestrales con nuevos datos + re-entrenamiento de modelos + ajustes de parámetros. También ofrecemos capacitación para tu equipo interno.'
+      answer: (
+        <div className="space-y-4">
+          <p className="font-semibold text-white">Depende del servicio contratado:</p>
+          <div className="space-y-3">
+            <div className="p-4 bg-industrial-800/50 rounded-lg">
+              <p className="font-semibold text-white mb-2">Análisis One-Time</p>
+              <p className="text-sm text-industrial-300">Te entregamos el modelo completo que TÚ puedes actualizar con nuevos datos usando los scripts incluidos</p>
+            </div>
+            <div className="p-4 bg-tech-500/10 rounded-lg">
+              <p className="font-semibold text-white mb-2">Agente Vertical IA</p>
+              <ul className="space-y-1 list-disc list-inside text-sm text-industrial-300">
+                <li>Actualizaciones automáticas mensuales incluidas</li>
+                <li>Modelo revenue share</li>
+              </ul>
+            </div>
+            <div className="p-4 bg-success-500/10 rounded-lg border border-success-500/20">
+              <p className="font-semibold text-white mb-2">Contrato de Mantenimiento (Opcional)</p>
+              <ul className="space-y-1 list-disc list-inside text-sm text-industrial-300">
+                <li>Actualizaciones trimestrales con nuevos datos</li>
+                <li>Re-entrenamiento de modelos</li>
+                <li>Ajustes de parámetros</li>
+                <li>Capacitación para tu equipo interno</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      )
     },
 
     // Sección 6: Seguridad y Soporte
     {
       question: '¿Cómo garantizan la confidencialidad de nuestros datos?',
-      answer: 'Protocolo de seguridad: Firmamos NDA (Non-Disclosure Agreement) antes del kick-off. Datos almacenados en servidores seguros con encriptación AES-256. Acceso restringido solo al equipo asignado al proyecto. Eliminación permanente de datos post-entrega si lo solicitas. Nunca compartimos datos entre clientes ni usamos tu información para benchmarks sin autorización expresa. Cumplimos GDPR y normativas mexicanas de protección de datos (Ley Federal de Protección de Datos Personales).'
+      answer: (
+        <div className="space-y-4">
+          <p className="font-semibold text-white">Protocolo de seguridad multi-capa:</p>
+          <ul className="space-y-3">
+            {[
+              { measure: 'NDA', desc: 'Firmamos acuerdo de confidencialidad antes del kick-off' },
+              { measure: 'Encriptación', desc: 'AES-256 en almacenamiento de servidores' },
+              { measure: 'Acceso Restringido', desc: 'Solo equipo asignado al proyecto' },
+              { measure: 'Eliminación', desc: 'Permanente de datos post-entrega si lo solicitas' },
+              { measure: 'Sin Compartir', desc: 'Nunca compartimos datos entre clientes' },
+              { measure: 'Cumplimiento', desc: 'GDPR y Ley Federal de Protección de Datos México' }
+            ].map((item, i) => (
+              <div key={i} className="flex gap-3 p-3 bg-industrial-800/30 rounded-lg">
+                <Shield className="w-5 h-5 text-success-400 flex-shrink-0" />
+                <div>
+                  <p className="font-semibold text-white text-sm">{item.measure}</p>
+                  <p className="text-xs text-industrial-400">{item.desc}</p>
+                </div>
+              </div>
+            ))}
+          </ul>
+        </div>
+      )
     },
     {
       question: '¿Ofrecen soporte post-entrega?',
-      answer: 'Todos los proyectos incluyen soporte post-entrega sin costo adicional: (1) Análisis one-time: 30 días de soporte (consultas, actualizaciones menores de datos, ajustes al dashboard), (2) Análisis complejos (Expansión, Industrial): 60 días de soporte + 2 sesiones Q&A adicionales, (3) Agente Vertical: soporte continuo incluido en modelo revenue share. Soporte extendido disponible con contrato de mantenimiento mensual ($15K-$30K MXN/mes según complejidad).'
+      answer: (
+        <div className="space-y-4">
+          <p className="font-semibold text-white">Soporte post-entrega incluido:</p>
+          <div className="space-y-3">
+            <div className="p-4 bg-industrial-800/50 rounded-lg">
+              <p className="font-semibold text-white mb-2">Análisis One-Time</p>
+              <p className="text-sm text-industrial-300 mb-2"><span className="text-warning-400 font-bold">30 días</span> de soporte</p>
+              <ul className="space-y-1 list-disc list-inside text-xs text-industrial-300">
+                <li>Consultas generales</li>
+                <li>Actualizaciones menores de datos</li>
+                <li>Ajustes al dashboard</li>
+              </ul>
+            </div>
+            <div className="p-4 bg-tech-500/10 rounded-lg">
+              <p className="font-semibold text-white mb-2">Análisis Complejos</p>
+              <p className="text-sm text-industrial-300 mb-2"><span className="text-tech-400 font-bold">60 días</span> de soporte</p>
+              <ul className="space-y-1 list-disc list-inside text-xs text-industrial-300">
+                <li>Consultas avanzadas</li>
+                <li>2 sesiones Q&A adicionales</li>
+                <li>Ajustes significativos</li>
+              </ul>
+            </div>
+            <div className="p-4 bg-success-500/10 rounded-lg">
+              <p className="font-semibold text-white mb-2">Agente Vertical IA</p>
+              <p className="text-sm text-industrial-300 mb-2"><span className="text-success-400 font-bold">Continuo</span> incluido</p>
+              <p className="text-xs text-industrial-300">En modelo revenue share</p>
+            </div>
+          </div>
+          <div className="p-4 bg-teseo-500/10 border border-teseo-500/20 rounded-lg mt-4">
+            <p className="text-sm text-industrial-300">
+              <span className="font-semibold text-white">Opción de extensión:</span> Contrato de mantenimiento mensual ($15K-$30K MXN según complejidad)
+            </p>
+          </div>
+        </div>
+      )
     },
     {
       question: '¿Cómo validan la precisión de sus modelos?',
-      answer: 'Validación rigurosa multi-nivel obligatoria: (1) K-fold cross-validation (k=5) para evitar overfitting, (2) Backtesting con datos históricos (últimos 12-24 meses), (3) Bootstrap con 1000 muestras para intervalos de confianza, (4) Análisis de residuos y heterocedasticidad, (5) Métricas cuantitativas: R² > 0.85 (varianza explicada), RMSE < 5% (error cuadrático), MAE, MAPE. Garantizamos precisión con intervalos de confianza 95%. Si no cumplimos métricas comprometidas en propuesta, ajustamos sin costo adicional.'
+      answer: (
+        <div className="space-y-4">
+          <p className="font-semibold text-white">Validación rigurosa multi-nivel (obligatoria):</p>
+          <ul className="space-y-2 list-disc list-inside text-industrial-300 mb-4">
+            <li>K-fold cross-validation (k=5) para evitar overfitting</li>
+            <li>Backtesting con datos históricos (últimos 12-24 meses)</li>
+            <li>Bootstrap con 1000 muestras para intervalos de confianza</li>
+            <li>Análisis de residuos y heterocedasticidad</li>
+          </ul>
+          <div className="p-4 bg-success-500/10 rounded-lg border border-success-500/20">
+            <p className="font-semibold text-white mb-3">Métricas cuantitativas garantizadas:</p>
+            <div className="grid grid-cols-2 gap-3">
+              <div className="text-center">
+                <p className="text-lg font-bold text-success-400">R² &gt; 0.85</p>
+                <p className="text-xs text-industrial-400">Varianza explicada</p>
+              </div>
+              <div className="text-center">
+                <p className="text-lg font-bold text-tech-400">RMSE &lt; 5%</p>
+                <p className="text-xs text-industrial-400">Error cuadrático</p>
+              </div>
+              <div className="text-center">
+                <p className="text-lg font-bold text-warning-400">MAE</p>
+                <p className="text-xs text-industrial-400">Error absoluto medio</p>
+              </div>
+              <div className="text-center">
+                <p className="text-lg font-bold text-teseo-400">95% CI</p>
+                <p className="text-xs text-industrial-400">Intervalo confianza</p>
+              </div>
+            </div>
+          </div>
+          <p className="text-sm text-success-400 font-semibold mt-4">
+            ✓ Si no cumplimos métricas comprometidas, ajustamos sin costo adicional
+          </p>
+        </div>
+      )
     }
   ]
 
@@ -1186,7 +1648,13 @@ export default function TeseoLanding() {
       sector: 'Real Estate',
       icon: Home,
       color: 'success',
-      image: '🏘️',
+      image: (
+        <img
+          src="/assets/logos/valdepenas-logo.png"
+          alt="Sherwin Williams México"
+          className="w-50 h-30 object-contain"
+        />
+      ),
       challenge: 'Transformación Comercial Inmobiliaria con Análisis de Mercado',
       description: 'Análisis de mercado integral con estrategias de precios dinámicos, análisis demográfico, campañas digitales masivas y optimización de mix de productos. Segmentación precisa de buyer personas y canales óptimos.',
       result: 'Aumento del 30% en visitas al desarrollo y 25% en ventas en 6 meses. Optimización de relación costo-beneficio en captación. Reducción del 18% en costos de marketing por conversión.',
@@ -1700,60 +2168,61 @@ export default function TeseoLanding() {
           </motion.div>
 
           {/* Logos Grid - 4x4 */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8">
-            {[
-              // Manufactura / Industrial
-              { name: 'Sherwin Williams', sector: 'Manufactura', color: 'warning', logo: 'public/assets/logos/sherwin-williams-logo.png' },
-              { name: 'AMCI', sector: 'Consultoría Industrial', color: 'warning', logo: 'public/assets/logos/amci-logo.png' },
-              { name: 'AP Safety', sector: 'Seguridad Industrial', color: 'warning', logo: 'public/assets/logos/ap-safety-logo.png' },
-              // Real Estate
-              { name: 'DatAlpine', sector: 'Real Estate', color: 'teseo', logo: 'public/assets/logos/datalpine-logo.png' },
-              { name: 'Le Curve', sector: 'Bienes Raíces', color: 'teseo', logo: 'public/assets/logos/le-curve-logo.png' },
-              { name: 'AMPI', sector: 'Asociación Inmobiliaria', color: 'teseo', logo: 'public/assets/logos/ampi-logo.png' },
-              // Energía / Tecnología
-              { name: 'Gas de Provincia', sector: 'Energía', color: 'warning', logo: 'public/assets/logos/gas-de-provincia-logo.png' },
-              { name: 'monitorLATINO', sector: 'Tecnología', color: 'tech', logo: 'public/assets/logos/monitor-latino.png' },
-              // Legal & Consulting
-              { name: 'Franklin Arosemena Torrijos', sector: 'Legal y consultoria', color: 'tech', logo: 'public/assets/logos/franklin-arosemena-torrijos-logo.png' },
-              // Construcción
-              { name: 'Pumping Team', sector: 'Construcción', color: 'success', logo: 'public/assets/logos/pumping-team-logo.png' },
-              { name: 'TEYSA', sector: 'Maquinados', color: 'success', logo: 'public/assets/logos/teysa-logo.png' },
-              { name: 'Stratto', sector: 'Construcción', color: 'success', logo: 'public/assets/logos/stratto-logo.png' },
-              // Real Estate (continued)
-              { name: 'HOMIA', sector: 'Bíenes Raíces', color: 'teseo', logo: 'public/assets/logos/homia-logo.png' },
-              { name: 'Cayco', sector: 'Construcción', color: 'teseo', logo: 'public/assets/logos/cayco-logo.png' },
-              { name: 'Valdepeñas', sector: 'Bienes Raíces', color: 'teseo', logo: 'public/assets/logos/valdepenas-logo.png' },
-              // F&B
-              { name: 'Villanova', sector: 'F&B', color: 'tech', logo: 'public/assets/logos/villanova-logo.png' },
-            ].map((client, index) => (
-              <motion.div
-                key={client.name}
-                initial={{ opacity: 0, scale: 0.8 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                viewport={{ once: true }}
-                transition={{ delay: index * 0.05 }}
-                whileHover={{ scale: 1.05, y: -5 }}
-                className="card-glass p-6 flex flex-col items-center justify-center text-center group cursor-pointer relative overflow-hidden"
-              >
-                {/* Hover effect */}
-                <div className={`absolute inset-0 bg-gradient-to-br from-${client.color}-500/0 to-${client.color}-500/0 group-hover:from-${client.color}-500/10 group-hover:to-${client.color}-500/10 transition-all duration-300`} />
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8">
+                {[
+                  // Manufactura / Industrial
+                  { name: 'Sherwin Williams', sector: 'Manufactura', color: 'warning', logo: 'public/assets/logos/sherwin-williams-logo.png', url: 'https://sherwin.com.mx/' },
+                  { name: 'AMCI', sector: 'Consultoría Industrial', color: 'warning', logo: 'public/assets/logos/amci-logo.png', url: 'https://amciac.org/' },
+                  { name: 'AP Safety', sector: 'Seguridad Industrial', color: 'warning', logo: 'public/assets/logos/ap-safety-logo.png', url: 'https://www.apmascarillas.com.mx/afety.com' },
+                  // Real Estate
+                  { name: 'DatAlpine', sector: 'Real Estate', color: 'teseo', logo: 'public/assets/logos/datalpine-logo.png', url: 'https://datalpine.mx/' },
+                  { name: 'Le Curve', sector: 'Bienes Raíces', color: 'teseo', logo: 'public/assets/logos/le-curve-logo.png', url: 'https://lecurve.mx/' },
+                  { name: 'AMPI', sector: 'Asociación Inmobiliaria', color: 'teseo', logo: 'public/assets/logos/ampi-logo.png', url: 'https://ampirivieranayarit.com/' },
+                  // Energía / Tecnología
+                  { name: 'Gas de Provincia', sector: 'Energía', color: 'warning', logo: 'public/assets/logos/gas-de-provincia-logo.png', url: 'https://www.gasdeprovincia.com.mx/' },
+                  { name: 'monitorLATINO', sector: 'Tecnología', color: 'tech', logo: 'public/assets/logos/monitor-latino.png', url: 'https://monitorlatino.com/' },
+                  // Legal & Consulting
+                  { name: 'Franklin Arosemena Torrijos', sector: 'Legal y consultoria', color: 'tech', logo: 'public/assets/logos/franklin-arosemena-torrijos-logo.png', url: '' },
+                  // Construcción
+                  { name: 'Pumping Team', sector: 'Construcción', color: 'success', logo: 'public/assets/logos/pumping-team-logo.png', url: 'https://www.pumpingteam.com/' },
+                  { name: 'TEYSA', sector: 'Maquinados', color: 'success', logo: 'public/assets/logos/teysa-logo.png', url: 'https://mteysa.com/' },
+                  { name: 'Stratto', sector: 'Construcción', color: 'success', logo: 'public/assets/logos/stratto-logo.png', url: '' },
+                  // Real Estate (continued)
+                  { name: 'HOMIA', sector: 'Bíenes Raíces', color: 'teseo', logo: 'public/assets/logos/homia-logo.png', url: 'https://homia.mx/es' },
+                  { name: 'Cayco', sector: 'Construcción', color: 'teseo', logo: 'public/assets/logos/cayco-logo.png', url: 'https://www.cayco.mx/' },
+                  { name: 'Valdepeñas', sector: 'Bienes Raíces', color: 'teseo', logo: 'public/assets/logos/valdepenas-logo.png', url: 'https://valdepenasinmobiliaria.com.mx/' },
+                  // F&B
+                  { name: 'Villanova', sector: 'F&B', color: 'tech', logo: 'public/assets/logos/villanova-logo.png', url: 'https://villanova.com.mx/v1/' },
+                ].map((client, index) => (
+                  <motion.div
+                  key={client.name}
+                  initial={{ opacity: 0, scale: 0.8 }}
+                  whileInView={{ opacity: 1, scale: 1 }}
+                  viewport={{ once: true }}
+                  transition={{ delay: index * 0.05 }}
+                  whileHover={{ scale: 1.05, y: -5 }}
+                  onClick={() => window.open(client.url, '_blank')}
+                  className="card-glass p-6 flex flex-col items-center justify-center text-center group cursor-pointer relative overflow-hidden"
+                  >
+                  {/* Hover effect */}
+                  <div className={`absolute inset-0 bg-gradient-to-br from-${client.color}-500/0 to-${client.color}-500/0 group-hover:from-${client.color}-500/10 group-hover:to-${client.color}-500/10 transition-all duration-300`} />
 
-                {/* Logo container - Ready for logo images */}
-                <div className={`relative z-10 w-20 h-20 rounded-xl bg-gradient-to-br from-industrial-800/80 to-industrial-900/80 border border-industrial-700/50 flex items-center justify-center mb-4 group-hover:border-${client.color}-500/30 transition-all duration-300 overflow-hidden`}>
-                  {/* Fallback placeholder - Always rendered, hidden when image loads */}
-                  <div
+                  {/* Logo container - Ready for logo images */}
+                  <div className={`relative z-10 w-20 h-20 rounded-xl bg-gradient-to-br from-industrial-800/80 to-industrial-900/80 border border-industrial-700/50 flex items-center justify-center mb-4 group-hover:border-${client.color}-500/30 transition-all duration-300 overflow-hidden`}>
+                    {/* Fallback placeholder - Always rendered, hidden when image loads */}
+                    <div
                     className={`absolute inset-0 bg-gradient-to-br from-${client.color}-500/20 to-${client.color}-500/30 flex items-center justify-center`}
                     id={`fallback-${index}`}
-                  >
+                    >
                     <span className="text-2xl font-bold text-white">
                       {client.name.charAt(0)}
                     </span>
-                  </div>
-                  {/* Logo image - Add actual logo files to /public/logos/ folder */}
-                  <img
+                    </div>
+                    {/* Logo image - Add actual logo files to /public/logos/ folder */}
+                    <img
                     src={client.logo}
                     alt={`Logo ${client.name}`}
-                    className="w-14 h-14 object-contain opacity-90 group-hover:opacity-100 transition-opacity relative z-10"
+                    className="w-14 h-14 object-contain opacity-90 group-hover:opacity-100 transition-opacity relative z-10 cursor-pointer"
                     onLoad={(e) => {
                       // Hide fallback when image loads successfully
                       const fallback = document.getElementById(`fallback-${index}`);
@@ -1763,23 +2232,23 @@ export default function TeseoLanding() {
                       // Hide broken image, keep fallback visible
                       e.target.style.display = 'none';
                     }}
-                  />
+                    />
+                  </div>
+
+                  {/* Client name */}
+                  <h3 className="relative z-10 text-base font-semibold text-white mb-1 line-clamp-2">
+                    {client.name}
+                  </h3>
+
+                  {/* Sector tag */}
+                  <span className={`relative z-10 text-xs text-industrial-400 group-hover:text-${client.color}-400 transition-colors`}>
+                    {client.sector}
+                  </span>
+                  </motion.div>
+                ))}
                 </div>
 
-                {/* Client name */}
-                <h3 className="relative z-10 text-base font-semibold text-white mb-1 line-clamp-2">
-                  {client.name}
-                </h3>
-
-                {/* Sector tag */}
-                <span className={`relative z-10 text-xs text-industrial-400 group-hover:text-${client.color}-400 transition-colors`}>
-                  {client.sector}
-                </span>
-              </motion.div>
-            ))}
-          </div>
-
-          {/* Track record footer */}
+                {/* Track record footer */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
