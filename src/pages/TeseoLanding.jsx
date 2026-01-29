@@ -1869,9 +1869,9 @@ export default function TeseoLanding() {
                 <span className="glow-text">Teseo</span>
                 <span className="text-white"> Data Lab</span>
               </h1>
-              <p className="text-xl md:text-2xl text-industrial-300 font-light mb-2">
+              {/* <p className="text-xl md:text-2xl text-industrial-300 font-light mb-2">
                 S.A.S. de C.V.
-              </p>
+              </p> */}
               <div className="flex items-center justify-center gap-3 text-sm text-industrial-400">
                 <span className="px-3 py-1 bg-teseo-500/10 border border-teseo-500/30 rounded-full">
                   Inteligencia de Negocios
@@ -1990,12 +1990,17 @@ export default function TeseoLanding() {
                 <ArrowRight size={20} />
               </motion.a>
               <motion.a
-                onClick={() => window.open('https://calendly.com/teseodata/teseo-data-lab-consultoria-personalizada', '_blank')}
+                onClick={() => {
+                  const mensaje = encodeURIComponent(
+                    "Hola, me gustaría recibir más información sobre los servicios de consultoría de Teseo Data Lab."
+                  )
+                  window.open(`https://wa.me/527713649201?text=${mensaje}`, '_blank')
+                  }}
                 className="btn-secondary px-8 py-4 text-lg inline-flex items-center gap-2"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
-                <span>Ver más detalles</span>
+                <span>Agendar</span>
               </motion.a>
             </motion.div>
           </div>
