@@ -1588,11 +1588,11 @@ export default function TeseoLanding() {
       ),
       challenge: 'Análisis de Viabilidad de Expansión en 3 Plazas Estratégicas',
       description: 'Modelo econométrico de 5 capas (Demanda, Oferta, Saturación, Oportunidad, ROI) para evaluar expansión territorial en Querétaro, Tula y Huauchinango. Procesamos +3M data points de INEGI, competencia y proyecciones macroeconómicas.',
-      result: 'Recomendación GO en Querétaro con ROI proyectado del 397.4% a 5 años. NO GO en Huauchinango (ROI negativo -15%). Evitamos pérdidas potenciales de $15M+ en expansión no viable.',
+      result: 'Recomendación GO en Querétaro con ROI proyectado del 397.4% a 5 años. NO GO en Huauchinango (ROI negativo -15%). Evitamos pérdidas potenciales de +$15M en expansión no viable.',
       metrics: [
         { value: '397%', label: 'ROI Querétaro', before: 'Sin datos', after: '397.4%' },
         { value: '-15%', label: 'ROI Huauchinango', before: 'Inversión planeada', after: 'Desinversión' },
-        { value: '$15M+', label: 'Pérdidas evitadas', before: '$0', after: '$15M ahorrados' }
+        { value: '+$15M', label: 'Pérdidas evitadas', before: '$0', after: '$15M ahorrados' }
       ],
       timeline: '22 días',
       service: 'Análisis Data-Econométrico de Expansión'
@@ -1633,12 +1633,12 @@ export default function TeseoLanding() {
         />
       ),
       challenge: 'Agente Vertical con IA para Prospección de Clientes B2B',
-      description: 'Modelo de IA con score 0-100 para identificar prospectos con alta propensión de compra. Segmentación tier A/B/C, scoring predictivo, y base de datos calificada de 40K+ registros con actualización automática mensual.',
+      description: 'Modelo de IA con score 0-100 para identificar prospectos con alta propensión de compra. Segmentación tier A/B/C, scoring predictivo, y base de datos calificada de +40K registros con actualización automática mensual.',
       result: 'Conversión tier A del 42% vs 12% baseline (+350%). Reducción de CAC en 60%. Modelo revenue share alinea incentivos perfectamente. Base de datos escalable y auto-actualizable.',
       metrics: [
         { value: '42%', label: 'Conversión tier A', before: '12%', after: '42% (+350%)' },
         { value: '-60%', label: 'Reducción CAC', before: 'CAC alto', after: '-60% CAC' },
-        { value: '40K+', label: 'Registros DB', before: '0', after: '40K+ registros' }
+        { value: '+40K', label: 'Registros DB', before: '0', after: '+40K registros' }
       ],
       timeline: 'Continuo',
       service: 'Agente Vertical (IA)'
@@ -1674,10 +1674,10 @@ export default function TeseoLanding() {
       image: '🗳️',
       challenge: 'Estrategias Digitales Disruptivas para Impacto Electoral',
       description: 'Segmentación avanzada de votantes jóvenes (18-35 años), pruebas A/B masivas de mensajes, estrategias multicanal (TikTok, Instagram, Twitter), análisis de sentiment real-time, y dashboards de performance electoral.',
-      result: 'Incremento del 310% en interacciones digitales. Captura del 40%+ del segmento juvenil objetivo. Posicionamiento como líder entre votantes jóvenes. Modelo replicable para futuras campañas.',
+      result: 'Incremento del 310% en interacciones digitales. Captura del +40% del segmento juvenil objetivo. Posicionamiento como líder entre votantes jóvenes. Modelo replicable para futuras campañas.',
       metrics: [
         { value: '+310%', label: 'Interacciones', before: 'Baseline', after: '+310%' },
-        { value: '40%+', label: 'Segmento juvenil', before: '12%', after: '40%+' },
+        { value: '+40%', label: 'Segmento juvenil', before: '12%', after: '+40%' },
         { value: '#1', label: 'Ranking juventud', before: '#4', after: '#1' }
       ],
       timeline: '90 días',
@@ -2775,7 +2775,7 @@ export default function TeseoLanding() {
                   <div className="text-sm text-industrial-400">ROI Máximo Alcanzado</div>
                 </div>
                 <div>
-                  <div className="text-4xl font-bold text-teseo-400 mb-2">$15M+</div>
+                  <div className="text-4xl font-bold text-teseo-400 mb-2">+$15M</div>
                   <div className="text-sm text-industrial-400">Pérdidas Evitadas</div>
                 </div>
                 <div>
