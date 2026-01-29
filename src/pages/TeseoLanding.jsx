@@ -26,6 +26,7 @@ import {
   Legend,
   ResponsiveContainer
 } from 'recharts'
+// react-simple-maps removido por incompatibilidad con React 19
 
 // Componente de Red de Nodos para el Hero - Optimizado para móvil
 const DataNetworkBackground = () => {
@@ -163,219 +164,86 @@ const DataNetworkBackground = () => {
   )
 }
 
-// Componente de Mapa de México - SVG Simplificado
+// Componente de Mapa de México - Usando imagen PNG
 const MexicoMap = () => {
   const [hoveredState, setHoveredState] = useState(null)
 
-  // Estados con proyectos y sus colores
-  const estadosActivos = {
-    'CDMX': { proyectos: 25, color: '#3b82f6' },
-    'Querétaro': { proyectos: 18, color: '#10b981' },
-    'Hidalgo': { proyectos: 12, color: '#0ea5e9' },
-    'Puebla': { proyectos: 10, color: '#f59e0b' },
-    'Estado de México': { proyectos: 15, color: '#3b82f6' },
-    'Nuevo León': { proyectos: 14, color: '#10b981' },
-    'Jalisco': { proyectos: 11, color: '#0ea5e9' },
-    'Guanajuato': { proyectos: 9, color: '#f59e0b' },
-    'San Luis Potosí': { proyectos: 7, color: '#3b82f6' },
-    'Aguascalientes': { proyectos: 6, color: '#10b981' },
-    'Veracruz': { proyectos: 5, color: '#0ea5e9' },
-    'Michoacán': { proyectos: 4, color: '#f59e0b' }
-  }
+  // Estados activos con posiciones calibradas al mapa real de México
+  const estados = [
+    { id: 'Nuevo León', x: 63, y: 18, proyectos: 14, color: '#8b5cf6', region: 'Norte' },
+    { id: 'San Luis Potosí', x: 53, y: 33, proyectos: 7, color: '#8b5cf6', region: 'Norte' },
+    { id: 'Aguascalientes', x: 45, y: 38, proyectos: 6, color: '#10b981', region: 'Bajío' },
+    { id: 'Guanajuato', x: 47, y: 43, proyectos: 9, color: '#10b981', region: 'Bajío' },
+    { id: 'Querétaro', x: 52, y: 42, proyectos: 18, color: '#10b981', region: 'Bajío' },
+    { id: 'Jalisco', x: 36, y: 47, proyectos: 11, color: '#f59e0b', region: 'Occidente' },
+    { id: 'Michoacán', x: 43, y: 51, proyectos: 4, color: '#f59e0b', region: 'Occidente' },
+    { id: 'Hidalgo', x: 56, y: 44, proyectos: 12, color: '#3b82f6', region: 'Metro' },
+    { id: 'Estado de México', x: 51, y: 50, proyectos: 15, color: '#3b82f6', region: 'Metro' },
+    { id: 'CDMX', x: 54, y: 51, proyectos: 25, color: '#3b82f6', region: 'Metro' },
+  ]
 
   return (
-    <div className="relative w-full h-full flex items-center justify-center">
-      {/* Imagen SVG de México */}
-      <svg viewBox="0 0 800 500" className="w-full h-auto">
-        {/* Contorno de México más grande y reconocible */}
-        <path
-          d="M 80,180 L 120,130 L 180,100 L 260,80 L 340,75 L 420,80 L 500,95 L 570,120 L 620,150 L 660,190 L 690,240 L 710,290 L 720,340 L 710,390 L 680,430 L 640,460 L 580,480 L 510,490 L 450,485 L 390,465 L 330,440 L 270,410 L 220,370 L 180,320 L 150,260 L 100,200 Z M 40,310 L 30,340 L 35,370 L 55,380 L 75,360 L 70,330 Z M 650,440 L 680,470 L 710,500 L 720,530 L 705,550 L 675,545 L 640,520 Z"
-          fill="#1e293b"
-          stroke="#475569"
-          strokeWidth="2"
-          opacity="0.5"
-        />
-
-        {/* Estados destacados como círculos distribuidos */}
-        <g>
-          {/* CDMX - Centro */}
-          <circle
-            cx="400" cy="320"
-            r={hoveredState === 'CDMX' ? "28" : "24"}
-            fill={estadosActivos['CDMX'].color}
-            opacity={hoveredState === 'CDMX' ? "1" : "0.8"}
-            className="cursor-pointer transition-all duration-300"
-            onMouseEnter={() => setHoveredState('CDMX')}
-            onMouseLeave={() => setHoveredState(null)}
-            style={{ filter: hoveredState === 'CDMX' ? `drop-shadow(0 0 12px ${estadosActivos['CDMX'].color})` : 'none' }}
+    <div className="relative w-full">
+      {/* Contenedor del mapa */}
+      <div className="relative w-full rounded-xl overflow-hidden bg-industrial-900/50 p-2">
+        <div className="relative w-full" style={{ aspectRatio: '4/3' }}>
+          {/* Imagen del mapa de México */}
+          <img
+            src="/assets/mexico-map.png"
+            alt="Mapa de México"
+            className="w-full h-full object-contain"
+            style={{ filter: 'brightness(0.6) saturate(0.8)' }}
           />
 
-          {/* Querétaro - Norte del centro */}
-          <circle
-            cx="370" cy="285"
-            r={hoveredState === 'Querétaro' ? "25" : "21"}
-            fill={estadosActivos['Querétaro'].color}
-            opacity={hoveredState === 'Querétaro' ? "1" : "0.8"}
-            className="cursor-pointer transition-all duration-300"
-            onMouseEnter={() => setHoveredState('Querétaro')}
-            onMouseLeave={() => setHoveredState(null)}
-            style={{ filter: hoveredState === 'Querétaro' ? `drop-shadow(0 0 12px ${estadosActivos['Querétaro'].color})` : 'none' }}
-          />
-
-          {/* Hidalgo - Noreste del centro */}
-          <circle
-            cx="430" cy="280"
-            r={hoveredState === 'Hidalgo' ? "23" : "19"}
-            fill={estadosActivos['Hidalgo'].color}
-            opacity={hoveredState === 'Hidalgo' ? "1" : "0.8"}
-            className="cursor-pointer transition-all duration-300"
-            onMouseEnter={() => setHoveredState('Hidalgo')}
-            onMouseLeave={() => setHoveredState(null)}
-            style={{ filter: hoveredState === 'Hidalgo' ? `drop-shadow(0 0 12px ${estadosActivos['Hidalgo'].color})` : 'none' }}
-          />
-
-          {/* Puebla - Este del centro */}
-          <circle
-            cx="460" cy="330"
-            r={hoveredState === 'Puebla' ? "22" : "18"}
-            fill={estadosActivos['Puebla'].color}
-            opacity={hoveredState === 'Puebla' ? "1" : "0.8"}
-            className="cursor-pointer transition-all duration-300"
-            onMouseEnter={() => setHoveredState('Puebla')}
-            onMouseLeave={() => setHoveredState(null)}
-            style={{ filter: hoveredState === 'Puebla' ? `drop-shadow(0 0 12px ${estadosActivos['Puebla'].color})` : 'none' }}
-          />
-
-          {/* Estado de México - Alrededor de CDMX */}
-          <circle
-            cx="390" cy="300"
-            r={hoveredState === 'Estado de México' ? "24" : "20"}
-            fill={estadosActivos['Estado de México'].color}
-            opacity={hoveredState === 'Estado de México' ? "1" : "0.8"}
-            className="cursor-pointer transition-all duration-300"
-            onMouseEnter={() => setHoveredState('Estado de México')}
-            onMouseLeave={() => setHoveredState(null)}
-            style={{ filter: hoveredState === 'Estado de México' ? `drop-shadow(0 0 12px ${estadosActivos['Estado de México'].color})` : 'none' }}
-          />
-
-          {/* Nuevo León - Norte */}
-          <circle
-            cx="480" cy="160"
-            r={hoveredState === 'Nuevo León' ? "24" : "20"}
-            fill={estadosActivos['Nuevo León'].color}
-            opacity={hoveredState === 'Nuevo León' ? "1" : "0.8"}
-            className="cursor-pointer transition-all duration-300"
-            onMouseEnter={() => setHoveredState('Nuevo León')}
-            onMouseLeave={() => setHoveredState(null)}
-            style={{ filter: hoveredState === 'Nuevo León' ? `drop-shadow(0 0 12px ${estadosActivos['Nuevo León'].color})` : 'none' }}
-          />
-
-          {/* Jalisco - Oeste */}
-          <circle
-            cx="250" cy="300"
-            r={hoveredState === 'Jalisco' ? "23" : "19"}
-            fill={estadosActivos['Jalisco'].color}
-            opacity={hoveredState === 'Jalisco' ? "1" : "0.8"}
-            className="cursor-pointer transition-all duration-300"
-            onMouseEnter={() => setHoveredState('Jalisco')}
-            onMouseLeave={() => setHoveredState(null)}
-            style={{ filter: hoveredState === 'Jalisco' ? `drop-shadow(0 0 12px ${estadosActivos['Jalisco'].color})` : 'none' }}
-          />
-
-          {/* Guanajuato - Centro-oeste */}
-          <circle
-            cx="320" cy="280"
-            r={hoveredState === 'Guanajuato' ? "22" : "18"}
-            fill={estadosActivos['Guanajuato'].color}
-            opacity={hoveredState === 'Guanajuato' ? "1" : "0.8"}
-            className="cursor-pointer transition-all duration-300"
-            onMouseEnter={() => setHoveredState('Guanajuato')}
-            onMouseLeave={() => setHoveredState(null)}
-            style={{ filter: hoveredState === 'Guanajuato' ? `drop-shadow(0 0 12px ${estadosActivos['Guanajuato'].color})` : 'none' }}
-          />
-
-          {/* San Luis Potosí - Centro-norte */}
-          <circle
-            cx="400" cy="230"
-            r={hoveredState === 'San Luis Potosí' ? "21" : "17"}
-            fill={estadosActivos['San Luis Potosí'].color}
-            opacity={hoveredState === 'San Luis Potosí' ? "1" : "0.8"}
-            className="cursor-pointer transition-all duration-300"
-            onMouseEnter={() => setHoveredState('San Luis Potosí')}
-            onMouseLeave={() => setHoveredState(null)}
-            style={{ filter: hoveredState === 'San Luis Potosí' ? `drop-shadow(0 0 12px ${estadosActivos['San Luis Potosí'].color})` : 'none' }}
-          />
-
-          {/* Aguascalientes - Pequeño en el centro-oeste */}
-          <circle
-            cx="290" cy="270"
-            r={hoveredState === 'Aguascalientes' ? "20" : "16"}
-            fill={estadosActivos['Aguascalientes'].color}
-            opacity={hoveredState === 'Aguascalientes' ? "1" : "0.8"}
-            className="cursor-pointer transition-all duration-300"
-            onMouseEnter={() => setHoveredState('Aguascalientes')}
-            onMouseLeave={() => setHoveredState(null)}
-            style={{ filter: hoveredState === 'Aguascalientes' ? `drop-shadow(0 0 12px ${estadosActivos['Aguascalientes'].color})` : 'none' }}
-          />
-
-          {/* Veracruz - Este */}
-          <circle
-            cx="500" cy="310"
-            r={hoveredState === 'Veracruz' ? "20" : "16"}
-            fill={estadosActivos['Veracruz'].color}
-            opacity={hoveredState === 'Veracruz' ? "1" : "0.8"}
-            className="cursor-pointer transition-all duration-300"
-            onMouseEnter={() => setHoveredState('Veracruz')}
-            onMouseLeave={() => setHoveredState(null)}
-            style={{ filter: hoveredState === 'Veracruz' ? `drop-shadow(0 0 12px ${estadosActivos['Veracruz'].color})` : 'none' }}
-          />
-
-          {/* Michoacán - Suroeste */}
-          <circle
-            cx="280" cy="330"
-            r={hoveredState === 'Michoacán' ? "19" : "15"}
-            fill={estadosActivos['Michoacán'].color}
-            opacity={hoveredState === 'Michoacán' ? "1" : "0.8"}
-            className="cursor-pointer transition-all duration-300"
-            onMouseEnter={() => setHoveredState('Michoacán')}
-            onMouseLeave={() => setHoveredState(null)}
-            style={{ filter: hoveredState === 'Michoacán' ? `drop-shadow(0 0 12px ${estadosActivos['Michoacán'].color})` : 'none' }}
-          />
-        </g>
-
-        {/* Tooltip */}
-        {hoveredState && (
-          <g>
-            <rect
-              x="550" y="30"
-              width="220"
-              height="70"
-              fill="#1e293b"
-              stroke={estadosActivos[hoveredState].color}
-              strokeWidth="2"
-              rx="8"
-              opacity="0.98"
-            />
-            <text
-              x="660" y="60"
-              fill="white"
-              fontSize="18"
-              fontWeight="bold"
-              textAnchor="middle"
+          {/* Puntos de los estados activos */}
+          {estados.map((estado) => (
+            <div
+              key={estado.id}
+              className="absolute transform -translate-x-1/2 -translate-y-1/2 z-10"
+              style={{ left: `${estado.x}%`, top: `${estado.y}%` }}
+              onMouseEnter={() => setHoveredState(estado.id)}
+              onMouseLeave={() => setHoveredState(null)}
             >
-              {hoveredState}
-            </text>
-            <text
-              x="660" y="82"
-              fill={estadosActivos[hoveredState].color}
-              fontSize="14"
-              textAnchor="middle"
-            >
-              {estadosActivos[hoveredState].proyectos} proyectos
-            </text>
-          </g>
-        )}
-      </svg>
+              <div
+                className="w-7 h-7 rounded-full flex items-center justify-center text-[10px] font-bold text-white cursor-pointer transition-all duration-300 border-2 border-white/30"
+                style={{
+                  backgroundColor: estado.color,
+                  transform: hoveredState === estado.id ? 'scale(1.4)' : 'scale(1)',
+                  boxShadow: `0 0 ${hoveredState === estado.id ? '20px' : '10px'} ${estado.color}`,
+                }}
+              >
+                {estado.proyectos}
+              </div>
+            </div>
+          ))}
+
+          {/* Tooltip */}
+          {hoveredState && (
+            <div className="absolute top-3 right-3 px-3 py-2 bg-industrial-900/95 border border-industrial-600 rounded-lg shadow-xl z-20">
+              <div className="text-white font-bold text-sm">{hoveredState}</div>
+              <div className="text-industrial-400 text-xs">{estados.find(e => e.id === hoveredState)?.region}</div>
+              <div className="text-base font-bold" style={{ color: estados.find(e => e.id === hoveredState)?.color }}>
+                {estados.find(e => e.id === hoveredState)?.proyectos} proyectos
+              </div>
+            </div>
+          )}
+        </div>
+      </div>
+
+      {/* Leyenda */}
+      <div className="flex flex-wrap justify-center gap-4 mt-4">
+        {[
+          { label: 'Norte', color: '#8b5cf6' },
+          { label: 'Bajío', color: '#10b981' },
+          { label: 'Metropolitana', color: '#3b82f6' },
+          { label: 'Occidente', color: '#f59e0b' },
+        ].map((item) => (
+          <div key={item.label} className="flex items-center gap-2">
+            <div className="w-3 h-3 rounded-full" style={{ backgroundColor: item.color, boxShadow: `0 0 8px ${item.color}` }} />
+            <span className="text-industrial-300 text-sm">{item.label}</span>
+          </div>
+        ))}
+      </div>
     </div>
   )
 }
@@ -1743,7 +1611,7 @@ export default function TeseoLanding() {
                 <div className={`absolute inset-0 bg-gradient-to-br from-${client.color}-500/0 to-${client.color}-500/0 group-hover:from-${client.color}-500/10 group-hover:to-${client.color}-500/10 transition-all duration-300`} />
 
                 {/* Logo container - Ready for logo images */}
-                <div className={`relative z-10 w-20 h-20 rounded-xl bg-gradient-to-br from-industrial-800/80 to-industrial-900/80 border border-industrial-700/50 flex items-center justify-center mb-4 group-hover:border-${client.color}-500/30 transition-all duration-300 overflow-hidden`}>
+                <div className={`relative z-10 w-20 h-20 rounded-xl bg-industrial-900 border border-industrial-700/50 flex items-center justify-center mb-4 group-hover:bg-white group-hover:border-white transition-all duration-300 overflow-hidden`}>
                   {/* Fallback placeholder - Always rendered, hidden when image loads */}
                   <div
                     className={`absolute inset-0 bg-gradient-to-br from-${client.color}-500/20 to-${client.color}-500/30 flex items-center justify-center`}
@@ -1757,7 +1625,7 @@ export default function TeseoLanding() {
                   <img
                     src={client.logo}
                     alt={`Logo ${client.name}`}
-                    className="w-14 h-14 object-contain opacity-90 group-hover:opacity-100 transition-opacity relative z-10"
+                    className="w-14 h-14 object-contain grayscale brightness-200 group-hover:grayscale-0 group-hover:brightness-100 transition-all duration-300 relative z-10"
                     onLoad={(e) => {
                       // Hide fallback when image loads successfully
                       const fallback = document.getElementById(`fallback-${index}`);
@@ -1868,9 +1736,9 @@ export default function TeseoLanding() {
                 {
                   region: 'Centro (Bajío)',
                   estados: 'Querétaro, Guanajuato, Aguascalientes',
-                  proyectos: 42,
+                  proyectos: 33,
                   icon: Factory,
-                  color: 'warning',
+                  color: 'success',
                   destacado: 'Hub industrial y manufactura'
                 },
                 {
@@ -1886,7 +1754,7 @@ export default function TeseoLanding() {
                   estados: 'Nuevo León, San Luis Potosí',
                   proyectos: 21,
                   icon: TrendingUp,
-                  color: 'tech',
+                  color: 'violet',
                   destacado: 'Expansión empresarial'
                 },
                 {
@@ -1894,11 +1762,19 @@ export default function TeseoLanding() {
                   estados: 'Jalisco, Michoacán',
                   proyectos: 15,
                   icon: Globe,
-                  color: 'success',
+                  color: 'warning',
                   destacado: 'Comercio y logística'
                 }
               ].map((region, index) => {
                 const Icon = region.icon
+                // Colores específicos por región que coinciden con el mapa
+                const colorClasses = {
+                  success: { bg: 'bg-emerald-500/20', hover: 'hover:bg-emerald-500/30', text: 'text-emerald-400', border: 'border-emerald-500/20' },
+                  teseo: { bg: 'bg-blue-500/20', hover: 'hover:bg-blue-500/30', text: 'text-blue-400', border: 'border-blue-500/20' },
+                  violet: { bg: 'bg-violet-500/20', hover: 'hover:bg-violet-500/30', text: 'text-violet-400', border: 'border-violet-500/20' },
+                  warning: { bg: 'bg-amber-500/20', hover: 'hover:bg-amber-500/30', text: 'text-amber-400', border: 'border-amber-500/20' }
+                }
+                const colors = colorClasses[region.color] || colorClasses.teseo
                 return (
                   <motion.div
                     key={region.region}
@@ -1906,21 +1782,21 @@ export default function TeseoLanding() {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ delay: index * 0.1 }}
-                    className="card-glass-strong p-6 hover:border-teseo-500/40 transition-all group cursor-pointer bg-gradient-to-br from-industrial-900/80 to-industrial-950/80"
+                    className={`card-glass-strong p-6 hover:border-opacity-60 transition-all group cursor-pointer bg-gradient-to-br from-industrial-900/80 to-industrial-950/80 ${colors.border}`}
                   >
                     <div className="flex items-start gap-4">
-                      <div className="p-3 rounded-xl bg-teseo-500/20 group-hover:bg-teseo-500/30 transition-all">
-                        <Icon className="w-6 h-6 text-teseo-400" />
+                      <div className={`p-3 rounded-xl ${colors.bg} group-hover:opacity-100 transition-all`}>
+                        <Icon className={`w-6 h-6 ${colors.text}`} />
                       </div>
                       <div className="flex-1">
                         <div className="flex items-center justify-between mb-2">
                           <h4 className="text-lg font-bold text-white">{region.region}</h4>
-                          <span className="text-2xl font-bold text-teseo-400">
+                          <span className={`text-2xl font-bold ${colors.text}`}>
                             {region.proyectos}
                           </span>
                         </div>
                         <p className="text-sm text-industrial-400 mb-2">{region.estados}</p>
-                        <div className="inline-flex items-center gap-2 px-3 py-1 bg-success-500/10 rounded-full border border-success-500/20">
+                        <div className={`inline-flex items-center gap-2 px-3 py-1 ${colors.bg} rounded-full border ${colors.border}`}>
                           <span className="text-xs text-industrial-300">{region.destacado}</span>
                         </div>
                       </div>
