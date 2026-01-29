@@ -1230,7 +1230,7 @@ export default function TeseoLanding() {
         <div className="space-y-4">
           <p className="font-semibold text-white">Perfil ideal de cliente:</p>
           <ul className="space-y-2 list-disc list-inside text-industrial-300">
-            <li>Desarrolladores inmobiliarios con pipeline $50M+ MXN</li>
+            <li>Desarrolladores inmobiliarios con pipeline +$50M MXN</li>
             <li>Empresas industriales en expansión (manufactura, logística, distribución)</li>
             <li>Retail y comercio con estrategia multi-ubicación</li>
             <li>Empresas B2B con pipeline comercial estructurado</li>
@@ -1544,7 +1544,7 @@ export default function TeseoLanding() {
     {
       name: 'Fundador & CEO',
       role: 'Econometría & Data Science',
-      expertise: '18+ años en análisis econométrico, machine learning y consultoría estratégica',
+      expertise: '+18 años en análisis econométrico, machine learning y consultoría estratégica',
       image: '👤',
       color: 'teseo'
     },
@@ -3312,12 +3312,12 @@ export default function TeseoLanding() {
               </div>
               <div className="h-8 w-px bg-industrial-700" />
               <div className="text-center">
-                <div className="text-2xl font-bold text-white">130+</div>
+                <div className="text-2xl font-bold text-white">+130</div>
                 <div className="text-sm text-industrial-400">Proyectos Completados</div>
               </div>
               <div className="h-8 w-px bg-industrial-700" />
               <div className="text-center">
-                <div className="text-2xl font-bold text-white">18+</div>
+                <div className="text-2xl font-bold text-white">+18</div>
                 <div className="text-sm text-industrial-400">Años de Experiencia</div>
               </div>
             </div>
@@ -3825,11 +3825,11 @@ export default function TeseoLanding() {
           >
             <div className="inline-flex flex-wrap gap-6 justify-center">
               <div className="text-center">
-                <div className="text-3xl font-bold text-teseo-400">50+</div>
+                <div className="text-3xl font-bold text-teseo-400">+50</div>
                 <div className="text-sm text-industrial-400">Fuentes de Datos</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-tech-400">3M+</div>
+                <div className="text-3xl font-bold text-tech-400">+3M</div>
                 <div className="text-sm text-industrial-400">Data Points</div>
               </div>
               <div className="text-center">
@@ -3837,7 +3837,7 @@ export default function TeseoLanding() {
                 <div className="text-sm text-industrial-400">Validación Cruzada</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-warning-400">18+</div>
+                <div className="text-3xl font-bold text-warning-400">+18</div>
                 <div className="text-sm text-industrial-400">Años de Experiencia</div>
               </div>
             </div>
