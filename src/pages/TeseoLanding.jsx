@@ -1943,8 +1943,8 @@ export default function TeseoLanding() {
                     <BarChart3 className="w-6 h-6 text-success-400" />
                   </div>
                   <div>
-                    <h3 className="font-bold text-white mb-1">Dashboards en Tiempo Real</h3>
-                    <p className="text-sm text-industrial-300">Visualización de métricas clave para decisiones ágiles</p>
+                    <h3 className="font-bold text-white mb-1">Data Econometría</h3>
+                    <p className="text-sm text-industrial-300">Modelos econométricos para decisiones estratégicas</p>
                   </div>
                 </div>
               </div>
@@ -3576,18 +3576,23 @@ export default function TeseoLanding() {
             viewport={{ once: true }}
           >
             <h3 className="text-2xl font-bold text-white mb-4">
-              ¿Necesitas un análisis personalizado?
+              ¿Necesitas una consultoria personalizada?
             </h3>
             <p className="text-industrial-300 mb-6">
-              Aplicamos esta metodología a tu industria con datos específicos y casos de uso reales
+              Agenda una llamada con nuestros expertos para discutir tus necesidades específicas y cómo podemos ayudarte a alcanzar tus objetivos de negocio mediante data science.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="#como-funciona" className="btn-primary py-3 px-8 inline-flex items-center gap-2">
-                <span>Calcular mi ROI</span>
+              <a href="https://calendly.com/teseodata/teseo-data-lab-consultoria-personalizada" className="btn-primary py-3 px-8 inline-flex items-center gap-2">
+                <span>Solicitar Consultoria </span>
                 <ArrowRight size={18} />
               </a>
-              <a href="#como-funciona" className="btn-secondary py-3 px-8">
-                ver detalles
+              <a onClick={() => {
+                  const mensaje = encodeURIComponent(
+                    " Hola, estoy interesado en agendar una llamada para una consultoría personalizada con Teseo Data Lab. ¿Podrían proporcionarme más detalles sobre el proceso? Gracias."
+                  )
+                  window.open(`https://wa.me/527713649201?text=${mensaje}`, '_blank')
+                  }} className="btn-secondary py-3 px-8">
+                Agendar llamada 
               </a>
             </div>
           </motion.div>
