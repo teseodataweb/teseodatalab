@@ -2370,17 +2370,17 @@ export default function TeseoLanding() {
           >
             <Map className="w-16 h-16 text-success-400 mx-auto mb-6" />
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-              Cobertura <span className="glow-text">Nacional</span>
+              Cobertura <span className="glow-text">Internacional</span>
             </h2>
             <p className="text-xl text-industrial-300 max-w-3xl mx-auto mb-8">
-              Operamos en todo México con proyectos en múltiples estados y sectores
+              Operamos en todo el territorio mexicano y en varios países alrededor del mundo
             </p>
 
             {/* Badge Nacional */}
             <div className="inline-flex items-center gap-3 px-6 py-3 bg-gradient-to-r from-success-500/20 to-tech-500/20 rounded-full border border-success-500/30">
               <Globe className="w-5 h-5 text-success-400" />
               <span className="text-lg text-white font-semibold">
-                Presencia Nacional • +15 Estados
+                Presencia Internacional 
               </span>
             </div>
           </motion.div>
@@ -2395,7 +2395,7 @@ export default function TeseoLanding() {
             >
               <h3 className="text-2xl font-bold text-white mb-6 flex items-center gap-3">
                 <Map className="w-7 h-7 text-teseo-400" />
-                Mapa de Cobertura Nacional
+                Mapa de Cobertura Internacional
               </h3>
 
               {/* Componente de Mapa SVG */}
@@ -2406,7 +2406,7 @@ export default function TeseoLanding() {
               {/* Total Counter */}
               <div className="p-4 bg-gradient-to-r from-teseo-500/10 to-success-500/10 rounded-xl border border-teseo-500/20 text-center">
                 <div className="text-4xl font-bold glow-text mb-1">+130</div>
-                <div className="text-sm text-industrial-400">Proyectos Completados en 12 Estados</div>
+                <div className="text-sm text-industrial-400">Proyectos Completados alrededor del mundo</div>
               </div>
             </motion.div>
 
@@ -2419,7 +2419,7 @@ export default function TeseoLanding() {
             >
               {[
                 {
-                  region: 'Centro (Bajío)',
+                  region: 'México',
                   estados: 'Querétaro, Guanajuato, Aguascalientes',
                   proyectos: 42,
                   icon: Factory,
@@ -2427,24 +2427,24 @@ export default function TeseoLanding() {
                   destacado: 'Hub industrial y manufactura'
                 },
                 {
-                  region: 'Zona Metropolitana',
-                  estados: 'CDMX, Estado de México, Hidalgo',
+                  region: 'Colombia',
+                  estados: 'Bogotá, Medellín',
                   proyectos: 52,
                   icon: Building2,
                   color: 'teseo',
                   destacado: 'Real estate y servicios'
                 },
                 {
-                  region: 'Norte',
-                  estados: 'Nuevo León, San Luis Potosí',
+                  region: 'Panamá',
+                  estados: 'Ciudad de Panamá',
                   proyectos: 21,
                   icon: TrendingUp,
                   color: 'tech',
                   destacado: 'Expansión empresarial'
                 },
                 {
-                  region: 'Occidente',
-                  estados: 'Jalisco, Michoacán',
+                  region: 'Brasil',
+                  estados: 'São Paulo, Río de Janeiro',
                   proyectos: 15,
                   icon: Globe,
                   color: 'success',
@@ -3399,7 +3399,7 @@ export default function TeseoLanding() {
               <div className="h-8 w-px bg-industrial-700" />
               <div className="text-center">
                 <div className="text-2xl font-bold text-white">+130</div>
-                <div className="text-sm text-industrial-400">Proyectos Completados</div>
+                <div className="text-sm text-industrial-400">Proyectos Completados </div>
               </div>
               <div className="h-8 w-px bg-industrial-700" />
               <div className="text-center">
