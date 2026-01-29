@@ -2492,7 +2492,7 @@ export default function TeseoLanding() {
             className="mt-16 text-center"
           >
             <p className="text-lg text-industrial-300 mb-6">
-              ¿Tu proyecto está en otra región? También operamos en todo el país.
+              ¿Tu proyecto está en otra región? Contáctanos para explorar cómo podemos ayudarte a expandir tu cobertura globalmente.
             </p>
             <motion.button
               onClick={() => window.open('https://calendly.com/teseodata/teseo-data-lab-consultoria-personalizada', '_blank')}
