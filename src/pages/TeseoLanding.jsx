@@ -814,7 +814,7 @@ export default function TeseoLanding() {
       description: 'Plataforma de simulación financiera para desarrolladores inmobiliarios',
       icon: Home,
       color: 'teseo',
-      action: () => window.open('https://teseodata.com/simulador', '_blank')
+      action: () => window.open('https://datalpine.mx/', '_blank')
     }
   ]
 
@@ -1981,21 +1981,21 @@ export default function TeseoLanding() {
               className="flex flex-col sm:flex-row gap-4 justify-center"
             >
               <motion.a
-                href="mailto:contacto@teseodata.com"
+                onClick={() => window.open('https://calendly.com/teseodata/teseo-data-lab-consultoria-personalizada', '_blank')}
                 className="btn-primary px-8 py-4 text-lg inline-flex items-center gap-2"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
-                <span>Solicitar Análisis</span>
+                <span>Agendar consulta gratuita</span>
                 <ArrowRight size={20} />
               </motion.a>
               <motion.a
-                href="tel:7713649201"
+                onClick={() => window.open('https://calendly.com/teseodata/teseo-data-lab-consultoria-personalizada', '_blank')}
                 className="btn-secondary px-8 py-4 text-lg inline-flex items-center gap-2"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
-                <span>Atención por WhatsApp</span>
+                <span>Ver más detalles</span>
               </motion.a>
             </motion.div>
           </div>
@@ -2604,10 +2604,10 @@ export default function TeseoLanding() {
                     </motion.div>
                   </Link>
                   <a
-                    href="mailto:contacto@teseodata.com"
+                    onClick={() => window.open('https://calendly.com/teseodata/teseo-data-lab-consultoria-personalizada', '_blank')}
                     className="btn-primary w-full py-4 text-lg flex items-center justify-center gap-2 hover:scale-[1.02] active:scale-[0.98] transition-transform"
                   >
-                    <span>Solicitar Análisis</span>
+                    <span>Agendar consulta gratuita</span>
                     <ArrowRight size={20} />
                   </a>
                 </div>
@@ -3326,7 +3326,7 @@ export default function TeseoLanding() {
       </section>
 
       {/* ¿Cómo funciona? Section */}
-      <section className="py-20 px-4">
+      <section className="py-20 px-4" id="como-funciona">
         <div className="max-w-7xl mx-auto">
           <motion.div
             className="text-center mb-16"
@@ -3573,12 +3573,12 @@ export default function TeseoLanding() {
               Aplicamos esta metodología a tu industria con datos específicos y casos de uso reales
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="mailto:contacto@teseodata.com" className="btn-primary py-3 px-8 inline-flex items-center gap-2">
-                <span>Solicitar Análisis</span>
+              <a href="#como-funciona" className="btn-primary py-3 px-8 inline-flex items-center gap-2">
+                <span>Calcular mi ROI</span>
                 <ArrowRight size={18} />
               </a>
-              <a href="tel:7713649201" className="btn-secondary py-3 px-8">
-                771 364 9201
+              <a href="#como-funciona" className="btn-secondary py-3 px-8">
+                ver detalles
               </a>
             </div>
           </motion.div>
@@ -3960,27 +3960,32 @@ export default function TeseoLanding() {
           </div>
 
           {/* CTA */}
-          <motion.div
-            className="mt-12 text-center"
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            viewport={{ once: true }}
-          >
-            <p className="text-industrial-400 mb-4">¿No encuentras la respuesta que buscas?</p>
-            <motion.a
-              href="mailto:contacto@teseodata.com"
-              className="btn-primary px-8 py-3 inline-flex items-center gap-2"
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-            >
-              <span>Contáctanos Directamente</span>
-              <ArrowRight size={18} />
-            </motion.a>
-          </motion.div>
-        </div>
-      </section>
+                <motion.div
+                className="mt-12 text-center"
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                viewport={{ once: true }}
+                >
+                <p className="text-industrial-400 mb-4">¿No encuentras la respuesta que buscas?</p>
+                <motion.a
+                  onClick={() => {
+                  const mensaje = encodeURIComponent(
+                    "Hola, me gustaría recibir más información sobre los servicios de consultoría de Teseo Data Lab."
+                  )
+                  window.open(`https://wa.me/527713649201?text=${mensaje}`, '_blank')
+                  }}
+                  className="btn-primary px-8 py-3 inline-flex items-center gap-2"
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
+                >
+                  <span>Contáctanos Directamente</span>
+                  <ArrowRight size={18} />
+                </motion.a>
+                </motion.div>
+              </div>
+              </section>
 
-      {/* Agendar Cita Section - Calendly */}
+              {/* Agendar Cita Section - Calendly */}
       <section id="contacto" className="py-16 px-4 bg-gradient-to-br from-tech-500/5 via-teseo-500/5 to-success-500/5 relative overflow-hidden">
         <div className="max-w-4xl mx-auto relative z-10 text-center">
           {/* Header */}
