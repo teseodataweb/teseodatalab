@@ -3315,9 +3315,7 @@ export default function TeseoLanding() {
           >
             <div className="inline-flex flex-wrap gap-6 justify-center items-center">
               <div className="flex items-center gap-2">
-                <Star className="w-6 h-6 text-teseo-400 fill-current" />
-                <span className="text-white font-bold text-xl">5.0</span>
-                <span className="text-industrial-400">/ 5.0</span>
+               
               </div>
               <div className="h-8 w-px bg-industrial-700" />
               <div className="text-center">
