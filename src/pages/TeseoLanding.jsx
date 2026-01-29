@@ -816,7 +816,13 @@ export default function TeseoLanding() {
       name: 'DatAlpine',
       tagline: 'Inteligencia Inmobiliaria',
       description: 'Plataforma de simulación financiera para desarrolladores inmobiliarios',
-      icon: Home,
+      image: (
+        <img 
+          src="/assets/logos/datalpineB-logo.png" 
+          alt="DatAlpine Logo" 
+          className="w-16 h-16 object-contain"
+        />
+      ),
       color: 'teseo',
       action: () => window.open('https://datalpine.mx/', '_blank')
     }
@@ -1585,7 +1591,7 @@ export default function TeseoLanding() {
       // usar el logo desde public/assets/logos/
       image: (
         <img
-          src="/assets/logos/cayco-logo.png"
+          src="/assets/logos/caycoB-logo.png"
           alt="Cayco Concretos"
           className="w-50 h-30 object-contain"
         />
@@ -1675,7 +1681,13 @@ export default function TeseoLanding() {
       sector: 'Política Electoral',
       icon: Users,
       color: 'tech',
-      image: '🗳️',
+      image: (
+        <img
+          src="/assets/logos/franklin-arosemena-torrijos-logo.png"
+          alt="Todos Unidos Panamá"
+          className="w-50 h-30 object-contain"
+        />
+      ),
       challenge: 'Estrategias Digitales Disruptivas para Impacto Electoral',
       description: 'Segmentación avanzada de votantes jóvenes (18-35 años), pruebas A/B masivas de mensajes, estrategias multicanal (TikTok, Instagram, Twitter), análisis de sentiment real-time, y dashboards de performance electoral.',
       result: 'Incremento del 310% en interacciones digitales. Captura del +40% del segmento juvenil objetivo. Posicionamiento como líder entre votantes jóvenes. Modelo replicable para futuras campañas.',
@@ -1695,7 +1707,13 @@ export default function TeseoLanding() {
       name: 'AMCI',
       fullName: 'Asociación Mexicana de Concreteros Independientes',
       description: 'Alianza estratégica para análisis de mercado del concreto en México. 4+ eventos nacionales.',
-      icon: '🏗️',
+      image: (
+        <img
+          src="/assets/logos/amci-logo.png"
+          alt="AMCI"
+          className="w-50 h-30 object-contain"
+        />
+      ),
       color: 'warning',
       badge: 'Aliado Estratégico',
       projects: [
@@ -1708,7 +1726,13 @@ export default function TeseoLanding() {
       name: 'CANACINTRA',
       fullName: 'Cámara Nacional de la Industria de Transformación',
       description: 'Sponsor y ponencias en eventos industriales. Talleres de segmentación con IA.',
-      icon: '🏭',
+      image: (
+        <img
+          src="/assets/logos/canacitra-logo.png"
+          alt="CANACINTRA"
+          className="w-50 h-30 object-contain"
+        />
+      ),
       color: 'tech',
       badge: 'Partner Industrial',
       projects: [
@@ -1721,13 +1745,38 @@ export default function TeseoLanding() {
       name: 'Momentum Expo',
       fullName: 'Expo Momentum - Hidalgo',
       description: 'Sponsor oficial y presentación de taller sobre segmentación avanzada con IA.',
-      icon: '⚡',
+      image: (
+        <img
+          src="/assets/logos/momentum-expo-logo.png"
+          alt="Momentum Expo"
+          className="w-50 h-30 object-contain"
+        />
+      ),
       color: 'teseo',
       badge: 'Sponsor Oficial',
       projects: [
         'Taller: Segmentación Avanzada con DATA e IA',
         'Networking con industria regional',
         'Difusión de herramientas data-driven'
+      ]
+    },
+    {
+      name: 'AMPI',
+      fullName: 'AMPI Riviera Nayarit',
+      description: 'Alianza estratégica para análisis de mercado inmoviliario',
+      image: (
+        <img
+          src="/assets/logos/ampi-logo.png"
+          alt="AMPI"
+          className="w-50 h-30 object-contain"
+        />
+      ),
+      color: 'success',
+      badge: 'Aliado Inmobiliario',
+      projects: [ 
+        'Análisis de Mercado Inmobiliario Riviera Nayarit',
+        'Webinars para socios AMPI',
+        'Difusión de estudios de caso'
       ]
     }
   ]
@@ -3679,104 +3728,102 @@ export default function TeseoLanding() {
       {/* Alianzas y Reconocimientos Section */}
       <section className="py-20 px-4 bg-industrial-950/50 relative overflow-hidden">
         {/* Background effects */}
-        <div className="absolute top-1/3 right-1/4 w-96 h-96 bg-warning-500/10 rounded-full blur-3xl -z-10" />
+          <div className="absolute top-1/3 right-1/4 w-96 h-96 bg-warning-500/10 rounded-full blur-3xl -z-10" />
 
-        <div className="max-w-7xl mx-auto">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
+          <div className="max-w-7xl mx-auto">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              className="text-center mb-16"
+            >
+              <Award className="w-16 h-16 text-warning-400 mx-auto mb-6" />
+              <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
+                Alianzas <span className="glow-text">Estratégicas</span>
+              </h2>
+              <p className="text-xl text-industrial-300 max-w-3xl mx-auto">
+                Colaboraciones con líderes industriales que validan nuestra experiencia y metodología
+              </p>
+            </motion.div>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+              {alianzas.map((alianza, index) => (
+                <motion.div
+            key={index}
+            initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-center mb-16"
-          >
-            <Award className="w-16 h-16 text-warning-400 mx-auto mb-6" />
-            <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-              Alianzas <span className="glow-text">Estratégicas</span>
-            </h2>
-            <p className="text-xl text-industrial-300 max-w-3xl mx-auto">
-              Colaboraciones con líderes industriales que validan nuestra experiencia y metodología
-            </p>
-          </motion.div>
-
-          <div className="grid md:grid-cols-3 gap-6">
-            {alianzas.map((alianza, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: index * 0.2 }}
-                whileHover={{ scale: 1.03, y: -5 }}
-                className="card-glass-strong p-8 relative group"
-              >
-                {/* Badge */}
-                <div className={`absolute -top-3 right-6 px-4 py-1 bg-${alianza.color}-500 rounded-full`}>
-                  <span className="text-white text-xs font-bold">{alianza.badge}</span>
-                </div>
-
-                {/* Icon grande */}
-                <div className="text-7xl mb-6 text-center group-hover:scale-110 transition-transform">
-                  {alianza.icon}
-                </div>
-
-                {/* Name */}
-                <h3 className={`text-2xl font-bold text-${alianza.color}-400 mb-2 text-center`}>
-                  {alianza.name}
-                </h3>
-
-                {/* Full name */}
-                <p className="text-sm text-white font-semibold mb-4 text-center">
-                  {alianza.fullName}
-                </p>
-
-                {/* Description */}
-                <p className="text-sm text-industrial-300 mb-6 leading-relaxed text-center">
-                  {alianza.description}
-                </p>
-
-                {/* Projects list */}
-                <div className="space-y-2">
-                  <p className="text-xs font-semibold text-industrial-400 uppercase tracking-wide mb-3">
-                    Proyectos Destacados
-                  </p>
-                  {alianza.projects.map((project, i) => (
-                    <div key={i} className="flex items-start gap-2">
-                      <CheckCircle className={`text-${alianza.color}-400 flex-shrink-0 mt-0.5`} size={14} />
-                      <span className="text-xs text-industrial-400">{project}</span>
-                    </div>
-                  ))}
-                </div>
-              </motion.div>
-            ))}
-          </div>
-
-          {/* Trust badges footer */}
-          <motion.div
-            className="mt-12 text-center"
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            viewport={{ once: true }}
-          >
-            <div className="inline-flex flex-wrap gap-6 justify-center items-center">
-              <div className="text-center">
-                <div className="text-3xl font-bold text-warning-400">3+</div>
-                <div className="text-sm text-industrial-400">Alianzas Estratégicas</div>
-              </div>
-              <div className="h-8 w-px bg-industrial-700" />
-              <div className="text-center">
-                <div className="text-3xl font-bold text-tech-400">4+</div>
-                <div className="text-sm text-industrial-400">Eventos Nacionales</div>
-              </div>
-              <div className="h-8 w-px bg-industrial-700" />
-              <div className="text-center">
-                <div className="text-3xl font-bold text-teseo-400">+3M</div>
-                <div className="text-sm text-industrial-400">Data Points Presentados</div>
-              </div>
+            transition={{ delay: index * 0.2 }}
+            whileHover={{ scale: 1.03, y: -5 }}
+            className="card-glass-strong p-8 relative group h-full flex flex-col"
+                >
+            {/* Badge xd1*/}
+            <div className={`absolute -top-3 right-6 px-4 py-1 bg-${alianza.color}-500 rounded-full`}>
+              <span className="text-white text-xs font-bold">{alianza.badge}</span>
             </div>
-          </motion.div>
-        </div>
-      </section>
 
-      {/* Data Sources Section - MEJORADA */}
+            {/* Icon grande */}
+            <div className="text-7xl mb-6 text-center group-hover:scale-110 transition-transform ml-5 w-50">
+              {alianza.image}
+            </div>
+
+            {/* Name */}
+            <h3 className={`text-2xl font-bold text-${alianza.color}-400 mb-2 text-center`}>
+              {alianza.name}
+            </h3>
+
+            {/* Full name */}
+            <p className="text-sm text-white font-semibold mb-4 text-center">
+              {alianza.fullName}
+            </p>
+
+            {/* Description */}
+            <p className="text-sm text-industrial-300 mb-6 leading-relaxed text-center">
+              {alianza.description}
+            </p>
+
+            {/* Projects list - flex-1 para llenar espacio */}
+            <div className="space-y-2 flex-1">
+              <p className="text-xs font-semibold text-industrial-400 uppercase tracking-wide mb-3">
+                Proyectos Destacados
+              </p>
+              {alianza.projects.map((project, i) => (
+                <div key={i} className="flex items-start gap-2">
+                  <CheckCircle className={`text-${alianza.color}-400 flex-shrink-0 mt-0.5`} size={14} />
+                  <span className="text-xs text-industrial-400">{project}</span>
+                </div>
+              ))}
+            </div>
+                </motion.div>
+              ))}
+            </div>
+
+            {/* Trust badges footer */}
+            <motion.div
+              className="mt-12 text-center"
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              viewport={{ once: true }}
+            >
+              <div className="inline-flex flex-wrap gap-6 justify-center items-center">
+                <div className="text-center">
+            <div className="text-3xl font-bold text-warning-400">3+</div>
+            <div className="text-sm text-industrial-400">Alianzas Estratégicas</div>
+                </div>
+                <div className="h-8 w-px bg-industrial-700" />
+                <div className="text-center">
+            <div className="text-3xl font-bold text-tech-400">4+</div>
+            <div className="text-sm text-industrial-400">Eventos Nacionales</div>
+                </div>
+                <div className="h-8 w-px bg-industrial-700" />
+                <div className="text-center">
+            <div className="text-3xl font-bold text-teseo-400">+3M</div>
+            <div className="text-sm text-industrial-400">Data Points Presentados</div>
+                </div>
+              </div>
+            </motion.div>
+          </div>
+              </section>
       <section className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <motion.div
@@ -3858,64 +3905,62 @@ export default function TeseoLanding() {
       </section>
 
       {/* Divisions Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-7xl mx-auto">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="text-center mb-16"
-          >
-            <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-              Nuestras <span className="glow-text">Divisiones</span>
-            </h2>
-            <p className="text-xl text-industrial-300 max-w-3xl mx-auto">
-              Verticales especializadas que aplican nuestra experiencia en sectores específicos
-            </p>
-          </motion.div>
+        <section className="py-20 px-4 sm:px-6 lg:px-8">
+          <div className="max-w-7xl mx-auto">
+            <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="text-center mb-16"
+            >
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
+            Nuestras <span className="glow-text">Divisiones</span>
+          </h2>
+          <p className="text-xl text-industrial-300 max-w-3xl mx-auto">
+            Verticales especializadas que aplican nuestra experiencia en sectores específicos
+          </p>
+            </motion.div>
 
-          <div className="grid md:grid-cols-1 gap-8 max-w-3xl mx-auto">
-            {divisions.map((division, index) => {
-              const Icon = division.icon
-              return (
-                <motion.div
-                  key={index}
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  onClick={division.action}
-                  className="card-glass-strong p-12 text-center cursor-pointer group hover:scale-105 transition-transform"
-                >
-                  <div className={`w-20 h-20 rounded-3xl bg-${division.color}-500/20 flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform`}>
-                    <Icon className={`text-${division.color}-400`} size={40} />
-                  </div>
+            <div className="grid md:grid-cols-1 gap-8 max-w-3xl mx-auto">
+          {divisions.map((division, index) => (
+            <motion.div
+              key={index}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              onClick={division.action}
+              className="card-glass-strong p-12 text-center cursor-pointer group hover:scale-105 transition-transform"
+            >
+              {/* Logo Image */}
+              <div className="w-24 h-24 mx-auto mb-6 group-hover:scale-110 transition-transform">
+            {division.image}
+              </div>
 
-                  <h3 className="text-3xl font-bold text-white mb-2">
-                    {division.name}
-                  </h3>
-                  <p className="text-lg text-industrial-400 mb-4">
-                    {division.tagline}
-                  </p>
-                  <p className="text-industrial-300 mb-6 max-w-xl mx-auto">
-                    {division.description}
-                  </p>
+              <h3 className="text-3xl font-bold text-white mb-2">
+            {division.name}
+              </h3>
+              <p className="text-lg text-industrial-400 mb-4">
+            {division.tagline}
+              </p>
+              <p className="text-industrial-300 mb-6 max-w-xl mx-auto">
+            {division.description}
+              </p>
 
-                  <motion.button
-                    className="btn-primary inline-flex items-center gap-2"
-                    whileHover={{ scale: 1.05 }}
-                    whileTap={{ scale: 0.95 }}
-                  >
-                    <span>Explorar DatAlpine</span>
-                    <ArrowRight size={18} />
-                  </motion.button>
-                </motion.div>
-              )
-            })}
+              <motion.button
+            className="btn-primary inline-flex items-center gap-2"
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+              >
+            <span>Explorar DatAlpine</span>
+            <ArrowRight size={18} />
+              </motion.button>
+            </motion.div>
+          ))}
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      {/* FAQ Section */}
+        {/* FAQ Section */}
       <section id="faq" className="py-20 px-4">
         <div className="max-w-4xl mx-auto">
           <motion.div
