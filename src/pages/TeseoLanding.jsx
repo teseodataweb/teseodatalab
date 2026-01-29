@@ -3427,7 +3427,7 @@ export default function TeseoLanding() {
             viewport={{ once: true }}
           >
             <motion.a
-              href="https://calendly.com/teseodata/consulta-gratuita"
+              href="https://calendly.com/teseodata/teseo-data-lab-consultoria-personalizada"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary px-8 py-3 inline-flex items-center gap-2"
@@ -3998,7 +3998,7 @@ export default function TeseoLanding() {
 
             {/* Calendly Button */}
             <motion.a
-              href="https://calendly.com/teseodata/consulta-gratuita"
+              href="https://calendly.com/teseodata/teseo-data-lab-consultoria-personalizada"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-teseo-500 to-tech-500 text-white font-semibold rounded-xl hover:shadow-lg hover:shadow-teseo-500/50 transition-all"
