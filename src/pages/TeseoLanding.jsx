@@ -755,14 +755,26 @@ export default function TeseoLanding() {
     {
       name: 'INEGI',
       fullName: 'Instituto Nacional de Estadística y Geografía',
-      icon: '📊',
+      image: (
+        <img 
+          src="/assets/logos/inegi-logo.png" 
+          alt="INEGI Logo" 
+          className="w-12 h-12 object-contain"
+        />
+      ),
       color: 'tech',
       description: 'Censos, DENUE, estadísticas oficiales México'
     },
     {
       name: 'DENUE',
       fullName: 'Directorio Estadístico Nacional de Unidades Económicas',
-      icon: '🏢',
+      image: (
+        <img 
+          src="/assets/logos/denue-logo.png" 
+          alt="DENUE Logo" 
+          className="w-12 h-12 object-contain"
+        />
+      ),
       color: 'warning',
       description: 'Base de empresas activas por sector'
     },
@@ -790,21 +802,39 @@ export default function TeseoLanding() {
     {
       name: 'DataMéxico',
       fullName: 'Secretaría de Economía',
-      icon: '🇲🇽',
+      image: (
+        <img 
+          src="/assets/logos/datamexico-logo.png" 
+          alt="DataMéxico Logo" 
+          className="w-12 h-12 object-contain"
+        />
+      ),
       color: 'warning',
       description: 'Datos sectoriales y comercio exterior'
     },
     {
       name: 'AMCI',
       fullName: 'Asociación Mexicana de Concreteros Independientes',
-      icon: '🏗️',
+      image: (
+        <img 
+          src="/assets/logos/amci-logo.png" 
+          alt="AMCI Logo" 
+          className="w-12 h-12 object-contain"
+        />
+      ),
       color: 'tech',
       description: 'Estadísticas industria del concreto'
     },
     {
       name: 'CMIC',
       fullName: 'Cámara Mexicana de la Industria de la Construcción',
-      icon: '🏭',
+      image: (
+        <img 
+          src="/assets/logos/cmic-logo.png" 
+          alt="CMIC Logo" 
+          className="w-12 h-12 object-contain"
+        />
+      ),
       color: 'success',
       description: 'Indicadores de construcción nacional'
     }
@@ -3852,9 +3882,13 @@ export default function TeseoLanding() {
                 whileHover={{ scale: 1.05, y: -5 }}
                 className="card-glass-strong p-5 text-center group"
               >
-                {/* Emoji Icon grande */}
-                <div className="text-5xl mb-4 group-hover:scale-110 transition-transform">
-                  {source.icon}
+                {/* Logo Image */}
+                <div className="w-20 h-20 mx-auto mb-4 flex items-center justify-center group-hover:scale-110 transition-transform">
+                  {source.image || (
+                    <span className="text-5xl">
+                      {source.icon}
+                    </span>
+                  )}
                 </div>
 
                 {/* Nombre */}
