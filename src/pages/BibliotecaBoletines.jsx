@@ -47,7 +47,7 @@ const boletines = [
       'Oportunidades de inversión'
     ],
     paginas: 28,
-    archivo: '/boletines/boletin-economico-hidalgo-2026.pdf',
+    archivo: '/archivos-boletines/boletin-economico-hidalgo-2026.pdf',
     imagen: '/images/boletin-economico-cover.png',
     color: 'emerald',
     icon: TrendingUp,
@@ -69,7 +69,7 @@ const boletines = [
       'Proyección 2026'
     ],
     paginas: 35,
-    archivo: '/boletines/boletin-inmobiliario-2025.pdf',
+    archivo: '/archivos-boletines/boletin-inmobiliario-2025.pdf',
     imagen: '/images/boletin-inmobiliario-cover.png',
     color: 'blue',
     icon: Home,
@@ -91,7 +91,7 @@ const boletines = [
       'Proyecciones 2026-2028'
     ],
     paginas: 42,
-    archivo: '/boletines/boletin-acero-2025.pdf',
+    archivo: '/archivos-boletines/boletin-acero-2025.pdf',
     imagen: '/images/boletin-acero-cover.png',
     color: 'slate',
     icon: Factory,
@@ -113,7 +113,7 @@ const boletines = [
       'Hotspots de demanda'
     ],
     paginas: 38,
-    archivo: '/boletines/boletin-concreto-2025.pdf',
+    archivo: '/archivos-boletines/boletin-concreto-2025.pdf',
     imagen: '/images/boletin-concreto-cover.png',
     color: 'amber',
     icon: Building2,
