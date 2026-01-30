@@ -31,6 +31,7 @@ const PoliticasUso = lazy(() => import('./components/pages/PoliticasUso'))
 
 // Landing Pages de Recursos
 const BoletinEconomico = lazy(() => import('./pages/BoletinEconomico'))
+const BibliotecaBoletines = lazy(() => import('./pages/BibliotecaBoletines'))
 
 // Loading component para Suspense
 const PageLoader = () => (
@@ -92,6 +93,7 @@ function App() {
 
           {/* LANDING PAGES DE RECURSOS (sin layout completo) */}
           <Route path="/boletin-economico" element={<BoletinEconomico />} />
+          <Route path="/boletines" element={<BibliotecaBoletines />} />
         </Routes>
       </Suspense>
     </>
