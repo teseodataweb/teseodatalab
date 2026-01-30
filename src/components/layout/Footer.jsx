@@ -114,6 +114,7 @@ export default function Footer() {
                 { name: 'Agente Vertical IA', href: '/servicios/agente-vertical' },
                 { name: 'Mercado Industrial', href: '/servicios/mercado-industrial' },
                 { name: 'Análisis de Mercado', href: '/servicios/mercado' },
+                { name: 'Boletines', href: '/boletines' },
                 { name: 'Blog', href: '/blog' }
               ].map((servicio, index) => (
                 <li key={index}>
