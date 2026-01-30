@@ -223,7 +223,12 @@ export default function Navbar() {
             {/* CTA Button - Desktop */}
             <div className="hidden lg:flex items-center gap-4">
               <motion.a
-                href="mailto:contacto@teseodata.com"
+                onClick={() => {
+                  const mensaje = encodeURIComponent(
+                    "Quiero solicitar un análisis de datos para mi empresa. Por favor, contáctenme para más detalles."
+                  )
+                  window.open(`https://wa.me/527713649201?text=${mensaje}`, '_blank')
+                  }}
                 className="btn-primary px-5 py-2.5 text-sm inline-flex items-center gap-2"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}

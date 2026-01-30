@@ -27,6 +27,10 @@ import {
   ResponsiveContainer
 } from 'recharts'
 // react-simple-maps removido por incompatibilidad con React 19
+import { BsFillBuildingsFill } from "react-icons/bs";
+import { LuFactory } from "react-icons/lu";
+import { FaHammer } from "react-icons/fa";
+import { FaShoppingCart } from "react-icons/fa";
 
 // Componente de Red de Nodos para el Hero - Optimizado para móvil
 const DataNetworkBackground = () => {
@@ -381,25 +385,20 @@ export default function TeseoLanding() {
     {
       icon: MapPin,
       nombre: 'Análisis Data-Econométrico de Expansión',
-      tagline: 'Decisiones de expansión con modelos de 5 capas',
+      tagline: 'Elige dónde expandir sin riesgo',
       link: '/servicios/expansion',
-      descripcion: 'Evaluación estratégica de viabilidad territorial y plazas para expansión con modelos econométricos rigurosos. Modelo de 5 capas: Demanda, Oferta, Saturación, Oportunidad y Rentabilidad (ROI/VPN).',
+      descripcion: 'Identifica las mejores plazas para expandir tu negocio. Analizamos demanda, competencia, rentabilidad y riesgo para recomendarte exactamente dónde invertir y dónde no.',
       metricas: [
         { label: 'Precisión', value: '397%', sublabel: 'ROI Querétaro (Cayco)' },
         { label: 'Entrega', value: '20-25 días', sublabel: 'análisis completo' },
         { label: 'Capas', value: '5', sublabel: 'modelos integrados' }
       ],
       caracteristicas: [
-        'Scoring de ubicaciones óptimas con modelos multivariables',
-        'Análisis demográfico, económico e industrial',
-        'Proyecciones de demanda con series temporales',
-        'Evaluación de saturación competitiva',
-        'Cálculo de ROI, VPN y punto de equilibrio por plaza',
-        'Recomendaciones estratégicas de inversión',
-        'Análisis de barreras de entrada',
-        'Evaluación de riesgo por escenarios',
-        'Índice de saturación de mercado',
-        'Reportes ejecutivos con 10 secciones'
+        'Ranking de plazas ordenadas por potencial de ROI',
+        'Proyecciones de demanda y competencia por ubicación',
+        'Cálculo automático de rentabilidad y punto de equilibrio',
+        'Análisis de riesgo con escenarios optimista y pesimista',
+        'Recomendación GO/NO-GO por plaza (evita inversiones equivocadas)'
       ],
       pricing: 'Desde $195,000 MXN por proyecto',
       timeline: 'Entrega: 20-25 días hábiles',
@@ -410,25 +409,20 @@ export default function TeseoLanding() {
     {
       icon: Microscope,
       nombre: 'Análisis de Inversión',
-      tagline: 'Viabilidad financiera con fundamento econométrico',
+      tagline: 'Valida si tu inversión es rentable',
       link: '/servicios/inversion',
-      descripcion: 'Estudios rigurosos de viabilidad financiera con modelos de ROI, VPN, EBITDA y análisis de sensibilidad. Evaluación de demanda, competencia y proyecciones multi-escenario.',
+      descripcion: 'Antes de invertir, sabe exactamente cuánto dinero ganarás, cuándo lo recuperarás y qué riesgos existen. Simulamos tres escenarios para que tomes la mejor decisión.',
       metricas: [
         { label: 'ROI', value: '60.7%', sublabel: 'proyección Huauchinango' },
         { label: 'Entrega', value: '15-20 días', sublabel: 'análisis completo' },
         { label: 'Escenarios', value: '3+', sublabel: 'Base, Optimista, Pesimista' }
       ],
       caracteristicas: [
-        'Modelos de punto de equilibrio operativo',
-        'Cálculo de ROI, TIR, VPN y EBITDA',
-        'Análisis de sensibilidad multi-escenario',
-        'Evaluación de demanda y competencia',
-        'Proyecciones financieras a 5-10 años',
-        'Recomendaciones estratégicas ejecutivas',
-        'Análisis de riesgo de mercado',
-        'Evaluación de flujos de caja',
-        'Identificación de drivers de rentabilidad',
-        'Reportes ejecutivos con gráficas'
+        'Proyección de ROI y punto de equilibrio (cuándo recuperas tu dinero)',
+        'Simulaciones de escenarios: optimista, realista y pesimista',
+        'Identificación de variables clave que afectan tu rentabilidad',
+        'Análisis de demanda, competencia y flujos de caja proyectados',
+        'Reporte ejecutivo listo para presentar a accionistas o bancos'
       ],
       pricing: 'Desde $150,000 MXN por proyecto',
       timeline: 'Entrega: 15-20 días hábiles',
@@ -439,25 +433,20 @@ export default function TeseoLanding() {
     {
       icon: Factory,
       nombre: 'Análisis de Mercado Industrial',
-      tagline: 'Perspectivas de mercado con 3M+ data points',
+      tagline: 'Entiende tu industria como nadie',
       link: '/servicios/mercado-industrial',
-      descripcion: 'Estudios exhaustivos de mercados industriales con proyecciones econométricas y análisis competitivo profundo. Procesamos +3M puntos de datos de 50+ fuentes para insights accionables.',
+      descripcion: 'Análisis profundo de tu industria con +3M datos de 50+ fuentes. Proyecciones de crecimiento, identificación de oportunidades y análisis de competidores para tomar decisiones estratégicas de largo plazo.',
       metricas: [
         { label: 'Data Points', value: '+3M', sublabel: 'fuentes integradas' },
         { label: 'Entrega', value: '25-30 días', sublabel: 'reporte completo' },
         { label: 'CAGR', value: '8.3%', sublabel: 'proyección concreto 2033' }
       ],
       caracteristicas: [
-        'Modelos econométricos multivariables',
-        'Proyecciones de volumen y valor de mercado',
-        'Análisis de saturación y oportunidad',
-        'Benchmarking competitivo detallado',
-        'Identificación de hotspots estratégicos',
-        'Evaluación de barreras de entrada',
-        'Análisis de cadenas de valor',
-        'Proyecciones con series temporales',
-        'Factores externos y riesgos',
-        'Reportes de 80-120 páginas'
+        'Proyecciones de volumen y valor del mercado a 5-10 años',
+        'Benchmarking detallado: competidores, precios, participación de mercado',
+        'Identificación de regiones con mayor potencial (hotspots)',
+        'Análisis de factores que impulsan el crecimiento (drivers)',
+        'Recomendaciones estratégicas ejecutivas con datos sólidos'
       ],
       pricing: 'Desde $220,000 MXN por proyecto',
       timeline: 'Entrega: 25-30 días hábiles',
@@ -468,25 +457,20 @@ export default function TeseoLanding() {
     {
       icon: BarChart3,
       nombre: 'Análisis de Mercado',
-      tagline: 'Inteligencia de mercado para decisiones estratégicas',
+      tagline: 'Descubre a quiénes venderles y cómo',
       link: '/servicios/mercado',
-      descripcion: 'Estudios de mercado completos con análisis demográfico, económico, competitivo y proyecciones de demanda. Identificación de segmentos objetivo y estrategias de entrada.',
+      descripcion: 'Entiende tu mercado target: quiénes son, qué necesitan, cuántos son y cómo llegar a ellos. Incluye análisis de competencia y estrategias comprobadas de entrada al mercado.',
       metricas: [
         { label: 'Fuentes', value: '50+', sublabel: 'bases de datos' },
         { label: 'Entrega', value: '18-22 días', sublabel: 'análisis completo' },
         { label: 'Precisión', value: '<5%', sublabel: 'margen de error' }
       ],
       caracteristicas: [
-        'Análisis demográfico y socioeconómico',
-        'Evaluación de tamaño de mercado total',
-        'Análisis competitivo y participación',
-        'Proyecciones de demanda',
-        'Identificación de segmentos objetivo',
-        'Recomendaciones de estrategia de entrada',
-        'Análisis de oportunidad de mercado',
-        'Evaluación de riesgo competitivo',
-        'Tendencias y drivers de crecimiento',
-        'Dashboard ejecutivo interactivo'
+        'Tamaño exacto de tu mercado potencial (TAM)',
+        'Perfil detallado de clientes ideales: edad, ingresos, hábitos',
+        'Análisis de competidores y tu posicionamiento',
+        'Proyecciones de demanda y oportunidades de crecimiento',
+        'Dashboard con datos actualizables para monitoreo continuo'
       ],
       pricing: 'Desde $180,000 MXN por proyecto',
       timeline: 'Entrega: 18-22 días hábiles',
@@ -497,25 +481,20 @@ export default function TeseoLanding() {
     {
       icon: Target,
       nombre: 'Agente Vertical',
-      tagline: 'Prospección de clientes con IA y análisis de datos',
+      tagline: 'IA que encuentra tus clientes potenciales',
       link: '/servicios/agente-vertical',
-      descripcion: 'Prospección de clientes potenciales con IA y análisis de datos para identificar oportunidades comerciales. Evaluación de patrones de consumo y propensión de compra para maximizar conversión.',
+      descripcion: 'IA identifica automáticamente tus mejores oportunidades de venta. Te da una base de clientes calificados listos para contactar, sin costo inicial: pagamos juntos por resultados.',
       metricas: [
         { label: 'ROI', value: 'Alto', sublabel: 'conversión Sherwin Williams' },
         { label: 'Modelo', value: 'Revenue Share', sublabel: 'sin costo inicial' },
         { label: 'Entrega', value: 'Continua', sublabel: 'dashboard actualizado' }
       ],
       caracteristicas: [
-        'Análisis de patrones de consumo con IA',
-        'Identificación de clientes potenciales',
-        'Segmentación demográfica avanzada',
-        'Evaluación de propensión de compra',
-        'Base de datos de prospectos calificados',
-        'Dashboard de monitoreo comercial',
-        'Scoring de leads por probabilidad',
-        'Análisis de comportamiento de compra',
-        'Integración con CRM existente',
-        'Reportes de conversión y ROI'
+        'Base de datos de clientes potenciales con puntuación de compra',
+        'Segmentación automática: Tier A (listos para vender), B y C',
+        'Dashboard en tiempo real para monitorear oportunidades',
+        'Actualización mensual automática con nuevos prospectos',
+        'Modelo sin riesgo: solo pagas comisión sobre ventas realizadas'
       ],
       pricing: 'Modelo revenue share (sin costo inicial)',
       timeline: 'Entrega: Continua con actualizaciones',
@@ -644,14 +623,26 @@ export default function TeseoLanding() {
     {
       name: 'INEGI',
       fullName: 'Instituto Nacional de Estadística y Geografía',
-      icon: '📊',
+      image: (
+        <img 
+          src="/assets/logos/inegi-logo.png" 
+          alt="INEGI Logo" 
+          className="w-12 h-12 object-contain"
+        />
+      ),
       color: 'tech',
       description: 'Censos, DENUE, estadísticas oficiales México'
     },
     {
       name: 'DENUE',
       fullName: 'Directorio Estadístico Nacional de Unidades Económicas',
-      icon: '🏢',
+      image: (
+        <img 
+          src="/assets/logos/denue-logo.png" 
+          alt="DENUE Logo" 
+          className="w-12 h-12 object-contain"
+        />
+      ),
       color: 'warning',
       description: 'Base de empresas activas por sector'
     },
@@ -679,21 +670,39 @@ export default function TeseoLanding() {
     {
       name: 'DataMéxico',
       fullName: 'Secretaría de Economía',
-      icon: '🇲🇽',
+      image: (
+        <img 
+          src="/assets/logos/datamexico-logo.png" 
+          alt="DataMéxico Logo" 
+          className="w-12 h-12 object-contain"
+        />
+      ),
       color: 'warning',
       description: 'Datos sectoriales y comercio exterior'
     },
     {
       name: 'AMCI',
       fullName: 'Asociación Mexicana de Concreteros Independientes',
-      icon: '🏗️',
+      image: (
+        <img 
+          src="/assets/logos/amci-logo.png" 
+          alt="AMCI Logo" 
+          className="w-12 h-12 object-contain"
+        />
+      ),
       color: 'tech',
       description: 'Estadísticas industria del concreto'
     },
     {
       name: 'CMIC',
       fullName: 'Cámara Mexicana de la Industria de la Construcción',
-      icon: '🏭',
+      image: (
+        <img 
+          src="/assets/logos/cmic-logo.png" 
+          alt="CMIC Logo" 
+          className="w-12 h-12 object-contain"
+        />
+      ),
       color: 'success',
       description: 'Indicadores de construcción nacional'
     }
@@ -705,9 +714,15 @@ export default function TeseoLanding() {
       name: 'DatAlpine',
       tagline: 'Inteligencia Inmobiliaria',
       description: 'Plataforma de simulación financiera para desarrolladores inmobiliarios',
-      icon: Home,
+      image: (
+        <img 
+          src="/assets/logos/datalpineB-logo.png" 
+          alt="DatAlpine Logo" 
+          className="w-16 h-16 object-contain"
+        />
+      ),
       color: 'teseo',
-      action: () => window.open('https://teseodata.com/simulador', '_blank')
+      action: () => window.open('https://datalpine.mx/', '_blank')
     }
   ]
 
@@ -856,77 +871,539 @@ export default function TeseoLanding() {
     // Sección 1: Precios y Modelo de Negocio
     {
       question: '¿Cuánto cuesta un análisis de Teseo Data Lab?',
-      answer: 'Modelo de pricing flat por proyecto: (1) Análisis de Inversión Inmobiliaria: $150K MXN, (2) Análisis Data-Econométrico de Expansión: $280K MXN, (3) Estudio de Mercado: $200K MXN, (4) Análisis de Mercado Industrial: $350K MXN, (5) Lead Journey Mapping: $120K MXN, (6) Agente Vertical IA: $0 inicial con revenue share 12-18% sobre ventas generadas. Sin mensualidades. Todos incluyen: reporte completo, código fuente, dashboard interactivo, y sesión Q&A.'
+      answer: (
+        <div className="space-y-4">
+          <p className="text-industrial-300">
+            Modelo de pricing flat por proyecto según tipo de servicio:
+          </p>
+          <ul className="space-y-2 list-disc list-inside text-industrial-300">
+            <li><span className="font-semibold text-white">Análisis de Inversión Inmobiliaria:</span> $150K MXN</li>
+            <li><span className="font-semibold text-white">Análisis Data-Econométrico de Expansión:</span> $280K MXN</li>
+            <li><span className="font-semibold text-white">Estudio de Mercado:</span> $200K MXN</li>
+            <li><span className="font-semibold text-white">Análisis de Mercado Industrial:</span> $350K MXN</li>
+            <li><span className="font-semibold text-white">Lead Journey Mapping:</span> $120K MXN</li>
+            <li><span className="font-semibold text-white">Agente Vertical IA:</span> $0 inicial con revenue share 12-18% sobre ventas generadas</li>
+          </ul>
+          <div className="p-4 bg-teseo-500/10 border border-teseo-500/30 rounded-lg mt-4">
+            <p className="text-sm text-industrial-300">
+              <span className="font-semibold text-white">Sin mensualidades.</span> Todos incluyen: reporte completo, código fuente, dashboard interactivo, y sesión Q&A.
+            </p>
+          </div>
+        </div>
+      )
     },
     {
       question: '¿Cómo funciona el pago? ¿Hay mensualidades o es pago único?',
-      answer: 'Modelo flat de pago único por proyecto. Sin mensualidades ni retainers. Para Agente Vertical ofrecemos modelo revenue share (porcentaje de ventas generadas) sin costo inicial. Esquema de pago: 50% al inicio del proyecto / 50% en entrega final. Aceptamos transferencia bancaria y facturamos con RFC. Incluimos 30-60 días de soporte post-entrega según servicio.'
+      answer: (
+        <div className="space-y-4">
+          <div className="grid md:grid-cols-2 gap-4">
+            <div className="p-4 bg-industrial-800/50 rounded-lg">
+              <h4 className="font-semibold text-white mb-3">Proyectos One-Time</h4>
+              <ul className="space-y-2 list-disc list-inside text-sm text-industrial-300">
+                <li>Pago único (sin mensualidades)</li>
+                <li>50% al inicio del proyecto</li>
+                <li>50% en entrega final</li>
+                <li>30-60 días soporte incluido</li>
+              </ul>
+            </div>
+            <div className="p-4 bg-tech-500/10 rounded-lg">
+              <h4 className="font-semibold text-white mb-3">Agente Vertical IA</h4>
+              <ul className="space-y-2 list-disc list-inside text-sm text-industrial-300">
+                <li>Sin costo inicial</li>
+                <li>Revenue share: % de ventas generadas</li>
+                <li>Soporte continuo incluido</li>
+                <li>Actualizaciones mensuales automáticas</li>
+              </ul>
+            </div>
+          </div>
+          <div className="p-4 bg-success-500/10 border border-success-500/30 rounded-lg">
+            <p className="text-sm text-industrial-300">
+              <span className="font-semibold text-white">Medios de pago:</span> Transferencia bancaria, facturamos con RFC. Aceptamos empresas e individuos.
+            </p>
+          </div>
+        </div>
+      )
     },
     {
       question: '¿En qué se diferencia Teseo de consultoras tradicionales?',
-      answer: 'Diferencias clave: (1) Entregamos código fuente y modelos ejecutables (no solo PowerPoint), (2) Dashboards interactivos en tiempo real que TÚ puedes actualizar, (3) Validación estadística rigurosa (R² > 0.85 garantizado), (4) Pricing transparente sin retainers mensuales, (5) Equipo técnico (Data Scientists con maestría, no solo consultores MBA), (6) Revenue share disponible sin costo inicial, (7) 18+ años de experiencia con resultados comprobables.'
+      answer: (
+        <div className="space-y-4">
+          <p className="text-industrial-300 font-semibold">Diferenciadores clave:</p>
+          <div className="space-y-3">
+            <div className="flex gap-3">
+              <span className="text-teseo-400 font-bold flex-shrink-0">✓</span>
+              <div>
+                <p className="font-semibold text-white">Entregables Técnicos</p>
+                <p className="text-sm text-industrial-300">Código fuente y modelos ejecutables (no solo PowerPoint)</p>
+              </div>
+            </div>
+            <div className="flex gap-3">
+              <span className="text-teseo-400 font-bold flex-shrink-0">✓</span>
+              <div>
+                <p className="font-semibold text-white">Dashboards Interactivos</p>
+                <p className="text-sm text-industrial-300">Que TÚ puedes actualizar en tiempo real</p>
+              </div>
+            </div>
+            <div className="flex gap-3">
+              <span className="text-teseo-400 font-bold flex-shrink-0">✓</span>
+              <div>
+                <p className="font-semibold text-white">Validación Estadística</p>
+                <p className="text-sm text-industrial-300">Rigurosa (R² &gt; 0.85 garantizado)</p>
+              </div>
+            </div>
+            <div className="flex gap-3">
+              <span className="text-teseo-400 font-bold flex-shrink-0">✓</span>
+              <div>
+                <p className="font-semibold text-white">Pricing Transparente</p>
+                <p className="text-sm text-industrial-300">Sin retainers mensuales ni hidden costs</p>
+              </div>
+            </div>
+            <div className="flex gap-3">
+              <span className="text-teseo-400 font-bold flex-shrink-0">✓</span>
+              <div>
+                <p className="font-semibold text-white">Equipo Técnico</p>
+                <p className="text-sm text-industrial-300">Data Scientists con maestría, no solo consultores MBA</p>
+              </div>
+            </div>
+            <div className="flex gap-3">
+              <span className="text-teseo-400 font-bold flex-shrink-0">✓</span>
+              <div>
+                <p className="font-semibold text-white">Revenue Share Disponible</p>
+                <p className="text-sm text-industrial-300">Sin costo inicial para servicios de prospección</p>
+              </div>
+            </div>
+            <div className="flex gap-3">
+              <span className="text-teseo-400 font-bold flex-shrink-0">✓</span>
+              <div>
+                <p className="font-semibold text-white">Experiencia Comprobable</p>
+                <p className="text-sm text-industrial-300">18+ años con resultados verificables</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      )
     },
 
     // Sección 2: Resultados y Experiencia
     {
       question: '¿Qué resultados puedo esperar? ¿Tienen casos de éxito?',
-      answer: 'Resultados comprobados con clientes: reducción 40% en CAC, incremento 35% en conversión, ROI 12x en campañas de prospección, identificación de 25+ leads B2B calificados mensuales. Casos destacados: desarrolladora inmobiliaria aumentó velocidad de venta 28% con nuestro análisis de mercado, empresa industrial optimizó decisión de expansión ahorrando $8M MXN en inversión mal dirigida. Garantizamos métricas (R² > 0.85) o ajustamos sin costo.'
+      answer: (
+        <div className="space-y-4">
+          <p className="font-semibold text-white">Resultados comprobados con clientes:</p>
+          <ul className="space-y-2 list-disc list-inside text-industrial-300">
+            <li>Reducción 40% en CAC (Customer Acquisition Cost)</li>
+            <li>Incremento 35% en conversión de leads</li>
+            <li>ROI 12x en campañas de prospección con IA</li>
+            <li>Identificación de 25+ leads B2B calificados mensuales</li>
+          </ul>
+          <div className="p-4 bg-warning-500/10 rounded-lg border border-warning-500/20 mt-4">
+            <p className="font-semibold text-white mb-2">Casos destacados:</p>
+            <ul className="space-y-2 list-disc list-inside text-sm text-industrial-300">
+              <li>Desarrolladora inmobiliaria: aumentó velocidad de venta 28% con análisis de mercado</li>
+              <li>Empresa industrial: evitó expansión mal dirigida ahorrando $8M MXN</li>
+            </ul>
+          </div>
+          <p className="text-sm text-success-400 font-semibold">
+            ✓ Garantizamos métricas (R² &gt; 0.85) o ajustamos sin costo
+          </p>
+        </div>
+      )
     },
     {
       question: '¿Quién hace los análisis? ¿Qué experiencia tiene el equipo?',
-      answer: 'Equipo multidisciplinario: (1) Data Scientists con maestría en econometría y machine learning, (2) Analistas de mercado con 10+ años de experiencia en inteligencia comercial, (3) Ingenieros de software especializados en BI y dashboards. Operamos desde 2006 (18+ años). Equipo ha trabajado en: Deloitte, Accenture, Banco de México, Roche, y University of Massachusetts. Publicaciones en revistas académicas de econometría aplicada y análisis predictivo.'
+      answer: (
+        <div className="space-y-4">
+          <p className="font-semibold text-white">Equipo multidisciplinario:</p>
+          <ul className="space-y-3 list-disc list-inside text-industrial-300">
+            <li>
+              <span className="font-semibold text-white">Data Scientists</span> con maestría en econometría y machine learning
+            </li>
+            <li>
+              <span className="font-semibold text-white">Analistas de Mercado</span> con 10+ años de experiencia en inteligencia comercial
+            </li>
+            <li>
+              <span className="font-semibold text-white">Ingenieros de Software</span> especializados en BI y dashboards
+            </li>
+          </ul>
+          <div className="grid md:grid-cols-2 gap-4 mt-4">
+            <div className="p-4 bg-industrial-800/50 rounded-lg">
+              <p className="text-sm font-semibold text-white mb-2">Experiencia:</p>
+              <ul className="space-y-1 list-disc list-inside text-sm text-industrial-300">
+                <li>18+ años (desde 2006)</li>
+                <li>Deloitte, Accenture</li>
+                <li>Banco de México</li>
+                <li>Roche</li>
+                <li>UMass</li>
+              </ul>
+            </div>
+            <div className="p-4 bg-tech-500/10 rounded-lg">
+              <p className="text-sm font-semibold text-white mb-2">Publicaciones:</p>
+              <ul className="space-y-1 list-disc list-inside text-sm text-industrial-300">
+                <li>Revistas académicas</li>
+                <li>Econometría aplicada</li>
+                <li>Análisis predictivo</li>
+                <li>Series de tiempo</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      )
     },
 
     // Sección 3: Proceso y Timeline
     {
       question: '¿Cuál es el proceso completo desde que los contacto?',
-      answer: 'Proceso en 7 pasos: (1) Consulta gratuita 30min para entender tu necesidad, (2) Propuesta técnica y cotización en 48h, (3) Kick-off con firma de NDA y pago inicial 50%, (4) Desarrollo y validación de modelos (15-30 días según servicio), (5) Presentación de resultados preliminares y sesión Q&A, (6) Entrega final: reporte PDF 100+ págs, código fuente, dashboard interactivo, (7) Soporte incluido 30-60 días post-entrega.'
+      answer: (
+        <div className="space-y-4">
+          <p className="font-semibold text-white">7 pasos del proceso:</p>
+          <div className="space-y-3">
+            {[
+              { num: '1', title: 'Consulta Gratuita', desc: '30 min para entender tu necesidad' },
+              { num: '2', title: 'Propuesta Técnica', desc: 'Cotización en 48h' },
+              { num: '3', title: 'Kick-off', desc: 'Firma de NDA y pago inicial 50%' },
+              { num: '4', title: 'Desarrollo', desc: '15-30 días según servicio' },
+              { num: '5', title: 'Presentación', desc: 'Resultados preliminares + Q&A' },
+              { num: '6', title: 'Entrega Final', desc: 'Reporte, código, dashboard' },
+              { num: '7', title: 'Soporte', desc: '30-60 días post-entrega' }
+            ].map((paso, i) => (
+              <div key={i} className="flex gap-4 p-3 bg-industrial-800/50 rounded-lg">
+                <div className="w-8 h-8 rounded-full bg-teseo-500/20 flex items-center justify-center flex-shrink-0">
+                  <span className="text-teseo-400 font-bold text-sm">{paso.num}</span>
+                </div>
+                <div>
+                  <p className="font-semibold text-white text-sm">{paso.title}</p>
+                  <p className="text-xs text-industrial-400">{paso.desc}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      )
     },
     {
       question: '¿Cuánto tiempo toma completar un análisis?',
-      answer: 'Timelines por servicio: Análisis de Inversión Inmobiliaria: 15-20 días hábiles. Estudio de Mercado: 18-22 días. Análisis Data-Econométrico de Expansión: 20-25 días. Análisis de Mercado Industrial: 25-30 días. Lead Journey Mapping: 12-15 días. Agente Vertical IA: setup inicial 10 días + entregas mensuales continuas. Todos los timelines incluyen validación rigurosa (R² > 0.85) y sesión de presentación de resultados.'
+      answer: (
+        <div className="space-y-4">
+          <p className="font-semibold text-white">Timelines por servicio:</p>
+          <div className="space-y-2">
+            {[
+              { service: 'Análisis de Inversión Inmobiliaria', days: '15-20' },
+              { service: 'Estudio de Mercado', days: '18-22' },
+              { service: 'Análisis Data-Econométrico de Expansión', days: '20-25' },
+              { service: 'Análisis de Mercado Industrial', days: '25-30' },
+              { service: 'Lead Journey Mapping', days: '12-15' },
+              { service: 'Agente Vertical IA', days: 'Setup 10 días + entregas mensuales' }
+            ].map((item, i) => (
+              <div key={i} className="flex justify-between items-center p-3 bg-industrial-800/30 rounded-lg">
+                <span className="text-sm text-industrial-300">{item.service}</span>
+                <span className="text-sm font-semibold text-teseo-400">{item.days} días hábiles</span>
+              </div>
+            ))}
+          </div>
+          <p className="text-xs text-success-400 mt-4">
+            ✓ Todos incluyen validación rigurosa (R² &gt; 0.85) y sesión de presentación
+          </p>
+        </div>
+      )
     },
 
     // Sección 4: Alcance y Cobertura
     {
       question: '¿Solo trabajan en México o también a nivel internacional?',
-      answer: 'Operamos principalmente en México con presencia activa en 12 estados (CDMX, Querétaro, Nuevo León, Jalisco, Puebla, etc.), pero también atendemos proyectos en Latinoamérica (Colombia, Chile, Perú) y Estados Unidos. Nuestros análisis de mercado industrial y estudios de expansión son aplicables a cualquier región con datos históricos disponibles. Contamos con fuentes de datos internacionales (INEGI, Banco Mundial, censos económicos locales).'
+      answer: (
+        <div className="space-y-4">
+          <p className="text-industrial-300">
+            Operamos principalmente en <span className="font-semibold text-white">México con presencia en 12 estados</span>, pero también atendemos proyectos en:
+          </p>
+          <ul className="space-y-1 list-disc list-inside text-industrial-300">
+            <li>Colombia</li>
+            <li>Chile</li>
+            <li>Perú</li>
+            <li>Estados Unidos</li>
+          </ul>
+          <div className="p-4 bg-tech-500/10 rounded-lg border border-tech-500/20 mt-4">
+            <p className="text-sm text-industrial-300">
+              <span className="font-semibold text-white">Análisis aplicables:</span> Nuestros estudios de expansión y análisis de mercado funcionan en cualquier región con datos históricos disponibles.
+            </p>
+            <p className="text-sm text-industrial-300 mt-2">
+              <span className="font-semibold text-white">Fuentes internacionales:</span> INEGI, Banco Mundial, censos económicos locales
+            </p>
+          </div>
+        </div>
+      )
     },
     {
       question: '¿Para qué tamaño de empresa trabajan? ¿Qué industrias?',
-      answer: 'Perfil ideal de cliente: (1) Desarrolladores inmobiliarios con pipeline $50M+ MXN, (2) Empresas industriales en expansión (manufactura, logística, distribución), (3) Retail y comercio con estrategia multi-ubicación, (4) Empresas B2B con pipeline comercial estructurado. Industrias: Real Estate, Manufactura, Retail, Logística, Construcción, Servicios B2B. Presupuesto mínimo recomendado: $5M MXN anuales en ingresos para ROI óptimo del análisis.'
+      answer: (
+        <div className="space-y-4">
+          <p className="font-semibold text-white">Perfil ideal de cliente:</p>
+          <ul className="space-y-2 list-disc list-inside text-industrial-300">
+            <li>Desarrolladores inmobiliarios con pipeline +$50M MXN</li>
+            <li>Empresas industriales en expansión (manufactura, logística, distribución)</li>
+            <li>Retail y comercio con estrategia multi-ubicación</li>
+            <li>Empresas B2B con pipeline comercial estructurado</li>
+          </ul>
+          <div className="p-4 bg-warning-500/10 rounded-lg border border-warning-500/20 mt-4">
+            <p className="text-sm font-semibold text-white mb-2">Industrias:</p>
+            <ul className="space-y-1 list-disc list-inside text-sm text-industrial-300">
+              <li>Real Estate y Bienes Raíces</li>
+              <li>Manufactura e Industria</li>
+              <li>Retail y Comercio</li>
+              <li>Logística y Distribución</li>
+              <li>Construcción</li>
+              <li>Servicios B2B</li>
+            </ul>
+          </div>
+          <p className="text-sm text-industrial-300 mt-4">
+            <span className="font-semibold text-white">Presupuesto mínimo recomendado:</span> $5M MXN anuales en ingresos para ROI óptimo del análisis
+          </p>
+        </div>
+      )
     },
 
     // Sección 5: Aspectos Técnicos
     {
       question: '¿Qué datos necesitan de mi empresa para empezar?',
-      answer: 'Para kick-off necesitamos: (1) Contexto de negocio (industria, mercado objetivo, competidores clave), (2) Objetivos cuantitativos claros (ej: proyección de demanda, ROI de expansión, optimización CAC), (3) Fuentes de datos internas disponibles (CRM, base de transacciones, históricos de ventas), (4) Timeline y urgencia del proyecto. Firmamos NDA antes de compartir información sensible. Si no tienes datos históricos, podemos trabajar con datos públicos y benchmarks de industria.'
+      answer: (
+        <div className="space-y-4">
+          <p className="font-semibold text-white">Para kick-off necesitamos:</p>
+          <ul className="space-y-2 list-disc list-inside text-industrial-300">
+            <li><span className="font-semibold text-white">Contexto de negocio:</span> Industria, mercado objetivo, competidores clave</li>
+            <li><span className="font-semibold text-white">Objetivos cuantitativos:</span> Proyección de demanda, ROI de expansión, optimización CAC</li>
+            <li><span className="font-semibold text-white">Datos internos disponibles:</span> CRM, transacciones, históricos de ventas</li>
+            <li><span className="font-semibold text-white">Timeline y urgencia</span> del proyecto</li>
+          </ul>
+          <div className="p-4 bg-teseo-500/10 rounded-lg border border-teseo-500/20 mt-4 space-y-3">
+            <p className="text-sm text-industrial-300">
+              <span className="text-teseo-400 font-semibold">🔒 Confidencialidad:</span> Firmamos NDA antes de compartir información sensible
+            </p>
+            <p className="text-sm text-industrial-300">
+              <span className="text-success-400 font-semibold">✓ Sin datos históricos:</span> Podemos trabajar con datos públicos y benchmarks de industria
+            </p>
+          </div>
+        </div>
+      )
     },
     {
       question: '¿Qué tecnologías y modelos utilizan?',
-      answer: 'Stack tecnológico: Python (pandas, scikit-learn, statsmodels), R, SQL, TensorFlow, PyTorch. Modelos econométricos: Cointegración de Johansen, VAR/VECM, ARIMA, regresión hedónica, análisis de series de tiempo. Machine Learning: Random Forest, XGBoost, LightGBM, redes neuronales LSTM. Validación: k-fold cross-validation, backtesting histórico, bootstrap (1000 muestras), simulaciones Monte Carlo (10K iteraciones). Dashboards: PowerBI, Tableau, Excel con macros automatizadas.'
+      answer: (
+        <div className="space-y-4">
+          <div className="grid md:grid-cols-2 gap-4">
+            <div>
+              <p className="font-semibold text-white mb-3">Lenguajes y Frameworks</p>
+              <ul className="space-y-1 list-disc list-inside text-sm text-industrial-300">
+                <li>Python (pandas, scikit-learn, statsmodels)</li>
+                <li>R</li>
+                <li>SQL</li>
+                <li>TensorFlow</li>
+                <li>PyTorch</li>
+              </ul>
+            </div>
+            <div>
+              <p className="font-semibold text-white mb-3">Visualización</p>
+              <ul className="space-y-1 list-disc list-inside text-sm text-industrial-300">
+                <li>PowerBI</li>
+                <li>Tableau</li>
+                <li>Excel (macros automatizadas)</li>
+              </ul>
+            </div>
+          </div>
+          <div className="grid md:grid-cols-2 gap-4 mt-4">
+            <div className="p-4 bg-industrial-800/50 rounded-lg">
+              <p className="font-semibold text-white mb-2 text-sm">Modelos Econométricos</p>
+              <ul className="space-y-1 list-disc list-inside text-xs text-industrial-300">
+                <li>Cointegración de Johansen</li>
+                <li>VAR/VECM</li>
+                <li>ARIMA</li>
+                <li>Regresión hedónica</li>
+                <li>Series de tiempo</li>
+              </ul>
+            </div>
+            <div className="p-4 bg-tech-500/10 rounded-lg">
+              <p className="font-semibold text-white mb-2 text-sm">Machine Learning</p>
+              <ul className="space-y-1 list-disc list-inside text-xs text-industrial-300">
+                <li>Random Forest</li>
+                <li>XGBoost</li>
+                <li>LightGBM</li>
+                <li>Redes neuronales LSTM</li>
+                <li>Ensemble learning</li>
+              </ul>
+            </div>
+          </div>
+          <div className="p-4 bg-success-500/10 rounded-lg border border-success-500/20 mt-4">
+            <p className="font-semibold text-white mb-2 text-sm">Validación Rigurosa</p>
+            <ul className="space-y-1 list-disc list-inside text-xs text-industrial-300">
+              <li>K-fold cross-validation</li>
+              <li>Backtesting histórico</li>
+              <li>Bootstrap (1000 muestras)</li>
+              <li>Simulaciones Monte Carlo (10K iteraciones)</li>
+            </ul>
+          </div>
+        </div>
+      )
     },
     {
       question: '¿Incluyen el código fuente y modelos?',
-      answer: 'Sí, todos nuestros proyectos incluyen entrega completa: (1) Código fuente Python/R documentado con comentarios, (2) Notebooks Jupyter reproducibles paso a paso, (3) Modelos entrenados exportables (.pkl, .h5), (4) Scripts de ETL y feature engineering, (5) Dashboards interactivos (PowerBI/Excel) que TÚ puedes actualizar, (6) Documentación técnica completa de metodología. Puedes correr y actualizar los modelos internamente después de la entrega sin depender de nosotros.'
+      answer: (
+        <div className="space-y-4">
+          <p className="text-success-400 font-semibold mb-4">✓ Sí, todos nuestros proyectos incluyen entrega completa:</p>
+          <ul className="space-y-3">
+            {[
+              { item: 'Código fuente Python/R', desc: 'Documentado con comentarios' },
+              { item: 'Notebooks Jupyter', desc: 'Reproducibles paso a paso' },
+              { item: 'Modelos entrenados', desc: 'Exportables (.pkl, .h5)' },
+              { item: 'Scripts de ETL', desc: 'Y feature engineering' },
+              { item: 'Dashboards interactivos', desc: 'PowerBI/Excel que TÚ puedes actualizar' },
+              { item: 'Documentación técnica', desc: 'Completa de metodología' }
+            ].map((item, i) => (
+              <div key={i} className="flex gap-3 p-3 bg-industrial-800/30 rounded-lg">
+                <span className="text-teseo-400 font-bold flex-shrink-0">✓</span>
+                <div>
+                  <p className="font-semibold text-white text-sm">{item.item}</p>
+                  <p className="text-xs text-industrial-400">{item.desc}</p>
+                </div>
+              </div>
+            ))}
+          </ul>
+          <p className="text-sm text-industrial-300 mt-4 italic">
+            Puedes correr y actualizar los modelos internamente después de la entrega sin depender de nosotros.
+          </p>
+        </div>
+      )
     },
     {
       question: '¿Los modelos se actualizan con nuevos datos automáticamente?',
-      answer: 'Depende del servicio contratado: (1) Análisis one-time: te entregamos el modelo completo que TÚ puedes actualizar con nuevos datos usando los scripts incluidos, (2) Agente Vertical IA: actualizaciones automáticas mensuales incluidas en modelo revenue share, (3) Contrato de mantenimiento opcional: actualizaciones trimestrales con nuevos datos + re-entrenamiento de modelos + ajustes de parámetros. También ofrecemos capacitación para tu equipo interno.'
+      answer: (
+        <div className="space-y-4">
+          <p className="font-semibold text-white">Depende del servicio contratado:</p>
+          <div className="space-y-3">
+            <div className="p-4 bg-industrial-800/50 rounded-lg">
+              <p className="font-semibold text-white mb-2">Análisis One-Time</p>
+              <p className="text-sm text-industrial-300">Te entregamos el modelo completo que TÚ puedes actualizar con nuevos datos usando los scripts incluidos</p>
+            </div>
+            <div className="p-4 bg-tech-500/10 rounded-lg">
+              <p className="font-semibold text-white mb-2">Agente Vertical IA</p>
+              <ul className="space-y-1 list-disc list-inside text-sm text-industrial-300">
+                <li>Actualizaciones automáticas mensuales incluidas</li>
+                <li>Modelo revenue share</li>
+              </ul>
+            </div>
+            <div className="p-4 bg-success-500/10 rounded-lg border border-success-500/20">
+              <p className="font-semibold text-white mb-2">Contrato de Mantenimiento (Opcional)</p>
+              <ul className="space-y-1 list-disc list-inside text-sm text-industrial-300">
+                <li>Actualizaciones trimestrales con nuevos datos</li>
+                <li>Re-entrenamiento de modelos</li>
+                <li>Ajustes de parámetros</li>
+                <li>Capacitación para tu equipo interno</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      )
     },
 
     // Sección 6: Seguridad y Soporte
     {
       question: '¿Cómo garantizan la confidencialidad de nuestros datos?',
-      answer: 'Protocolo de seguridad: Firmamos NDA (Non-Disclosure Agreement) antes del kick-off. Datos almacenados en servidores seguros con encriptación AES-256. Acceso restringido solo al equipo asignado al proyecto. Eliminación permanente de datos post-entrega si lo solicitas. Nunca compartimos datos entre clientes ni usamos tu información para benchmarks sin autorización expresa. Cumplimos GDPR y normativas mexicanas de protección de datos (Ley Federal de Protección de Datos Personales).'
+      answer: (
+        <div className="space-y-4">
+          <p className="font-semibold text-white">Protocolo de seguridad multi-capa:</p>
+          <ul className="space-y-3">
+            {[
+              { measure: 'NDA', desc: 'Firmamos acuerdo de confidencialidad antes del kick-off' },
+              { measure: 'Encriptación', desc: 'AES-256 en almacenamiento de servidores' },
+              { measure: 'Acceso Restringido', desc: 'Solo equipo asignado al proyecto' },
+              { measure: 'Eliminación', desc: 'Permanente de datos post-entrega si lo solicitas' },
+              { measure: 'Sin Compartir', desc: 'Nunca compartimos datos entre clientes' },
+              { measure: 'Cumplimiento', desc: 'GDPR y Ley Federal de Protección de Datos México' }
+            ].map((item, i) => (
+              <div key={i} className="flex gap-3 p-3 bg-industrial-800/30 rounded-lg">
+                <Shield className="w-5 h-5 text-success-400 flex-shrink-0" />
+                <div>
+                  <p className="font-semibold text-white text-sm">{item.measure}</p>
+                  <p className="text-xs text-industrial-400">{item.desc}</p>
+                </div>
+              </div>
+            ))}
+          </ul>
+        </div>
+      )
     },
     {
       question: '¿Ofrecen soporte post-entrega?',
-      answer: 'Todos los proyectos incluyen soporte post-entrega sin costo adicional: (1) Análisis one-time: 30 días de soporte (consultas, actualizaciones menores de datos, ajustes al dashboard), (2) Análisis complejos (Expansión, Industrial): 60 días de soporte + 2 sesiones Q&A adicionales, (3) Agente Vertical: soporte continuo incluido en modelo revenue share. Soporte extendido disponible con contrato de mantenimiento mensual ($15K-$30K MXN/mes según complejidad).'
+      answer: (
+        <div className="space-y-4">
+          <p className="font-semibold text-white">Soporte post-entrega incluido:</p>
+          <div className="space-y-3">
+            <div className="p-4 bg-industrial-800/50 rounded-lg">
+              <p className="font-semibold text-white mb-2">Análisis One-Time</p>
+              <p className="text-sm text-industrial-300 mb-2"><span className="text-warning-400 font-bold">30 días</span> de soporte</p>
+              <ul className="space-y-1 list-disc list-inside text-xs text-industrial-300">
+                <li>Consultas generales</li>
+                <li>Actualizaciones menores de datos</li>
+                <li>Ajustes al dashboard</li>
+              </ul>
+            </div>
+            <div className="p-4 bg-tech-500/10 rounded-lg">
+              <p className="font-semibold text-white mb-2">Análisis Complejos</p>
+              <p className="text-sm text-industrial-300 mb-2"><span className="text-tech-400 font-bold">60 días</span> de soporte</p>
+              <ul className="space-y-1 list-disc list-inside text-xs text-industrial-300">
+                <li>Consultas avanzadas</li>
+                <li>2 sesiones Q&A adicionales</li>
+                <li>Ajustes significativos</li>
+              </ul>
+            </div>
+            <div className="p-4 bg-success-500/10 rounded-lg">
+              <p className="font-semibold text-white mb-2">Agente Vertical IA</p>
+              <p className="text-sm text-industrial-300 mb-2"><span className="text-success-400 font-bold">Continuo</span> incluido</p>
+              <p className="text-xs text-industrial-300">En modelo revenue share</p>
+            </div>
+          </div>
+          <div className="p-4 bg-teseo-500/10 border border-teseo-500/20 rounded-lg mt-4">
+            <p className="text-sm text-industrial-300">
+              <span className="font-semibold text-white">Opción de extensión:</span> Contrato de mantenimiento mensual ($15K-$30K MXN según complejidad)
+            </p>
+          </div>
+        </div>
+      )
     },
     {
       question: '¿Cómo validan la precisión de sus modelos?',
-      answer: 'Validación rigurosa multi-nivel obligatoria: (1) K-fold cross-validation (k=5) para evitar overfitting, (2) Backtesting con datos históricos (últimos 12-24 meses), (3) Bootstrap con 1000 muestras para intervalos de confianza, (4) Análisis de residuos y heterocedasticidad, (5) Métricas cuantitativas: R² > 0.85 (varianza explicada), RMSE < 5% (error cuadrático), MAE, MAPE. Garantizamos precisión con intervalos de confianza 95%. Si no cumplimos métricas comprometidas en propuesta, ajustamos sin costo adicional.'
+      answer: (
+        <div className="space-y-4">
+          <p className="font-semibold text-white">Validación rigurosa multi-nivel (obligatoria):</p>
+          <ul className="space-y-2 list-disc list-inside text-industrial-300 mb-4">
+            <li>K-fold cross-validation (k=5) para evitar overfitting</li>
+            <li>Backtesting con datos históricos (últimos 12-24 meses)</li>
+            <li>Bootstrap con 1000 muestras para intervalos de confianza</li>
+            <li>Análisis de residuos y heterocedasticidad</li>
+          </ul>
+          <div className="p-4 bg-success-500/10 rounded-lg border border-success-500/20">
+            <p className="font-semibold text-white mb-3">Métricas cuantitativas garantizadas:</p>
+            <div className="grid grid-cols-2 gap-3">
+              <div className="text-center">
+                <p className="text-lg font-bold text-success-400">R² &gt; 0.85</p>
+                <p className="text-xs text-industrial-400">Varianza explicada</p>
+              </div>
+              <div className="text-center">
+                <p className="text-lg font-bold text-tech-400">RMSE &lt; 5%</p>
+                <p className="text-xs text-industrial-400">Error cuadrático</p>
+              </div>
+              <div className="text-center">
+                <p className="text-lg font-bold text-warning-400">MAE</p>
+                <p className="text-xs text-industrial-400">Error absoluto medio</p>
+              </div>
+              <div className="text-center">
+                <p className="text-lg font-bold text-teseo-400">95% CI</p>
+                <p className="text-xs text-industrial-400">Intervalo confianza</p>
+              </div>
+            </div>
+          </div>
+          <p className="text-sm text-success-400 font-semibold mt-4">
+            ✓ Si no cumplimos métricas comprometidas, ajustamos sin costo adicional
+          </p>
+        </div>
+      )
     }
   ]
 
@@ -975,7 +1452,7 @@ export default function TeseoLanding() {
     {
       name: 'Fundador & CEO',
       role: 'Econometría & Data Science',
-      expertise: '18+ años en análisis econométrico, machine learning y consultoría estratégica',
+      expertise: '+18 años en análisis econométrico, machine learning y consultoría estratégica',
       image: '👤',
       color: 'teseo'
     },
@@ -1006,17 +1483,24 @@ export default function TeseoLanding() {
   const successStories = [
     {
       client: 'Cayco Concretos',
-      sector: 'Construcción Industrial',
+      sector: 'Construcción',
       icon: Factory,
       color: 'warning',
-      image: '🏭',
+      // usar el logo desde public/assets/logos/
+      image: (
+        <img
+          src="/assets/logos/caycoB-logo.png"
+          alt="Cayco Concretos"
+          className="w-50 h-30 object-contain"
+        />
+      ),
       challenge: 'Análisis de Viabilidad de Expansión en 3 Plazas Estratégicas',
       description: 'Modelo econométrico de 5 capas (Demanda, Oferta, Saturación, Oportunidad, ROI) para evaluar expansión territorial en Querétaro, Tula y Huauchinango. Procesamos +3M data points de INEGI, competencia y proyecciones macroeconómicas.',
-      result: 'Recomendación GO en Querétaro con ROI proyectado del 397.4% a 5 años. NO GO en Huauchinango (ROI negativo -15%). Evitamos pérdidas potenciales de $15M+ en expansión no viable.',
+      result: 'Recomendación GO en Querétaro con ROI proyectado del 397.4% a 5 años. NO GO en Huauchinango (ROI negativo -15%). Evitamos pérdidas potenciales de +$15M en expansión no viable.',
       metrics: [
         { value: '397%', label: 'ROI Querétaro', before: 'Sin datos', after: '397.4%' },
         { value: '-15%', label: 'ROI Huauchinango', before: 'Inversión planeada', after: 'Desinversión' },
-        { value: '$15M+', label: 'Pérdidas evitadas', before: '$0', after: '$15M ahorrados' }
+        { value: '+$15M', label: 'Pérdidas evitadas', before: '$0', after: '$15M ahorrados' }
       ],
       timeline: '22 días',
       service: 'Análisis Data-Econométrico de Expansión'
@@ -1026,7 +1510,13 @@ export default function TeseoLanding() {
       sector: 'Industria del Concreto',
       icon: Building2,
       color: 'tech',
-      image: '🏗️',
+      image: (
+        <img
+          src="/assets/logos/amci-logo.png"
+          alt="AMCI"
+          className="w-50 h-30 object-contain"
+        />
+      ),
       challenge: 'Perspectivas del Mercado de Concreto Premezclado en México 2025',
       description: 'Estudio exhaustivo del mercado mexicano de concreto con +3M data points, análisis de 27M m³ de producción nacional, proyecciones econométricas hasta 2033, y evaluación del impacto del nearshoring como catalizador.',
       result: 'Identificación de CAGR 8.3% proyectado hasta 2033. Nearshoring confirmado como principal driver de crecimiento. Hotspots estratégicos en Bajío y Norte. Reporte presentado en 4 reuniones nacionales (Tijuana, Hermosillo, Puebla, SLP, Guadalajara).',
@@ -1043,14 +1533,20 @@ export default function TeseoLanding() {
       sector: 'Manufactura',
       icon: Zap,
       color: 'teseo',
-      image: '⚡',
+      image: (
+        <img
+          src="/assets/logos/sherwin-williams-logo.png"
+          alt="Sherwin Williams México"
+          className="w-50 h-30 object-contain"
+        />
+      ),
       challenge: 'Agente Vertical con IA para Prospección de Clientes B2B',
-      description: 'Modelo de IA con score 0-100 para identificar prospectos con alta propensión de compra. Segmentación tier A/B/C, scoring predictivo, y base de datos calificada de 40K+ registros con actualización automática mensual.',
+      description: 'Modelo de IA con score 0-100 para identificar prospectos con alta propensión de compra. Segmentación tier A/B/C, scoring predictivo, y base de datos calificada de +40K registros con actualización automática mensual.',
       result: 'Conversión tier A del 42% vs 12% baseline (+350%). Reducción de CAC en 60%. Modelo revenue share alinea incentivos perfectamente. Base de datos escalable y auto-actualizable.',
       metrics: [
         { value: '42%', label: 'Conversión tier A', before: '12%', after: '42% (+350%)' },
         { value: '-60%', label: 'Reducción CAC', before: 'CAC alto', after: '-60% CAC' },
-        { value: '40K+', label: 'Registros DB', before: '0', after: '40K+ registros' }
+        { value: '+40K', label: 'Registros DB', before: '0', after: '+40K registros' }
       ],
       timeline: 'Continuo',
       service: 'Agente Vertical (IA)'
@@ -1060,7 +1556,13 @@ export default function TeseoLanding() {
       sector: 'Real Estate',
       icon: Home,
       color: 'success',
-      image: '🏘️',
+      image: (
+        <img
+          src="/assets/logos/valdepenas-logo.png"
+          alt="Sherwin Williams México"
+          className="w-50 h-30 object-contain"
+        />
+      ),
       challenge: 'Transformación Comercial Inmobiliaria con Análisis de Mercado',
       description: 'Análisis de mercado integral con estrategias de precios dinámicos, análisis demográfico, campañas digitales masivas y optimización de mix de productos. Segmentación precisa de buyer personas y canales óptimos.',
       result: 'Aumento del 30% en visitas al desarrollo y 25% en ventas en 6 meses. Optimización de relación costo-beneficio en captación. Reducción del 18% en costos de marketing por conversión.',
@@ -1077,13 +1579,19 @@ export default function TeseoLanding() {
       sector: 'Política Electoral',
       icon: Users,
       color: 'tech',
-      image: '🗳️',
+      image: (
+        <img
+          src="/assets/logos/franklin-arosemena-torrijos-logo.png"
+          alt="Todos Unidos Panamá"
+          className="w-50 h-30 object-contain"
+        />
+      ),
       challenge: 'Estrategias Digitales Disruptivas para Impacto Electoral',
       description: 'Segmentación avanzada de votantes jóvenes (18-35 años), pruebas A/B masivas de mensajes, estrategias multicanal (TikTok, Instagram, Twitter), análisis de sentiment real-time, y dashboards de performance electoral.',
-      result: 'Incremento del 310% en interacciones digitales. Captura del 40%+ del segmento juvenil objetivo. Posicionamiento como líder entre votantes jóvenes. Modelo replicable para futuras campañas.',
+      result: 'Incremento del 310% en interacciones digitales. Captura del +40% del segmento juvenil objetivo. Posicionamiento como líder entre votantes jóvenes. Modelo replicable para futuras campañas.',
       metrics: [
         { value: '+310%', label: 'Interacciones', before: 'Baseline', after: '+310%' },
-        { value: '40%+', label: 'Segmento juvenil', before: '12%', after: '40%+' },
+        { value: '+40%', label: 'Segmento juvenil', before: '12%', after: '+40%' },
         { value: '#1', label: 'Ranking juventud', before: '#4', after: '#1' }
       ],
       timeline: '90 días',
@@ -1097,7 +1605,13 @@ export default function TeseoLanding() {
       name: 'AMCI',
       fullName: 'Asociación Mexicana de Concreteros Independientes',
       description: 'Alianza estratégica para análisis de mercado del concreto en México. 4+ eventos nacionales.',
-      icon: '🏗️',
+      image: (
+        <img
+          src="/assets/logos/amci-logo.png"
+          alt="AMCI"
+          className="w-50 h-30 object-contain"
+        />
+      ),
       color: 'warning',
       badge: 'Aliado Estratégico',
       projects: [
@@ -1110,7 +1624,13 @@ export default function TeseoLanding() {
       name: 'CANACINTRA',
       fullName: 'Cámara Nacional de la Industria de Transformación',
       description: 'Sponsor y ponencias en eventos industriales. Talleres de segmentación con IA.',
-      icon: '🏭',
+      image: (
+        <img
+          src="/assets/logos/canacitra-logo.png"
+          alt="CANACINTRA"
+          className="w-50 h-30 object-contain"
+        />
+      ),
       color: 'tech',
       badge: 'Partner Industrial',
       projects: [
@@ -1123,13 +1643,38 @@ export default function TeseoLanding() {
       name: 'Momentum Expo',
       fullName: 'Expo Momentum - Hidalgo',
       description: 'Sponsor oficial y presentación de taller sobre segmentación avanzada con IA.',
-      icon: '⚡',
+      image: (
+        <img
+          src="/assets/logos/momentum-expo-logo.png"
+          alt="Momentum Expo"
+          className="w-50 h-30 object-contain"
+        />
+      ),
       color: 'teseo',
       badge: 'Sponsor Oficial',
       projects: [
         'Taller: Segmentación Avanzada con DATA e IA',
         'Networking con industria regional',
         'Difusión de herramientas data-driven'
+      ]
+    },
+    {
+      name: 'AMPI',
+      fullName: 'AMPI Riviera Nayarit',
+      description: 'Alianza estratégica para análisis de mercado inmoviliario',
+      image: (
+        <img
+          src="/assets/logos/ampi-logo.png"
+          alt="AMPI"
+          className="w-50 h-30 object-contain"
+        />
+      ),
+      color: 'success',
+      badge: 'Aliado Inmobiliario',
+      projects: [ 
+        'Análisis de Mercado Inmobiliario Riviera Nayarit',
+        'Webinars para socios AMPI',
+        'Difusión de estudios de caso'
       ]
     }
   ]
@@ -1275,9 +1820,9 @@ export default function TeseoLanding() {
                 <span className="glow-text">Teseo</span>
                 <span className="text-white"> Data Lab</span>
               </h1>
-              <p className="text-xl md:text-2xl text-industrial-300 font-light mb-2">
+              {/* <p className="text-xl md:text-2xl text-industrial-300 font-light mb-2">
                 S.A.S. de C.V.
-              </p>
+              </p> */}
               <div className="flex items-center justify-center gap-3 text-sm text-industrial-400">
                 <span className="px-3 py-1 bg-teseo-500/10 border border-teseo-500/30 rounded-full">
                   Inteligencia de Negocios
@@ -1306,7 +1851,7 @@ export default function TeseoLanding() {
               </p>
               <p className="text-lg md:text-xl text-industrial-300 max-w-4xl mx-auto leading-relaxed">
                 Transformamos datos en <span className="text-teseo-400 font-semibold">decisiones estratégicas</span> para empresas en expansión, inversión inmobiliaria y optimización comercial.
-                <span className="text-white font-semibold"> 18+ años</span> ayudando a empresas mexicanas a crecer con inteligencia de datos.
+                <span className="text-white font-semibold"> +18 años</span> ayudando a empresas mexicanas a crecer con inteligencia de datos.
               </p>
             </motion.div>
 
@@ -1345,8 +1890,8 @@ export default function TeseoLanding() {
                     <BarChart3 className="w-6 h-6 text-success-400" />
                   </div>
                   <div>
-                    <h3 className="font-bold text-white mb-1">Dashboards en Tiempo Real</h3>
-                    <p className="text-sm text-industrial-300">Visualización de métricas clave para decisiones ágiles</p>
+                    <h3 className="font-bold text-white mb-1">Data Econometría</h3>
+                    <p className="text-sm text-industrial-300">Modelos econométricos para decisiones estratégicas</p>
                   </div>
                 </div>
               </div>
@@ -1387,23 +1932,26 @@ export default function TeseoLanding() {
               className="flex flex-col sm:flex-row gap-4 justify-center"
             >
               <motion.a
-                href="mailto:contacto@teseodata.com"
+                onClick={() => window.open('https://calendly.com/teseodata/teseo-data-lab-consultoria-personalizada', '_blank')}
                 className="btn-primary px-8 py-4 text-lg inline-flex items-center gap-2"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
-                <span>Solicitar Análisis</span>
+                <span>Agendar consulta gratuita</span>
                 <ArrowRight size={20} />
               </motion.a>
               <motion.a
-                href="https://wa.me/527713649201"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn-secondary px-8 py-4 text-lg inline-flex items-center gap-2"
+                onClick={() => {
+                  const mensaje = encodeURIComponent(
+                    "Hola, me gustaría recibir más información sobre los servicios de consultoría de Teseo Data Lab."
+                  )
+                  window.open(`https://wa.me/527713649201?text=${mensaje}`, '_blank')
+                }}
+                className="btn-secondary px-8 py-4 text-lg inline-flex items-center gap-2 cursor-pointer"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
-                <span>Atención por WhatsApp</span>
+                <span>Contactar por WhatsApp</span>
               </motion.a>
             </motion.div>
           </div>
@@ -1481,7 +2029,7 @@ export default function TeseoLanding() {
                 <div>
                   <h3 className="text-2xl font-bold text-white mb-2">Experiencia Global</h3>
                   <p className="text-industrial-300">
-                    <span className="text-warning-400 font-semibold text-lg">18+ años</span> de trayectoria transformando datos en estrategias ganadoras
+                    <span className="text-warning-400 font-semibold text-lg">+18 años</span> de trayectoria transformando datos en estrategias ganadoras
                   </p>
                 </div>
               </div>
@@ -1518,10 +2066,10 @@ export default function TeseoLanding() {
               <div className="pl-16">
                 <ul className="space-y-3 mt-4">
                   {[
-                    { sector: 'Bienes Raíces', icon: '🏗️', example: 'Desarrollo inmobiliario' },
-                    { sector: 'Manufactura', icon: '🏭', example: 'Nearshoring & expansión' },
-                    { sector: 'Construcción', icon: '🧱', example: 'Mercado de concreto' },
-                    { sector: 'Retail', icon: '🛍️', example: 'Prospección comercial' }
+                    { sector: 'Bienes Raíces', icon: <BsFillBuildingsFill />, example: 'Desarrollo inmobiliario' },
+                    { sector: 'Manufactura', icon: <LuFactory />, example: 'Nearshoring & expansión' },
+                    { sector: 'Construcción', icon: <FaHammer />, example: 'Mercado de concreto' },
+                    { sector: 'Retail', icon: <FaShoppingCart />, example: 'Prospección comercial' }
                   ].map((item, i) => (
                     <li key={i} className="flex items-center gap-2 text-industrial-200">
                       <span className="text-2xl">{item.icon}</span>
@@ -1541,12 +2089,7 @@ export default function TeseoLanding() {
             transition={{ duration: 0.6, delay: 0.5 }}
             className="mt-12 text-center"
           >
-            <div className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-teseo-500/10 to-success-500/10 border border-teseo-500/20 rounded-full">
-              <Trophy className="w-5 h-5 text-teseo-400" />
-              <span className="text-white font-semibold">
-                Nos enorgullece haber brindado <span className="text-teseo-400">soluciones innovadoras y efectivas</span> a nuestros clientes en la industria de análisis de datos
-              </span>
-            </div>
+            
           </motion.div>
         </div>
       </section>
@@ -1568,37 +2111,44 @@ export default function TeseoLanding() {
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
               Sectores donde dejamos <span className="glow-text">Huella</span>
             </h2>
+            
             <p className="text-xl text-industrial-300 max-w-3xl mx-auto">
               Confianza de empresas líderes en México, Panamá y Estados Unidos
             </p>
+            <div className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-teseo-500/10 to-success-500/10 border border-teseo-500/20 rounded-full">
+              <Trophy className="w-5 h-5 text-teseo-400" />
+              <span className="text-white font-semibold">
+                Nos enorgullece haber brindado <span className="text-teseo-400">soluciones innovadoras y efectivas</span> a nuestros clientes en la industria de análisis de datos
+              </span>
+            </div>
           </motion.div>
 
           {/* Logos Grid - 4x4 */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8">
             {[
               // Manufactura / Industrial
-              { name: 'Sherwin Williams', sector: 'Manufactura', color: 'warning', logo: '/assets/logos/sherwin-williams-logo.png' },
-              { name: 'AMCI', sector: 'Consultoría Industrial', color: 'warning', logo: '/assets/logos/amci-logo.png' },
-              { name: 'AP Safety', sector: 'Seguridad Industrial', color: 'warning', logo: '/assets/logos/ap-safety-logo.png' },
+              { name: 'Sherwin Williams', sector: 'Manufactura', color: 'warning', logo: '/assets/logos/sherwin-williams-logo.png', url: 'https://sherwin.com.mx/' },
+              { name: 'AMCI', sector: 'Consultoría Industrial', color: 'warning', logo: '/assets/logos/amci-logo.png', url: 'https://amciac.org/' },
+              { name: 'AP Safety', sector: 'Seguridad Industrial', color: 'warning', logo: '/assets/logos/ap-safety-logo.png', url: 'https://www.apmascarillas.com.mx/' },
               // Real Estate
-              { name: 'DatAlpine', sector: 'Real Estate', color: 'teseo', logo: '/assets/logos/datalpine-logo.png' },
-              { name: 'Le Curve', sector: 'Bienes Raíces', color: 'teseo', logo: '/assets/logos/le-curve-logo.png' },
-              { name: 'AMPI', sector: 'Asociación Inmobiliaria', color: 'teseo', logo: '/assets/logos/ampi-logo.png' },
+              { name: 'DatAlpine', sector: 'Real Estate', color: 'teseo', logo: '/assets/logos/datalpine-logo.png', url: 'https://datalpine.mx/' },
+              { name: 'Le Curve', sector: 'Bienes Raíces', color: 'teseo', logo: '/assets/logos/le-curve-logo.png', url: 'https://lecurve.mx/' },
+              { name: 'AMPI', sector: 'Asociación Inmobiliaria', color: 'teseo', logo: '/assets/logos/ampi-logo.png', url: 'https://ampirivieranayarit.com/' },
               // Energía / Tecnología
-              { name: 'Gas de Provincia', sector: 'Energía', color: 'warning', logo: '/assets/logos/gas-de-provincia-logo.png' },
-              { name: 'monitorLATINO', sector: 'Tecnología', color: 'tech', logo: '/assets/logos/monitor-latino.png' },
+              { name: 'Gas de Provincia', sector: 'Energía', color: 'warning', logo: '/assets/logos/gas-de-provincia-logo.png', url: 'https://www.gasdeprovincia.com.mx/' },
+              { name: 'monitorLATINO', sector: 'Tecnología', color: 'tech', logo: '/assets/logos/monitor-latino.png', url: 'https://monitorlatino.com/' },
               // Legal & Consulting
-              { name: 'Franklin Arosemena Torrijos', sector: 'Legal y consultoria', color: 'tech', logo: '/assets/logos/franklin-arosemena-torrijos-logo.png' },
+              { name: 'Franklin Arosemena Torrijos', sector: 'Legal y consultoria', color: 'tech', logo: '/assets/logos/franklin-arosemena-torrijos-logo.png', url: '' },
               // Construcción
-              { name: 'Pumping Team', sector: 'Construcción', color: 'success', logo: '/assets/logos/pumping-team-logo.png' },
-              { name: 'TEYSA', sector: 'Maquinados', color: 'success', logo: '/assets/logos/teysa-logo.png' },
-              { name: 'Stratto', sector: 'Construcción', color: 'success', logo: '/assets/logos/stratto-logo.png' },
+              { name: 'Pumping Team', sector: 'Construcción', color: 'success', logo: '/assets/logos/pumping-team-logo.png', url: 'https://www.pumpingteam.com/' },
+              { name: 'TEYSA', sector: 'Maquinados', color: 'success', logo: '/assets/logos/teysa-logo.png', url: 'https://mteysa.com/' },
+              { name: 'Stratto', sector: 'Construcción', color: 'success', logo: '/assets/logos/stratto-logo.png', url: '' },
               // Real Estate (continued)
-              { name: 'HOMIA', sector: 'Bíenes Raíces', color: 'teseo', logo: '/assets/logos/homia-logo.png' },
-              { name: 'Cayco', sector: 'Construcción', color: 'teseo', logo: '/assets/logos/cayco-logo.png' },
-              { name: 'Valdepeñas', sector: 'Bienes Raíces', color: 'teseo', logo: '/assets/logos/valdepenas-logo.png' },
+              { name: 'HOMIA', sector: 'Bíenes Raíces', color: 'teseo', logo: '/assets/logos/homia-logo.png', url: 'https://homia.mx/es' },
+              { name: 'Cayco', sector: 'Construcción', color: 'teseo', logo: '/assets/logos/cayco-logo.png', url: 'https://www.cayco.mx/' },
+              { name: 'Valdepeñas', sector: 'Bienes Raíces', color: 'teseo', logo: '/assets/logos/valdepenas-logo.png', url: 'https://valdepenasinmobiliaria.com.mx/' },
               // F&B
-              { name: 'Villanova', sector: 'F&B', color: 'tech', logo: '/assets/logos/villanova-logo.png' },
+              { name: 'Villanova', sector: 'F&B', color: 'tech', logo: '/assets/logos/villanova-logo.png', url: 'https://villanova.com.mx/v1/' },
             ].map((client, index) => (
               <motion.div
                 key={client.name}
@@ -1607,6 +2157,7 @@ export default function TeseoLanding() {
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.05 }}
                 whileHover={{ scale: 1.05, y: -5 }}
+                onClick={() => client.url && window.open(client.url, '_blank')}
                 className="card-glass p-6 flex flex-col items-center justify-center text-center group cursor-pointer relative overflow-hidden"
               >
                 {/* Hover effect */}
@@ -1640,20 +2191,20 @@ export default function TeseoLanding() {
                   />
                 </div>
 
-                {/* Client name */}
-                <h3 className="relative z-10 text-base font-semibold text-white mb-1 line-clamp-2">
-                  {client.name}
-                </h3>
+                  {/* Client name */}
+                  <h3 className="relative z-10 text-base font-semibold text-white mb-1 line-clamp-2">
+                    {client.name}
+                  </h3>
 
-                {/* Sector tag */}
-                <span className={`relative z-10 text-xs text-industrial-400 group-hover:text-${client.color}-400 transition-colors`}>
-                  {client.sector}
-                </span>
-              </motion.div>
-            ))}
-          </div>
+                  {/* Sector tag */}
+                  <span className={`relative z-10 text-xs text-industrial-400 group-hover:text-${client.color}-400 transition-colors`}>
+                    {client.sector}
+                  </span>
+                  </motion.div>
+                ))}
+                </div>
 
-          {/* Track record footer */}
+                {/* Track record footer */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -1663,7 +2214,7 @@ export default function TeseoLanding() {
             <div className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-teseo-500/10 to-tech-500/10 rounded-full border border-teseo-500/20">
               <div className="w-2 h-2 rounded-full bg-success-400 animate-pulse" />
               <span className="text-lg text-white font-medium">
-                <span className="text-teseo-400 font-bold">18+ años</span> entregando resultados en{' '}
+                <span className="text-teseo-400 font-bold">+18 años</span> entregando resultados en{' '}
                 <span className="text-tech-400 font-bold">6 países</span>
               </span>
             </div>
@@ -1687,17 +2238,17 @@ export default function TeseoLanding() {
           >
             <Map className="w-16 h-16 text-success-400 mx-auto mb-6" />
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-              Cobertura <span className="glow-text">Nacional</span>
+              Cobertura <span className="glow-text">Internacional</span>
             </h2>
             <p className="text-xl text-industrial-300 max-w-3xl mx-auto mb-8">
-              Operamos en todo México con proyectos en múltiples estados y sectores
+              Operamos en todo el territorio mexicano y en varios países alrededor del mundo
             </p>
 
             {/* Badge Nacional */}
             <div className="inline-flex items-center gap-3 px-6 py-3 bg-gradient-to-r from-success-500/20 to-tech-500/20 rounded-full border border-success-500/30">
               <Globe className="w-5 h-5 text-success-400" />
               <span className="text-lg text-white font-semibold">
-                Presencia Nacional • 15+ Estados
+                Presencia Internacional 
               </span>
             </div>
           </motion.div>
@@ -1712,7 +2263,7 @@ export default function TeseoLanding() {
             >
               <h3 className="text-2xl font-bold text-white mb-6 flex items-center gap-3">
                 <Map className="w-7 h-7 text-teseo-400" />
-                Mapa de Cobertura Nacional
+                Mapa de Cobertura Internacional
               </h3>
 
               {/* Componente de Mapa SVG */}
@@ -1722,8 +2273,8 @@ export default function TeseoLanding() {
 
               {/* Total Counter */}
               <div className="p-4 bg-gradient-to-r from-teseo-500/10 to-success-500/10 rounded-xl border border-teseo-500/20 text-center">
-                <div className="text-4xl font-bold glow-text mb-1">130+</div>
-                <div className="text-sm text-industrial-400">Proyectos Completados en 12 Estados</div>
+                <div className="text-4xl font-bold glow-text mb-1">+130</div>
+                <div className="text-sm text-industrial-400">Proyectos Completados alrededor del mundo</div>
               </div>
             </motion.div>
 
@@ -1736,7 +2287,7 @@ export default function TeseoLanding() {
             >
               {[
                 {
-                  region: 'Centro (Bajío)',
+                  region: 'México',
                   estados: 'Querétaro, Guanajuato, Aguascalientes',
                   proyectos: 33,
                   icon: Factory,
@@ -1744,24 +2295,24 @@ export default function TeseoLanding() {
                   destacado: 'Hub industrial y manufactura'
                 },
                 {
-                  region: 'Zona Metropolitana',
-                  estados: 'CDMX, Estado de México, Hidalgo',
+                  region: 'Colombia',
+                  estados: 'Bogotá, Medellín',
                   proyectos: 52,
                   icon: Building2,
                   color: 'teseo',
                   destacado: 'Real estate y servicios'
                 },
                 {
-                  region: 'Norte',
-                  estados: 'Nuevo León, San Luis Potosí',
+                  region: 'Panamá',
+                  estados: 'Ciudad de Panamá',
                   proyectos: 21,
                   icon: TrendingUp,
                   color: 'violet',
                   destacado: 'Expansión empresarial'
                 },
                 {
-                  region: 'Occidente',
-                  estados: 'Jalisco, Michoacán',
+                  region: 'Brasil',
+                  estados: 'São Paulo, Río de Janeiro',
                   proyectos: 15,
                   icon: Globe,
                   color: 'warning',
@@ -1817,10 +2368,10 @@ export default function TeseoLanding() {
             className="mt-16 text-center"
           >
             <p className="text-lg text-industrial-300 mb-6">
-              ¿Tu proyecto está en otra región? También operamos en todo el país.
+              ¿Tu proyecto está en otra región? Contáctanos para explorar cómo podemos ayudarte a expandir tu cobertura globalmente.
             </p>
             <motion.button
-              onClick={() => window.open('https://calendly.com/teseodata/consulta-gratuita', '_blank')}
+              onClick={() => window.open('https://calendly.com/teseodata/teseo-data-lab-consultoria-personalizada', '_blank')}
               className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-success-500 to-tech-500 text-white font-semibold rounded-xl hover:shadow-lg hover:shadow-success-500/50 transition-all"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
@@ -2017,10 +2568,10 @@ export default function TeseoLanding() {
                     </motion.div>
                   </Link>
                   <a
-                    href="mailto:contacto@teseodata.com"
+                    onClick={() => window.open('https://calendly.com/teseodata/teseo-data-lab-consultoria-personalizada', '_blank')}
                     className="btn-primary w-full py-4 text-lg flex items-center justify-center gap-2 hover:scale-[1.02] active:scale-[0.98] transition-transform"
                   >
-                    <span>Solicitar Análisis</span>
+                    <span>Agendar consulta gratuita</span>
                     <ArrowRight size={20} />
                   </a>
                 </div>
@@ -2188,7 +2739,7 @@ export default function TeseoLanding() {
                   <div className="text-sm text-industrial-400">ROI Máximo Alcanzado</div>
                 </div>
                 <div>
-                  <div className="text-4xl font-bold text-teseo-400 mb-2">$15M+</div>
+                  <div className="text-4xl font-bold text-teseo-400 mb-2">+$15M</div>
                   <div className="text-sm text-industrial-400">Pérdidas Evitadas</div>
                 </div>
                 <div>
@@ -2719,18 +3270,16 @@ export default function TeseoLanding() {
           >
             <div className="inline-flex flex-wrap gap-6 justify-center items-center">
               <div className="flex items-center gap-2">
-                <Star className="w-6 h-6 text-teseo-400 fill-current" />
-                <span className="text-white font-bold text-xl">5.0</span>
-                <span className="text-industrial-400">/ 5.0</span>
+               
               </div>
               <div className="h-8 w-px bg-industrial-700" />
               <div className="text-center">
-                <div className="text-2xl font-bold text-white">130+</div>
-                <div className="text-sm text-industrial-400">Proyectos Completados</div>
+                <div className="text-2xl font-bold text-white">+130</div>
+                <div className="text-sm text-industrial-400">Proyectos Completados </div>
               </div>
               <div className="h-8 w-px bg-industrial-700" />
               <div className="text-center">
-                <div className="text-2xl font-bold text-white">18+</div>
+                <div className="text-2xl font-bold text-white">+18</div>
                 <div className="text-sm text-industrial-400">Años de Experiencia</div>
               </div>
             </div>
@@ -2739,7 +3288,7 @@ export default function TeseoLanding() {
       </section>
 
       {/* ¿Cómo funciona? Section */}
-      <section className="py-20 px-4">
+      <section className="py-20 px-4" id="como-funciona">
         <div className="max-w-7xl mx-auto">
           <motion.div
             className="text-center mb-16"
@@ -2840,7 +3389,7 @@ export default function TeseoLanding() {
             viewport={{ once: true }}
           >
             <motion.a
-              href="https://calendly.com/teseodata/consulta-gratuita"
+              href="https://calendly.com/teseodata/teseo-data-lab-consultoria-personalizada"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary px-8 py-3 inline-flex items-center gap-2"
@@ -2980,18 +3529,23 @@ export default function TeseoLanding() {
             viewport={{ once: true }}
           >
             <h3 className="text-2xl font-bold text-white mb-4">
-              ¿Necesitas un análisis personalizado?
+              ¿Necesitas una consultoria personalizada?
             </h3>
             <p className="text-industrial-300 mb-6">
-              Aplicamos esta metodología a tu industria con datos específicos y casos de uso reales
+              Agenda una llamada con nuestros expertos para discutir tus necesidades específicas y cómo podemos ayudarte a alcanzar tus objetivos de negocio mediante data science.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="mailto:contacto@teseodata.com" className="btn-primary py-3 px-8 inline-flex items-center gap-2">
-                <span>Solicitar Análisis</span>
+              <a href="https://calendly.com/teseodata/teseo-data-lab-consultoria-personalizada" className="btn-primary py-3 px-8 inline-flex items-center gap-2">
+                <span>Solicitar Consultoria </span>
                 <ArrowRight size={18} />
               </a>
-              <a href="tel:7713649201" className="btn-secondary py-3 px-8">
-                771 364 9201
+              <a onClick={() => {
+                  const mensaje = encodeURIComponent(
+                    " Hola, estoy interesado en agendar una llamada para una consultoría personalizada con Teseo Data Lab. ¿Podrían proporcionarme más detalles sobre el proceso? Gracias."
+                  )
+                  window.open(`https://wa.me/527713649201?text=${mensaje}`, '_blank')
+                  }} className="btn-secondary py-3 px-8">
+                Agendar llamada 
               </a>
             </div>
           </motion.div>
@@ -3080,104 +3634,102 @@ export default function TeseoLanding() {
       {/* Alianzas y Reconocimientos Section */}
       <section className="py-20 px-4 bg-industrial-950/50 relative overflow-hidden">
         {/* Background effects */}
-        <div className="absolute top-1/3 right-1/4 w-96 h-96 bg-warning-500/10 rounded-full blur-3xl -z-10" />
+          <div className="absolute top-1/3 right-1/4 w-96 h-96 bg-warning-500/10 rounded-full blur-3xl -z-10" />
 
-        <div className="max-w-7xl mx-auto">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
+          <div className="max-w-7xl mx-auto">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              className="text-center mb-16"
+            >
+              <Award className="w-16 h-16 text-warning-400 mx-auto mb-6" />
+              <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
+                Alianzas <span className="glow-text">Estratégicas</span>
+              </h2>
+              <p className="text-xl text-industrial-300 max-w-3xl mx-auto">
+                Colaboraciones con líderes industriales que validan nuestra experiencia y metodología
+              </p>
+            </motion.div>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+              {alianzas.map((alianza, index) => (
+                <motion.div
+            key={index}
+            initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-center mb-16"
-          >
-            <Award className="w-16 h-16 text-warning-400 mx-auto mb-6" />
-            <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-              Alianzas <span className="glow-text">Estratégicas</span>
-            </h2>
-            <p className="text-xl text-industrial-300 max-w-3xl mx-auto">
-              Colaboraciones con líderes industriales que validan nuestra experiencia y metodología
-            </p>
-          </motion.div>
-
-          <div className="grid md:grid-cols-3 gap-6">
-            {alianzas.map((alianza, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: index * 0.2 }}
-                whileHover={{ scale: 1.03, y: -5 }}
-                className="card-glass-strong p-8 relative group"
-              >
-                {/* Badge */}
-                <div className={`absolute -top-3 right-6 px-4 py-1 bg-${alianza.color}-500 rounded-full`}>
-                  <span className="text-white text-xs font-bold">{alianza.badge}</span>
-                </div>
-
-                {/* Icon grande */}
-                <div className="text-7xl mb-6 text-center group-hover:scale-110 transition-transform">
-                  {alianza.icon}
-                </div>
-
-                {/* Name */}
-                <h3 className={`text-2xl font-bold text-${alianza.color}-400 mb-2 text-center`}>
-                  {alianza.name}
-                </h3>
-
-                {/* Full name */}
-                <p className="text-sm text-white font-semibold mb-4 text-center">
-                  {alianza.fullName}
-                </p>
-
-                {/* Description */}
-                <p className="text-sm text-industrial-300 mb-6 leading-relaxed text-center">
-                  {alianza.description}
-                </p>
-
-                {/* Projects list */}
-                <div className="space-y-2">
-                  <p className="text-xs font-semibold text-industrial-400 uppercase tracking-wide mb-3">
-                    Proyectos Destacados
-                  </p>
-                  {alianza.projects.map((project, i) => (
-                    <div key={i} className="flex items-start gap-2">
-                      <CheckCircle className={`text-${alianza.color}-400 flex-shrink-0 mt-0.5`} size={14} />
-                      <span className="text-xs text-industrial-400">{project}</span>
-                    </div>
-                  ))}
-                </div>
-              </motion.div>
-            ))}
-          </div>
-
-          {/* Trust badges footer */}
-          <motion.div
-            className="mt-12 text-center"
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            viewport={{ once: true }}
-          >
-            <div className="inline-flex flex-wrap gap-6 justify-center items-center">
-              <div className="text-center">
-                <div className="text-3xl font-bold text-warning-400">3+</div>
-                <div className="text-sm text-industrial-400">Alianzas Estratégicas</div>
-              </div>
-              <div className="h-8 w-px bg-industrial-700" />
-              <div className="text-center">
-                <div className="text-3xl font-bold text-tech-400">4+</div>
-                <div className="text-sm text-industrial-400">Eventos Nacionales</div>
-              </div>
-              <div className="h-8 w-px bg-industrial-700" />
-              <div className="text-center">
-                <div className="text-3xl font-bold text-teseo-400">+3M</div>
-                <div className="text-sm text-industrial-400">Data Points Presentados</div>
-              </div>
+            transition={{ delay: index * 0.2 }}
+            whileHover={{ scale: 1.03, y: -5 }}
+            className="card-glass-strong p-8 relative group h-full flex flex-col"
+                >
+            {/* Badge xd1*/}
+            <div className={`absolute -top-3 right-6 px-4 py-1 bg-${alianza.color}-500 rounded-full`}>
+              <span className="text-white text-xs font-bold">{alianza.badge}</span>
             </div>
-          </motion.div>
-        </div>
-      </section>
 
-      {/* Data Sources Section - MEJORADA */}
+            {/* Icon grande */}
+            <div className="text-7xl mb-6 text-center group-hover:scale-110 transition-transform ml-5 w-50">
+              {alianza.image}
+            </div>
+
+            {/* Name */}
+            <h3 className={`text-2xl font-bold text-${alianza.color}-400 mb-2 text-center`}>
+              {alianza.name}
+            </h3>
+
+            {/* Full name */}
+            <p className="text-sm text-white font-semibold mb-4 text-center">
+              {alianza.fullName}
+            </p>
+
+            {/* Description */}
+            <p className="text-sm text-industrial-300 mb-6 leading-relaxed text-center">
+              {alianza.description}
+            </p>
+
+            {/* Projects list - flex-1 para llenar espacio */}
+            <div className="space-y-2 flex-1">
+              <p className="text-xs font-semibold text-industrial-400 uppercase tracking-wide mb-3">
+                Proyectos Destacados
+              </p>
+              {alianza.projects.map((project, i) => (
+                <div key={i} className="flex items-start gap-2">
+                  <CheckCircle className={`text-${alianza.color}-400 flex-shrink-0 mt-0.5`} size={14} />
+                  <span className="text-xs text-industrial-400">{project}</span>
+                </div>
+              ))}
+            </div>
+                </motion.div>
+              ))}
+            </div>
+
+            {/* Trust badges footer */}
+            <motion.div
+              className="mt-12 text-center"
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              viewport={{ once: true }}
+            >
+              <div className="inline-flex flex-wrap gap-6 justify-center items-center">
+                <div className="text-center">
+            <div className="text-3xl font-bold text-warning-400">3+</div>
+            <div className="text-sm text-industrial-400">Alianzas Estratégicas</div>
+                </div>
+                <div className="h-8 w-px bg-industrial-700" />
+                <div className="text-center">
+            <div className="text-3xl font-bold text-tech-400">4+</div>
+            <div className="text-sm text-industrial-400">Eventos Nacionales</div>
+                </div>
+                <div className="h-8 w-px bg-industrial-700" />
+                <div className="text-center">
+            <div className="text-3xl font-bold text-teseo-400">+3M</div>
+            <div className="text-sm text-industrial-400">Data Points Presentados</div>
+                </div>
+              </div>
+            </motion.div>
+          </div>
+              </section>
       <section className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <motion.div
@@ -3206,9 +3758,13 @@ export default function TeseoLanding() {
                 whileHover={{ scale: 1.05, y: -5 }}
                 className="card-glass-strong p-5 text-center group"
               >
-                {/* Emoji Icon grande */}
-                <div className="text-5xl mb-4 group-hover:scale-110 transition-transform">
-                  {source.icon}
+                {/* Logo Image */}
+                <div className="w-20 h-20 mx-auto mb-4 flex items-center justify-center group-hover:scale-110 transition-transform">
+                  {source.image || (
+                    <span className="text-5xl">
+                      {source.icon}
+                    </span>
+                  )}
                 </div>
 
                 {/* Nombre */}
@@ -3238,11 +3794,11 @@ export default function TeseoLanding() {
           >
             <div className="inline-flex flex-wrap gap-6 justify-center">
               <div className="text-center">
-                <div className="text-3xl font-bold text-teseo-400">50+</div>
+                <div className="text-3xl font-bold text-teseo-400">+50</div>
                 <div className="text-sm text-industrial-400">Fuentes de Datos</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-tech-400">3M+</div>
+                <div className="text-3xl font-bold text-tech-400">+3M</div>
                 <div className="text-sm text-industrial-400">Data Points</div>
               </div>
               <div className="text-center">
@@ -3250,7 +3806,7 @@ export default function TeseoLanding() {
                 <div className="text-sm text-industrial-400">Validación Cruzada</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-warning-400">18+</div>
+                <div className="text-3xl font-bold text-warning-400">+18</div>
                 <div className="text-sm text-industrial-400">Años de Experiencia</div>
               </div>
             </div>
@@ -3259,64 +3815,62 @@ export default function TeseoLanding() {
       </section>
 
       {/* Divisions Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-7xl mx-auto">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="text-center mb-16"
-          >
-            <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-              Nuestras <span className="glow-text">Divisiones</span>
-            </h2>
-            <p className="text-xl text-industrial-300 max-w-3xl mx-auto">
-              Verticales especializadas que aplican nuestra experiencia en sectores específicos
-            </p>
-          </motion.div>
+        <section className="py-20 px-4 sm:px-6 lg:px-8">
+          <div className="max-w-7xl mx-auto">
+            <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="text-center mb-16"
+            >
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
+            Nuestras <span className="glow-text">Divisiones</span>
+          </h2>
+          <p className="text-xl text-industrial-300 max-w-3xl mx-auto">
+            Verticales especializadas que aplican nuestra experiencia en sectores específicos
+          </p>
+            </motion.div>
 
-          <div className="grid md:grid-cols-1 gap-8 max-w-3xl mx-auto">
-            {divisions.map((division, index) => {
-              const Icon = division.icon
-              return (
-                <motion.div
-                  key={index}
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  onClick={division.action}
-                  className="card-glass-strong p-12 text-center cursor-pointer group hover:scale-105 transition-transform"
-                >
-                  <div className={`w-20 h-20 rounded-3xl bg-${division.color}-500/20 flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform`}>
-                    <Icon className={`text-${division.color}-400`} size={40} />
-                  </div>
+            <div className="grid md:grid-cols-1 gap-8 max-w-3xl mx-auto">
+          {divisions.map((division, index) => (
+            <motion.div
+              key={index}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              onClick={division.action}
+              className="card-glass-strong p-12 text-center cursor-pointer group hover:scale-105 transition-transform"
+            >
+              {/* Logo Image */}
+              <div className="w-24 h-24 mx-auto mb-6 group-hover:scale-110 transition-transform">
+            {division.image}
+              </div>
 
-                  <h3 className="text-3xl font-bold text-white mb-2">
-                    {division.name}
-                  </h3>
-                  <p className="text-lg text-industrial-400 mb-4">
-                    {division.tagline}
-                  </p>
-                  <p className="text-industrial-300 mb-6 max-w-xl mx-auto">
-                    {division.description}
-                  </p>
+              <h3 className="text-3xl font-bold text-white mb-2">
+            {division.name}
+              </h3>
+              <p className="text-lg text-industrial-400 mb-4">
+            {division.tagline}
+              </p>
+              <p className="text-industrial-300 mb-6 max-w-xl mx-auto">
+            {division.description}
+              </p>
 
-                  <motion.button
-                    className="btn-primary inline-flex items-center gap-2"
-                    whileHover={{ scale: 1.05 }}
-                    whileTap={{ scale: 0.95 }}
-                  >
-                    <span>Explorar DatAlpine</span>
-                    <ArrowRight size={18} />
-                  </motion.button>
-                </motion.div>
-              )
-            })}
+              <motion.button
+            className="btn-primary inline-flex items-center gap-2"
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+              >
+            <span>Explorar DatAlpine</span>
+            <ArrowRight size={18} />
+              </motion.button>
+            </motion.div>
+          ))}
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      {/* FAQ Section */}
+        {/* FAQ Section */}
       <section id="faq" className="py-20 px-4">
         <div className="max-w-4xl mx-auto">
           <motion.div
@@ -3373,27 +3927,32 @@ export default function TeseoLanding() {
           </div>
 
           {/* CTA */}
-          <motion.div
-            className="mt-12 text-center"
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            viewport={{ once: true }}
-          >
-            <p className="text-industrial-400 mb-4">¿No encuentras la respuesta que buscas?</p>
-            <motion.a
-              href="mailto:contacto@teseodata.com"
-              className="btn-primary px-8 py-3 inline-flex items-center gap-2"
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-            >
-              <span>Contáctanos Directamente</span>
-              <ArrowRight size={18} />
-            </motion.a>
-          </motion.div>
-        </div>
-      </section>
+                <motion.div
+                className="mt-12 text-center"
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                viewport={{ once: true }}
+                >
+                <p className="text-industrial-400 mb-4">¿No encuentras la respuesta que buscas?</p>
+                <motion.a
+                  onClick={() => {
+                  const mensaje = encodeURIComponent(
+                    "Hola, me gustaría recibir más información sobre los servicios de consultoría de Teseo Data Lab."
+                  )
+                  window.open(`https://wa.me/527713649201?text=${mensaje}`, '_blank')
+                  }}
+                  className="btn-primary px-8 py-3 inline-flex items-center gap-2"
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
+                >
+                  <span>Contáctanos Directamente</span>
+                  <ArrowRight size={18} />
+                </motion.a>
+                </motion.div>
+              </div>
+              </section>
 
-      {/* Agendar Cita Section - Calendly */}
+              {/* Agendar Cita Section - Calendly */}
       <section id="contacto" className="py-16 px-4 bg-gradient-to-br from-tech-500/5 via-teseo-500/5 to-success-500/5 relative overflow-hidden">
         <div className="max-w-4xl mx-auto relative z-10 text-center">
           {/* Header */}
@@ -3411,7 +3970,7 @@ export default function TeseoLanding() {
 
             {/* Calendly Button */}
             <motion.a
-              href="https://calendly.com/teseodata/consulta-gratuita"
+              href="https://calendly.com/teseodata/teseo-data-lab-consultoria-personalizada"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-teseo-500 to-tech-500 text-white font-semibold rounded-xl hover:shadow-lg hover:shadow-teseo-500/50 transition-all"
